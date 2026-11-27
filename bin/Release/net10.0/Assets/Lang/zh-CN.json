@@ -1,0 +1,708 @@
+{
+  "Blocks": {
+    "FDItemBlock:0": {
+      "DisplayName": "草秆"
+    },
+    "FDItemBlock:1": {
+      "DisplayName": "粗布"
+    },
+    "FDItemBlock:2": {
+      "DisplayName": "树皮"
+    },
+    "FDItemBlock:3": {
+      "DisplayName": "卷心菜"
+    },
+    "FDItemBlock:4": {
+      "DisplayName": "番茄"
+    },
+    "FDItemBlock:5": {
+      "DisplayName": "稻米穗"
+    },
+    "FDItemBlock:6": {
+      "DisplayName": "烂番茄"
+    },
+    "FDItemBlock:7": {
+      "DisplayName": "煎蛋"
+    },
+    "FDItemBlock:8": {
+      "DisplayName": "奶瓶"
+    },
+    "FDItemBlock:9": {
+      "DisplayName": "热可可"
+    },
+    "FDItemBlock:10": {
+      "DisplayName": "苹果酒"
+    },
+    "FDItemBlock:11": {
+      "DisplayName": "西瓜汁"
+    },
+    "FDItemBlock:12": {
+      "DisplayName": "番茄酱"
+    },
+    "FDItemBlock:13": {
+      "DisplayName": "面团"
+    },
+    "FDItemBlock:14": {
+      "DisplayName": "生意面"
+    },
+    "FDItemBlock:15": {
+      "DisplayName": "南瓜片"
+    },
+    "FDItemBlock:16": {
+      "DisplayName": "卷心菜叶"
+    },
+    "FDItemBlock:17": {
+      "DisplayName": "牛肉馅"
+    },
+    "FDItemBlock:18": {
+      "DisplayName": "牛肉饼"
+    },
+    "FDItemBlock:19": {
+      "DisplayName": "生鸡肉丁"
+    },
+    "FDItemBlock:20": {
+      "DisplayName": "熟鸡肉丁"
+    },
+    "FDItemBlock:21": {
+      "DisplayName": "生培根"
+    },
+    "FDItemBlock:22": {
+      "DisplayName": "熟培根"
+    },
+    "FDItemBlock:23": {
+      "DisplayName": "生鳕鱼片"
+    },
+    "FDItemBlock:24": {
+      "DisplayName": "熟鳕鱼片"
+    },
+    "FDItemBlock:25": {
+      "DisplayName": "生鲑鱼片"
+    },
+    "FDItemBlock:26": {
+      "DisplayName": "熟鲑鱼片"
+    },
+    "FDItemBlock:27": {
+      "DisplayName": "生羊排"
+    },
+    "FDItemBlock:28": {
+      "DisplayName": "熟羊排"
+    },
+    "FDItemBlock:29": {
+      "DisplayName": "火腿"
+    },
+    "FDItemBlock:30": {
+      "DisplayName": "烟熏火腿"
+    },
+    "FDItemBlock:31": {
+      "DisplayName": "馅饼酥皮"
+    },
+    "FDItemBlock:32": {
+      "DisplayName": "蛋糕切片"
+    },
+    "FDItemBlock:33": {
+      "DisplayName": "苹果派切片"
+    },
+    "FDItemBlock:34": {
+      "DisplayName": "甜浆果芝士派切片"
+    },
+    "FDItemBlock:35": {
+      "DisplayName": "巧克力派切片"
+    },
+    "FDItemBlock:36": {
+      "DisplayName": "南瓜派切片"
+    },
+    "FDItemBlock:37": {
+      "DisplayName": "甜浆果曲奇"
+    },
+    "FDItemBlock:38": {
+      "DisplayName": "蜂蜜曲奇"
+    },
+    "FDItemBlock:39": {
+      "DisplayName": "西瓜冰棍"
+    },
+    "FDItemBlock:40": {
+      "DisplayName": "发光浆果蛋奶沙司"
+    },
+    "FDItemBlock:41": {
+      "DisplayName": "水果沙拉"
+    },
+    "FDItemBlock:42": {
+      "DisplayName": "混合沙拉"
+    },
+    "FDItemBlock:43": {
+      "DisplayName": "下界沙拉"
+    },
+    "FDItemBlock:44": {
+      "DisplayName": "烧烤串"
+    },
+    "FDItemBlock:45": {
+      "DisplayName": "夹蛋三明治"
+    },
+    "FDItemBlock:46": {
+      "DisplayName": "鸡肉三明治"
+    },
+    "FDItemBlock:47": {
+      "DisplayName": "汉堡包"
+    },
+    "FDItemBlock:48": {
+      "DisplayName": "培根三明治"
+    },
+    "FDItemBlock:49": {
+      "DisplayName": "羊肉卷饼"
+    },
+    "FDItemBlock:50": {
+      "DisplayName": "饺子"
+    },
+    "FDItemBlock:51": {
+      "DisplayName": "填馅马铃薯"
+    },
+    "FDItemBlock:52": {
+      "DisplayName": "卷心菜卷"
+    },
+    "FDItemBlock:53": {
+      "DisplayName": "鲑鱼寿司"
+    },
+    "FDItemBlock:54": {
+      "DisplayName": "鳕鱼寿司"
+    },
+    "FDItemBlock:55": {
+      "DisplayName": "海带寿司卷"
+    },
+    "FDItemBlock:56": {
+      "DisplayName": "海带寿司"
+    },
+    "FDItemBlock:57": {
+      "DisplayName": "米饭"
+    },
+    "FDItemBlock:58": {
+      "DisplayName": "大骨汤"
+    },
+    "FDItemBlock:59": {
+      "DisplayName": "牛肉炖"
+    },
+    "FDItemBlock:60": {
+      "DisplayName": "鸡肉汤"
+    },
+    "FDItemBlock:61": {
+      "DisplayName": "蔬菜汤"
+    },
+    "FDItemBlock:62": {
+      "DisplayName": "鱼肉炖"
+    },
+    "FDItemBlock:63": {
+      "DisplayName": "炒饭"
+    },
+    "FDItemBlock:64": {
+      "DisplayName": "南瓜汤"
+    },
+    "FDItemBlock:65": {
+      "DisplayName": "烘焙鳕鱼炖"
+    },
+    "FDItemBlock:66": {
+      "DisplayName": "面条汤"
+    },
+    "FDItemBlock:67": {
+      "DisplayName": "洋葱汤"
+    },
+    "FDItemBlock:68": {
+      "DisplayName": "培根蛋"
+    },
+    "FDItemBlock:69": {
+      "DisplayName": "肉丸意面"
+    },
+    "FDItemBlock:70": {
+      "DisplayName": "羊排意面"
+    },
+    "FDItemBlock:71": {
+      "DisplayName": "蘑菇饭"
+    },
+    "FDItemBlock:72": {
+      "DisplayName": "烤羊排"
+    },
+    "FDItemBlock:73": {
+      "DisplayName": "蔬菜面"
+    },
+    "FDItemBlock:74": {
+      "DisplayName": "牛排配马铃薯"
+    },
+    "FDItemBlock:75": {
+      "DisplayName": "蔬菜杂烩"
+    },
+    "FDItemBlock:76": {
+      "DisplayName": "鱿鱼墨面"
+    },
+    "FDItemBlock:77": {
+      "DisplayName": "香烤鲑鱼"
+    },
+    "FDItemBlock:78": {
+      "DisplayName": "盘装烤鸡"
+    },
+    "FDItemBlock:79": {
+      "DisplayName": "碗装填馅南瓜"
+    },
+    "FDItemBlock:80": {
+      "DisplayName": "盘装蜜汁火腿"
+    },
+    "FDItemBlock:81": {
+      "DisplayName": "盘装牧羊人派"
+    },
+    "FDItemBlock:82": {
+      "DisplayName": "碗装闪亮沙拉"
+    },
+    "FDItemBlock:83": {
+      "DisplayName": "狗粮"
+    },
+    "FDItemBlock:84": {
+      "DisplayName": "马食"
+    },
+    "FDItemBlock:85": {
+      "DisplayName": "木碗"
+    },
+    "FDItemBlock:86": {
+      "DisplayName": "玻璃瓶"
+    },
+    "FDItemBlock:87": {
+      "DisplayName": "糖"
+    },
+    "FDItemBlock:88": {
+      "DisplayName": "可可豆"
+    },
+    "FDItemBlock:89": {
+      "DisplayName": "胡萝卜"
+    },
+    "FDItemBlock:90": {
+      "DisplayName": "马铃薯"
+    },
+    "FDItemBlock:91": {
+      "DisplayName": "甜菜根"
+    },
+    "FDItemBlock:92": {
+      "DisplayName": "小麦"
+    },
+    "FDItemBlock:93": {
+      "DisplayName": "甜浆果"
+    },
+    "FDItemBlock:94": {
+      "DisplayName": "发光浆果"
+    },
+    "FDItemBlock:95": {
+      "DisplayName": "蜂蜜瓶"
+    },
+    "FDItemBlock:96": {
+      "DisplayName": "金锭"
+    },
+    "FDItemBlock:97": {
+      "DisplayName": "金粒"
+    },
+    "FDItemBlock:98": {
+      "DisplayName": "下界合金锭"
+    },
+    "FDItemBlock:99": {
+      "DisplayName": "海带"
+    },
+    "FDItemBlock:100": {
+      "DisplayName": "干海带"
+    },
+    "FDItemBlock:101": {
+      "DisplayName": "骨头"
+    },
+    "FDItemBlock:102": {
+      "DisplayName": "棕色蘑菇"
+    },
+    "FDItemBlock:103": {
+      "DisplayName": "红色蘑菇"
+    },
+    "FDItemBlock:104": {
+      "DisplayName": "苹果"
+    },
+    "FDItemBlock:105": {
+      "DisplayName": "卷心菜种子"
+    },
+    "FDItemBlock:106": {
+      "DisplayName": "番茄种子"
+    },
+    "FDItemBlock:107": {
+      "DisplayName": "洋葱"
+    },
+    "FDItemBlock:108": {
+      "DisplayName": "稻米"
+    },
+    "FDItemBlock:109": {
+      "DisplayName": "燧石刀"
+    },
+    "FDItemBlock:110": {
+      "DisplayName": "铁刀"
+    },
+    "FDItemBlock:111": {
+      "DisplayName": "金刀"
+    },
+    "FDItemBlock:112": {
+      "DisplayName": "钻石刀"
+    },
+    "FDItemBlock:113": {
+      "DisplayName": "下界合金刀"
+    },
+    "FDSeedItemBlock:0": {
+      "DisplayName": "卷心菜种子"
+    },
+    "FDSeedItemBlock:1": {
+      "DisplayName": "番茄种子"
+    },
+    "FDSeedItemBlock:2": {
+      "DisplayName": "洋葱"
+    },
+    "FDSeedItemBlock:3": {
+      "DisplayName": "稻米"
+    },
+    "FDKnifeBlock:0": {
+      "DisplayName": "燧石刀"
+    },
+    "FDKnifeBlock:1": {
+      "DisplayName": "铁刀"
+    },
+    "FDKnifeBlock:2": {
+      "DisplayName": "金刀"
+    },
+    "FDKnifeBlock:3": {
+      "DisplayName": "钻石刀"
+    },
+    "FDKnifeBlock:4": {
+      "DisplayName": "下界合金刀"
+    },
+    "FDStoveBlock:0": {
+      "DisplayName": "炉灶"
+    },
+    "FDStoveBlock:1": {
+      "DisplayName": "炉灶"
+    },
+    "FDCookingPotBlock:0": {
+      "DisplayName": "厨锅"
+    },
+    "FDSkilletBlock:0": {
+      "DisplayName": "煎锅"
+    },
+    "FDCuttingBoardBlock:0": {
+      "DisplayName": "砧板"
+    },
+    "FDBasketBlock:0": {
+      "DisplayName": "木篮"
+    },
+    "FDBasketBlock:1": {
+      "DisplayName": "竹篮"
+    },
+    "FDCabinetBlock:0": {
+      "DisplayName": "橡木橱柜"
+    },
+    "FDCabinetBlock:1": {
+      "DisplayName": "云杉木橱柜"
+    },
+    "FDCabinetBlock:2": {
+      "DisplayName": "白桦木橱柜"
+    },
+    "FDCabinetBlock:3": {
+      "DisplayName": "丛林木橱柜"
+    },
+    "FDCabinetBlock:4": {
+      "DisplayName": "金合欢木橱柜"
+    },
+    "FDCabinetBlock:5": {
+      "DisplayName": "深色橡木橱柜"
+    },
+    "FDCabinetBlock:6": {
+      "DisplayName": "红树木橱柜"
+    },
+    "FDCabinetBlock:7": {
+      "DisplayName": "樱花木橱柜"
+    },
+    "FDCabinetBlock:8": {
+      "DisplayName": "竹橱柜"
+    },
+    "FDCabinetBlock:9": {
+      "DisplayName": "绯红木橱柜"
+    },
+    "FDCabinetBlock:10": {
+      "DisplayName": "诡异木橱柜"
+    },
+    "FDCrateBlock:0": {
+      "DisplayName": "箱装胡萝卜"
+    },
+    "FDCrateBlock:1": {
+      "DisplayName": "箱装马铃薯"
+    },
+    "FDCrateBlock:2": {
+      "DisplayName": "箱装甜菜根"
+    },
+    "FDCrateBlock:3": {
+      "DisplayName": "箱装卷心菜"
+    },
+    "FDCrateBlock:4": {
+      "DisplayName": "箱装番茄"
+    },
+    "FDCrateBlock:5": {
+      "DisplayName": "箱装洋葱"
+    },
+    "FDBaleBlock:0": {
+      "DisplayName": "稻穗捆"
+    },
+    "FDBaleBlock:1": {
+      "DisplayName": "袋装稻米"
+    },
+    "FDBaleBlock:2": {
+      "DisplayName": "草捆"
+    },
+    "FDRopeBlock:0": {
+      "DisplayName": "绳子"
+    },
+    "FDSafetyNetBlock:0": {
+      "DisplayName": "安全网"
+    },
+    "FDRopeFenceBlock:0": {
+      "DisplayName": "绳栅栏"
+    },
+    "FDRopeFenceGateBlock:0": {
+      "DisplayName": "绳栅栏门"
+    },
+    "FDTatamiBlock:0": {
+      "DisplayName": "榻榻米方块"
+    },
+    "FDTatamiBlock:1": {
+      "DisplayName": "长榻榻米垫"
+    },
+    "FDTatamiBlock:2": {
+      "DisplayName": "短榻榻米垫"
+    },
+    "FDCanvasRugBlock:0": {
+      "DisplayName": "粗布毯"
+    },
+    "FDOrganicCompostBlock:0": {
+      "DisplayName": "有机堆肥"
+    },
+    "FDRichSoilBlock:0": {
+      "DisplayName": "沃土"
+    },
+    "FDRichSoilFarmlandBlock:0": {
+      "DisplayName": "沃土耕地"
+    },
+    "FDMushroomColonyBlock:0": {
+      "DisplayName": "棕色蘑菇菌落"
+    },
+    "FDMushroomColonyBlock:1": {
+      "DisplayName": "红色蘑菇菌落"
+    },
+    "FDCropBlock:0": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:1": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:2": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:3": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:4": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:5": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:6": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:7": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:8": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:9": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:10": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:11": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:12": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:13": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:14": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:15": {
+      "DisplayName": "卷心菜"
+    },
+    "FDCropBlock:16": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:17": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:18": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:19": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:20": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:21": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:22": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:23": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:24": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:25": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:26": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:27": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:28": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:29": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:30": {
+      "DisplayName": "洋葱"
+    },
+    "FDCropBlock:31": {
+      "DisplayName": "洋葱"
+    },
+    "FDWildCropBlock:0": {
+      "DisplayName": "野生卷心菜"
+    },
+    "FDWildCropBlock:1": {
+      "DisplayName": "野生洋葱"
+    },
+    "FDWildCropBlock:2": {
+      "DisplayName": "番茄灌木"
+    },
+    "FDWildCropBlock:3": {
+      "DisplayName": "野生胡萝卜"
+    },
+    "FDWildCropBlock:4": {
+      "DisplayName": "野生马铃薯"
+    },
+    "FDWildCropBlock:5": {
+      "DisplayName": "海甜菜"
+    },
+    "FDWildCropBlock:6": {
+      "DisplayName": "野生稻米"
+    },
+    "FDWildCropBlock:7": {
+      "DisplayName": "沙生灌木"
+    },
+    "FDSandyShrubBlock:0": {
+      "DisplayName": "沙生灌木"
+    },
+    "FDPieBlock:0": {
+      "DisplayName": "苹果派"
+    },
+    "FDPieBlock:1": {
+      "DisplayName": "甜浆果芝士派"
+    },
+    "FDPieBlock:2": {
+      "DisplayName": "巧克力派"
+    },
+    "FDPieBlock:3": {
+      "DisplayName": "南瓜派"
+    },
+    "FDFeastBlock:0": {
+      "DisplayName": "烤鸡"
+    },
+    "FDFeastBlock:1": {
+      "DisplayName": "填馅南瓜"
+    },
+    "FDFeastBlock:2": {
+      "DisplayName": "蜜汁火腿"
+    },
+    "FDFeastBlock:3": {
+      "DisplayName": "牧羊人派"
+    },
+    "FDFeastBlock:4": {
+      "DisplayName": "闪亮沙拉"
+    },
+    "FDFeastBlock:5": {
+      "DisplayName": "寿司拼盘"
+    },
+    "FDCanvasSignBlock:0": {
+      "DisplayName": "粗布告示牌"
+    },
+    "FDCanvasSignBlock:1": {
+      "DisplayName": "白色粗布告示牌"
+    },
+    "FDCanvasSignBlock:2": {
+      "DisplayName": "橙色粗布告示牌"
+    },
+    "FDCanvasSignBlock:3": {
+      "DisplayName": "品红色粗布告示牌"
+    },
+    "FDCanvasSignBlock:4": {
+      "DisplayName": "淡蓝色粗布告示牌"
+    },
+    "FDCanvasSignBlock:5": {
+      "DisplayName": "黄色粗布告示牌"
+    },
+    "FDCanvasSignBlock:6": {
+      "DisplayName": "黄绿色粗布告示牌"
+    },
+    "FDCanvasSignBlock:7": {
+      "DisplayName": "粉红色粗布告示牌"
+    },
+    "FDCanvasSignBlock:8": {
+      "DisplayName": "灰色粗布告示牌"
+    },
+    "FDCanvasSignBlock:9": {
+      "DisplayName": "淡灰色粗布告示牌"
+    },
+    "FDCanvasSignBlock:10": {
+      "DisplayName": "青色粗布告示牌"
+    },
+    "FDCanvasSignBlock:11": {
+      "DisplayName": "紫色粗布告示牌"
+    },
+    "FDCanvasSignBlock:12": {
+      "DisplayName": "蓝色粗布告示牌"
+    },
+    "FDCanvasSignBlock:13": {
+      "DisplayName": "棕色粗布告示牌"
+    },
+    "FDCanvasSignBlock:14": {
+      "DisplayName": "绿色粗布告示牌"
+    },
+    "FDCanvasSignBlock:15": {
+      "DisplayName": "红色粗布告示牌"
+    },
+    "FDCanvasSignBlock:16": {
+      "DisplayName": "黑色粗布告示牌"
+    }
+  },
+  "ContentWidgets": {
+    "FDCookingPotWidget": {
+      "1": "烹饪锅",
+      "2": "背包",
+      "3": "容器"
+    },
+    "FDStorageWidget": {
+      "1": "储物",
+      "2": "背包"
+    }
+  }
+}

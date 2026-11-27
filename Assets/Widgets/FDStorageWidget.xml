@@ -1,0 +1,8 @@
+<FDStorageWidget xmlns="runtime-namespace:Game">
+  <BevelledRectangleWidget Size="820, 420" BevelSize="3" />
+  <LabelWidget CanvasWidget.Position="20, 14" Text="[FDStorageWidget:1]" Color="255, 255, 255, 192" />
+  <LabelWidget CanvasWidget.Position="520, 14" Text="[FDStorageWidget:2]" Color="255, 255, 255, 192" />
+
+  <GridPanelWidget CanvasWidget.Position="20, 56" Name="ChestGrid" ColumnsCount="9" RowsCount="3" />
+  <GridPanelWidget CanvasWidget.Position="520, 56" Name="InventoryGrid" ColumnsCount="4" RowsCount="4" />
+</FDStorageWidget>

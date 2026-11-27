@@ -1,0 +1,708 @@
+{
+  "Blocks": {
+    "FDItemBlock:0": {
+      "DisplayName": "Straw"
+    },
+    "FDItemBlock:1": {
+      "DisplayName": "Canvas"
+    },
+    "FDItemBlock:2": {
+      "DisplayName": "Tree Bark"
+    },
+    "FDItemBlock:3": {
+      "DisplayName": "Cabbage"
+    },
+    "FDItemBlock:4": {
+      "DisplayName": "Tomato"
+    },
+    "FDItemBlock:5": {
+      "DisplayName": "Rice Panicle"
+    },
+    "FDItemBlock:6": {
+      "DisplayName": "Rotten Tomato"
+    },
+    "FDItemBlock:7": {
+      "DisplayName": "Fried Egg"
+    },
+    "FDItemBlock:8": {
+      "DisplayName": "Milk Bottle"
+    },
+    "FDItemBlock:9": {
+      "DisplayName": "Hot Cocoa"
+    },
+    "FDItemBlock:10": {
+      "DisplayName": "Apple Cider"
+    },
+    "FDItemBlock:11": {
+      "DisplayName": "Melon Juice"
+    },
+    "FDItemBlock:12": {
+      "DisplayName": "Tomato Sauce"
+    },
+    "FDItemBlock:13": {
+      "DisplayName": "Wheat Dough"
+    },
+    "FDItemBlock:14": {
+      "DisplayName": "Raw Pasta"
+    },
+    "FDItemBlock:15": {
+      "DisplayName": "Pumpkin Slice"
+    },
+    "FDItemBlock:16": {
+      "DisplayName": "Cabbage Leaf"
+    },
+    "FDItemBlock:17": {
+      "DisplayName": "Minced Beef"
+    },
+    "FDItemBlock:18": {
+      "DisplayName": "Beef Patty"
+    },
+    "FDItemBlock:19": {
+      "DisplayName": "Raw Chicken Cuts"
+    },
+    "FDItemBlock:20": {
+      "DisplayName": "Cooked Chicken Cuts"
+    },
+    "FDItemBlock:21": {
+      "DisplayName": "Raw Bacon"
+    },
+    "FDItemBlock:22": {
+      "DisplayName": "Cooked Bacon"
+    },
+    "FDItemBlock:23": {
+      "DisplayName": "Raw Cod Slice"
+    },
+    "FDItemBlock:24": {
+      "DisplayName": "Cooked Cod Slice"
+    },
+    "FDItemBlock:25": {
+      "DisplayName": "Raw Salmon Slice"
+    },
+    "FDItemBlock:26": {
+      "DisplayName": "Cooked Salmon Slice"
+    },
+    "FDItemBlock:27": {
+      "DisplayName": "Raw Mutton Chops"
+    },
+    "FDItemBlock:28": {
+      "DisplayName": "Cooked Mutton Chops"
+    },
+    "FDItemBlock:29": {
+      "DisplayName": "Ham"
+    },
+    "FDItemBlock:30": {
+      "DisplayName": "Smoked Ham"
+    },
+    "FDItemBlock:31": {
+      "DisplayName": "Pie Crust"
+    },
+    "FDItemBlock:32": {
+      "DisplayName": "Slice of Cake"
+    },
+    "FDItemBlock:33": {
+      "DisplayName": "Slice of Apple Pie"
+    },
+    "FDItemBlock:34": {
+      "DisplayName": "Slice of Sweet Berry Cheesecake"
+    },
+    "FDItemBlock:35": {
+      "DisplayName": "Slice of Chocolate Pie"
+    },
+    "FDItemBlock:36": {
+      "DisplayName": "Slice of Pumpkin Pie"
+    },
+    "FDItemBlock:37": {
+      "DisplayName": "Sweet Berry Cookie"
+    },
+    "FDItemBlock:38": {
+      "DisplayName": "Honey Cookie"
+    },
+    "FDItemBlock:39": {
+      "DisplayName": "Melon Popsicle"
+    },
+    "FDItemBlock:40": {
+      "DisplayName": "Glow Berry Custard"
+    },
+    "FDItemBlock:41": {
+      "DisplayName": "Fruit Salad"
+    },
+    "FDItemBlock:42": {
+      "DisplayName": "Mixed Salad"
+    },
+    "FDItemBlock:43": {
+      "DisplayName": "Nether Salad"
+    },
+    "FDItemBlock:44": {
+      "DisplayName": "Barbecue on a Stick"
+    },
+    "FDItemBlock:45": {
+      "DisplayName": "Egg Sandwich"
+    },
+    "FDItemBlock:46": {
+      "DisplayName": "Chicken Sandwich"
+    },
+    "FDItemBlock:47": {
+      "DisplayName": "Hamburger"
+    },
+    "FDItemBlock:48": {
+      "DisplayName": "Bacon Sandwich"
+    },
+    "FDItemBlock:49": {
+      "DisplayName": "Mutton Wrap"
+    },
+    "FDItemBlock:50": {
+      "DisplayName": "Dumplings"
+    },
+    "FDItemBlock:51": {
+      "DisplayName": "Stuffed Potato"
+    },
+    "FDItemBlock:52": {
+      "DisplayName": "Cabbage Rolls"
+    },
+    "FDItemBlock:53": {
+      "DisplayName": "Salmon Roll"
+    },
+    "FDItemBlock:54": {
+      "DisplayName": "Cod Roll"
+    },
+    "FDItemBlock:55": {
+      "DisplayName": "Kelp Roll"
+    },
+    "FDItemBlock:56": {
+      "DisplayName": "Kelp Roll Slice"
+    },
+    "FDItemBlock:57": {
+      "DisplayName": "Cooked Rice"
+    },
+    "FDItemBlock:58": {
+      "DisplayName": "Bone Broth"
+    },
+    "FDItemBlock:59": {
+      "DisplayName": "Beef Stew"
+    },
+    "FDItemBlock:60": {
+      "DisplayName": "Chicken Soup"
+    },
+    "FDItemBlock:61": {
+      "DisplayName": "Vegetable Soup"
+    },
+    "FDItemBlock:62": {
+      "DisplayName": "Fish Stew"
+    },
+    "FDItemBlock:63": {
+      "DisplayName": "Fried Rice"
+    },
+    "FDItemBlock:64": {
+      "DisplayName": "Pumpkin Soup"
+    },
+    "FDItemBlock:65": {
+      "DisplayName": "Baked Cod Stew"
+    },
+    "FDItemBlock:66": {
+      "DisplayName": "Noodle Soup"
+    },
+    "FDItemBlock:67": {
+      "DisplayName": "Onion Soup"
+    },
+    "FDItemBlock:68": {
+      "DisplayName": "Bacon and Eggs"
+    },
+    "FDItemBlock:69": {
+      "DisplayName": "Pasta with Meatballs"
+    },
+    "FDItemBlock:70": {
+      "DisplayName": "Pasta with Mutton Chop"
+    },
+    "FDItemBlock:71": {
+      "DisplayName": "Mushroom Rice"
+    },
+    "FDItemBlock:72": {
+      "DisplayName": "Roasted Mutton Chops"
+    },
+    "FDItemBlock:73": {
+      "DisplayName": "Vegetable Noodles"
+    },
+    "FDItemBlock:74": {
+      "DisplayName": "Steak and Potatoes"
+    },
+    "FDItemBlock:75": {
+      "DisplayName": "Ratatouille"
+    },
+    "FDItemBlock:76": {
+      "DisplayName": "Squid Ink Pasta"
+    },
+    "FDItemBlock:77": {
+      "DisplayName": "Grilled Salmon"
+    },
+    "FDItemBlock:78": {
+      "DisplayName": "Plate of Roast Chicken"
+    },
+    "FDItemBlock:79": {
+      "DisplayName": "Bowl of Stuffed Pumpkin"
+    },
+    "FDItemBlock:80": {
+      "DisplayName": "Plate of Honey Glazed Ham"
+    },
+    "FDItemBlock:81": {
+      "DisplayName": "Plate of Shepherd's Pie"
+    },
+    "FDItemBlock:82": {
+      "DisplayName": "Bowl of Gleaming Salad"
+    },
+    "FDItemBlock:83": {
+      "DisplayName": "Dog Food"
+    },
+    "FDItemBlock:84": {
+      "DisplayName": "Horse Feed"
+    },
+    "FDItemBlock:85": {
+      "DisplayName": "Wooden Bowl"
+    },
+    "FDItemBlock:86": {
+      "DisplayName": "Glass Bottle"
+    },
+    "FDItemBlock:87": {
+      "DisplayName": "Sugar"
+    },
+    "FDItemBlock:88": {
+      "DisplayName": "Cocoa Beans"
+    },
+    "FDItemBlock:89": {
+      "DisplayName": "Carrot"
+    },
+    "FDItemBlock:90": {
+      "DisplayName": "Potato"
+    },
+    "FDItemBlock:91": {
+      "DisplayName": "Beetroot"
+    },
+    "FDItemBlock:92": {
+      "DisplayName": "Wheat"
+    },
+    "FDItemBlock:93": {
+      "DisplayName": "Sweet Berries"
+    },
+    "FDItemBlock:94": {
+      "DisplayName": "Glow Berries"
+    },
+    "FDItemBlock:95": {
+      "DisplayName": "Honey Bottle"
+    },
+    "FDItemBlock:96": {
+      "DisplayName": "Gold Ingot"
+    },
+    "FDItemBlock:97": {
+      "DisplayName": "Gold Nugget"
+    },
+    "FDItemBlock:98": {
+      "DisplayName": "Netherite Ingot"
+    },
+    "FDItemBlock:99": {
+      "DisplayName": "Kelp"
+    },
+    "FDItemBlock:100": {
+      "DisplayName": "Dried Kelp"
+    },
+    "FDItemBlock:101": {
+      "DisplayName": "Bone"
+    },
+    "FDItemBlock:102": {
+      "DisplayName": "Brown Mushroom"
+    },
+    "FDItemBlock:103": {
+      "DisplayName": "Red Mushroom"
+    },
+    "FDItemBlock:104": {
+      "DisplayName": "Apple"
+    },
+    "FDItemBlock:105": {
+      "DisplayName": "Cabbage Seeds"
+    },
+    "FDItemBlock:106": {
+      "DisplayName": "Tomato Seeds"
+    },
+    "FDItemBlock:107": {
+      "DisplayName": "Onion"
+    },
+    "FDItemBlock:108": {
+      "DisplayName": "Rice"
+    },
+    "FDItemBlock:109": {
+      "DisplayName": "Flint Knife"
+    },
+    "FDItemBlock:110": {
+      "DisplayName": "Iron Knife"
+    },
+    "FDItemBlock:111": {
+      "DisplayName": "Golden Knife"
+    },
+    "FDItemBlock:112": {
+      "DisplayName": "Diamond Knife"
+    },
+    "FDItemBlock:113": {
+      "DisplayName": "Netherite Knife"
+    },
+    "FDSeedItemBlock:0": {
+      "DisplayName": "Cabbage Seeds"
+    },
+    "FDSeedItemBlock:1": {
+      "DisplayName": "Tomato Seeds"
+    },
+    "FDSeedItemBlock:2": {
+      "DisplayName": "Onion"
+    },
+    "FDSeedItemBlock:3": {
+      "DisplayName": "Rice"
+    },
+    "FDKnifeBlock:0": {
+      "DisplayName": "Flint Knife"
+    },
+    "FDKnifeBlock:1": {
+      "DisplayName": "Iron Knife"
+    },
+    "FDKnifeBlock:2": {
+      "DisplayName": "Golden Knife"
+    },
+    "FDKnifeBlock:3": {
+      "DisplayName": "Diamond Knife"
+    },
+    "FDKnifeBlock:4": {
+      "DisplayName": "Netherite Knife"
+    },
+    "FDStoveBlock:0": {
+      "DisplayName": "Stove"
+    },
+    "FDStoveBlock:1": {
+      "DisplayName": "Stove"
+    },
+    "FDCookingPotBlock:0": {
+      "DisplayName": "Cooking Pot"
+    },
+    "FDSkilletBlock:0": {
+      "DisplayName": "Skillet"
+    },
+    "FDCuttingBoardBlock:0": {
+      "DisplayName": "Cutting Board"
+    },
+    "FDBasketBlock:0": {
+      "DisplayName": "Basket"
+    },
+    "FDBasketBlock:1": {
+      "DisplayName": "Bamboo Basket"
+    },
+    "FDCabinetBlock:0": {
+      "DisplayName": "Oak Cabinet"
+    },
+    "FDCabinetBlock:1": {
+      "DisplayName": "Spruce Cabinet"
+    },
+    "FDCabinetBlock:2": {
+      "DisplayName": "Birch Cabinet"
+    },
+    "FDCabinetBlock:3": {
+      "DisplayName": "Jungle Cabinet"
+    },
+    "FDCabinetBlock:4": {
+      "DisplayName": "Acacia Cabinet"
+    },
+    "FDCabinetBlock:5": {
+      "DisplayName": "Dark Oak Cabinet"
+    },
+    "FDCabinetBlock:6": {
+      "DisplayName": "Mangrove Cabinet"
+    },
+    "FDCabinetBlock:7": {
+      "DisplayName": "Cherry Cabinet"
+    },
+    "FDCabinetBlock:8": {
+      "DisplayName": "Bamboo Cabinet"
+    },
+    "FDCabinetBlock:9": {
+      "DisplayName": "Crimson Cabinet"
+    },
+    "FDCabinetBlock:10": {
+      "DisplayName": "Warped Cabinet"
+    },
+    "FDCrateBlock:0": {
+      "DisplayName": "Carrot Crate"
+    },
+    "FDCrateBlock:1": {
+      "DisplayName": "Potato Crate"
+    },
+    "FDCrateBlock:2": {
+      "DisplayName": "Beetroot Crate"
+    },
+    "FDCrateBlock:3": {
+      "DisplayName": "Cabbage Crate"
+    },
+    "FDCrateBlock:4": {
+      "DisplayName": "Tomato Crate"
+    },
+    "FDCrateBlock:5": {
+      "DisplayName": "Onion Crate"
+    },
+    "FDBaleBlock:0": {
+      "DisplayName": "Rice Bale"
+    },
+    "FDBaleBlock:1": {
+      "DisplayName": "Bag of Rice"
+    },
+    "FDBaleBlock:2": {
+      "DisplayName": "Straw Bale"
+    },
+    "FDRopeBlock:0": {
+      "DisplayName": "Rope"
+    },
+    "FDSafetyNetBlock:0": {
+      "DisplayName": "Safety Net"
+    },
+    "FDRopeFenceBlock:0": {
+      "DisplayName": "Rope Fence"
+    },
+    "FDRopeFenceGateBlock:0": {
+      "DisplayName": "Rope Fence Gate"
+    },
+    "FDTatamiBlock:0": {
+      "DisplayName": "Tatami Block"
+    },
+    "FDTatamiBlock:1": {
+      "DisplayName": "Full Tatami Mat"
+    },
+    "FDTatamiBlock:2": {
+      "DisplayName": "Half Tatami Mat"
+    },
+    "FDCanvasRugBlock:0": {
+      "DisplayName": "Canvas Rug"
+    },
+    "FDOrganicCompostBlock:0": {
+      "DisplayName": "Organic Compost"
+    },
+    "FDRichSoilBlock:0": {
+      "DisplayName": "Rich Soil"
+    },
+    "FDRichSoilFarmlandBlock:0": {
+      "DisplayName": "Rich Soil Farmland"
+    },
+    "FDMushroomColonyBlock:0": {
+      "DisplayName": "Brown Mushroom Colony"
+    },
+    "FDMushroomColonyBlock:1": {
+      "DisplayName": "Red Mushroom Colony"
+    },
+    "FDCropBlock:0": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:1": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:2": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:3": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:4": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:5": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:6": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:7": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:8": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:9": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:10": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:11": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:12": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:13": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:14": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:15": {
+      "DisplayName": "Cabbage"
+    },
+    "FDCropBlock:16": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:17": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:18": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:19": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:20": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:21": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:22": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:23": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:24": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:25": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:26": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:27": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:28": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:29": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:30": {
+      "DisplayName": "Onions"
+    },
+    "FDCropBlock:31": {
+      "DisplayName": "Onions"
+    },
+    "FDWildCropBlock:0": {
+      "DisplayName": "Wild Cabbage"
+    },
+    "FDWildCropBlock:1": {
+      "DisplayName": "Wild Onion"
+    },
+    "FDWildCropBlock:2": {
+      "DisplayName": "Tomato Shrub"
+    },
+    "FDWildCropBlock:3": {
+      "DisplayName": "Wild Carrot"
+    },
+    "FDWildCropBlock:4": {
+      "DisplayName": "Wild Potato"
+    },
+    "FDWildCropBlock:5": {
+      "DisplayName": "Sea Beet"
+    },
+    "FDWildCropBlock:6": {
+      "DisplayName": "Wild Rice"
+    },
+    "FDWildCropBlock:7": {
+      "DisplayName": "Sandy Shrub"
+    },
+    "FDSandyShrubBlock:0": {
+      "DisplayName": "Sandy Shrub"
+    },
+    "FDPieBlock:0": {
+      "DisplayName": "Apple Pie"
+    },
+    "FDPieBlock:1": {
+      "DisplayName": "Sweet Berry Cheesecake"
+    },
+    "FDPieBlock:2": {
+      "DisplayName": "Chocolate Pie"
+    },
+    "FDPieBlock:3": {
+      "DisplayName": "Pumpkin Pie"
+    },
+    "FDFeastBlock:0": {
+      "DisplayName": "Roast Chicken"
+    },
+    "FDFeastBlock:1": {
+      "DisplayName": "Stuffed Pumpkin"
+    },
+    "FDFeastBlock:2": {
+      "DisplayName": "Honey Glazed Ham"
+    },
+    "FDFeastBlock:3": {
+      "DisplayName": "Shepherd's Pie"
+    },
+    "FDFeastBlock:4": {
+      "DisplayName": "Gleaming Salad"
+    },
+    "FDFeastBlock:5": {
+      "DisplayName": "Rice Roll Medley"
+    },
+    "FDCanvasSignBlock:0": {
+      "DisplayName": "Canvas Sign"
+    },
+    "FDCanvasSignBlock:1": {
+      "DisplayName": "White Canvas Sign"
+    },
+    "FDCanvasSignBlock:2": {
+      "DisplayName": "Orange Canvas Sign"
+    },
+    "FDCanvasSignBlock:3": {
+      "DisplayName": "Magenta Canvas Sign"
+    },
+    "FDCanvasSignBlock:4": {
+      "DisplayName": "Light Blue Canvas Sign"
+    },
+    "FDCanvasSignBlock:5": {
+      "DisplayName": "Yellow Canvas Sign"
+    },
+    "FDCanvasSignBlock:6": {
+      "DisplayName": "Lime Canvas Sign"
+    },
+    "FDCanvasSignBlock:7": {
+      "DisplayName": "Pink Canvas Sign"
+    },
+    "FDCanvasSignBlock:8": {
+      "DisplayName": "Gray Canvas Sign"
+    },
+    "FDCanvasSignBlock:9": {
+      "DisplayName": "Light Gray Canvas Sign"
+    },
+    "FDCanvasSignBlock:10": {
+      "DisplayName": "Cyan Canvas Sign"
+    },
+    "FDCanvasSignBlock:11": {
+      "DisplayName": "Purple Canvas Sign"
+    },
+    "FDCanvasSignBlock:12": {
+      "DisplayName": "Blue Canvas Sign"
+    },
+    "FDCanvasSignBlock:13": {
+      "DisplayName": "Brown Canvas Sign"
+    },
+    "FDCanvasSignBlock:14": {
+      "DisplayName": "Green Canvas Sign"
+    },
+    "FDCanvasSignBlock:15": {
+      "DisplayName": "Red Canvas Sign"
+    },
+    "FDCanvasSignBlock:16": {
+      "DisplayName": "Black Canvas Sign"
+    }
+  },
+  "ContentWidgets": {
+    "FDCookingPotWidget": {
+      "1": "Cooking Pot",
+      "2": "Inventory",
+      "3": "Container"
+    },
+    "FDStorageWidget": {
+      "1": "Storage",
+      "2": "Inventory"
+    }
+  }
+}

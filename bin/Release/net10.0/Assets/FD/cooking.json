@@ -1,0 +1,516 @@
+[
+  {
+    "ingredients": [
+      [
+        "apple"
+      ],
+      [
+        "apple"
+      ],
+      [
+        "sugar"
+      ]
+    ],
+    "result": "apple_cider",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "cod",
+        "cod_slice"
+      ],
+      [
+        "potato"
+      ],
+      [
+        "egg"
+      ],
+      [
+        "tomato"
+      ]
+    ],
+    "result": "baked_cod_stew",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "beef",
+        "minced_beef"
+      ],
+      [
+        "carrot"
+      ],
+      [
+        "potato"
+      ]
+    ],
+    "result": "beef_stew",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "bone"
+      ],
+      [
+        "glow_berries",
+        "brown_mushroom",
+        "red_mushroom"
+      ]
+    ],
+    "result": "bone_broth",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "chicken",
+        "chicken_cuts",
+        "beef",
+        "bacon",
+        "minced_beef",
+        "mutton_chops",
+        "cod",
+        "cod_slice",
+        "salmon_slice",
+        "onion",
+        "tomato",
+        "brown_mushroom",
+        "red_mushroom"
+      ]
+    ],
+    "result": "cabbage_rolls",
+    "count": 1,
+    "container": null,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "chicken",
+        "chicken_cuts"
+      ],
+      [
+        "carrot"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "onion",
+        "tomato"
+      ]
+    ],
+    "result": "chicken_soup",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "rice"
+      ]
+    ],
+    "result": "cooked_rice",
+    "count": 1,
+    "container": null,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "rotten_meat"
+      ],
+      [
+        "bone"
+      ],
+      [
+        "chicken",
+        "chicken_cuts",
+        "beef",
+        "bacon",
+        "minced_beef",
+        "mutton_chops"
+      ],
+      [
+        "rice"
+      ]
+    ],
+    "result": "dog_food",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "wheat_dough"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "onion"
+      ],
+      [
+        "chicken",
+        "chicken_cuts",
+        "beef",
+        "bacon",
+        "minced_beef",
+        "brown_mushroom"
+      ]
+    ],
+    "result": "dumplings",
+    "count": 2,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "cod",
+        "cod_slice",
+        "salmon_slice"
+      ],
+      [
+        "tomato_sauce"
+      ],
+      [
+        "onion"
+      ]
+    ],
+    "result": "fish_stew",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "rice"
+      ],
+      [
+        "egg"
+      ],
+      [
+        "carrot"
+      ],
+      [
+        "onion"
+      ]
+    ],
+    "result": "fried_rice",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "glow_berries"
+      ],
+      [
+        "milk_bottle"
+      ],
+      [
+        "egg"
+      ],
+      [
+        "sugar"
+      ]
+    ],
+    "result": "glow_berry_custard",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "milk_bottle"
+      ],
+      [
+        "sugar"
+      ],
+      [
+        "cocoa_beans"
+      ],
+      [
+        "cocoa_beans"
+      ]
+    ],
+    "result": "hot_cocoa",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "brown_mushroom"
+      ],
+      [
+        "red_mushroom"
+      ],
+      [
+        "rice"
+      ],
+      [
+        "carrot",
+        "potato"
+      ]
+    ],
+    "result": "mushroom_rice",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "raw_pasta"
+      ],
+      [
+        "egg"
+      ],
+      [
+        "dried_kelp"
+      ],
+      [
+        "beef",
+        "bacon"
+      ]
+    ],
+    "result": "noodle_soup",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "onion"
+      ],
+      [
+        "onion"
+      ],
+      [
+        "bread"
+      ],
+      [
+        "milk_bottle"
+      ]
+    ],
+    "result": "onion_soup",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "minced_beef"
+      ],
+      [
+        "raw_pasta"
+      ],
+      [
+        "tomato_sauce"
+      ]
+    ],
+    "result": "pasta_with_meatballs",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "beef",
+        "mutton_chops"
+      ],
+      [
+        "raw_pasta"
+      ],
+      [
+        "tomato_sauce"
+      ]
+    ],
+    "result": "pasta_with_mutton_chop",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "pumpkin_slice"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "beef",
+        "bacon"
+      ],
+      [
+        "milk_bottle"
+      ]
+    ],
+    "result": "pumpkin_soup",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "tomato"
+      ],
+      [
+        "onion"
+      ],
+      [
+        "beetroot"
+      ],
+      [
+        "onion",
+        "tomato"
+      ]
+    ],
+    "result": "ratatouille",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "cod",
+        "cod_slice",
+        "salmon_slice"
+      ],
+      [
+        "raw_pasta"
+      ],
+      [
+        "tomato"
+      ],
+      [
+        "squid_ink"
+      ]
+    ],
+    "result": "squid_ink_pasta",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "rice"
+      ],
+      [
+        "onion"
+      ],
+      [
+        "brown_mushroom"
+      ],
+      [
+        "potato"
+      ],
+      [
+        "sweet_berries",
+        "glow_berries"
+      ],
+      [
+        "onion",
+        "tomato"
+      ]
+    ],
+    "result": "stuffed_pumpkin_block",
+    "count": 1,
+    "container": "pumpkin",
+    "time": 400
+  },
+  {
+    "ingredients": [
+      [
+        "tomato"
+      ],
+      [
+        "tomato"
+      ]
+    ],
+    "result": "tomato_sauce",
+    "count": 1,
+    "container": null,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "carrot"
+      ],
+      [
+        "brown_mushroom",
+        "red_mushroom"
+      ],
+      [
+        "raw_pasta"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "onion",
+        "tomato"
+      ]
+    ],
+    "result": "vegetable_noodles",
+    "count": 1,
+    "container": null,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "carrot"
+      ],
+      [
+        "potato"
+      ],
+      [
+        "beetroot"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ]
+    ],
+    "result": "vegetable_soup",
+    "count": 1,
+    "container": null,
+    "time": 200
+  }
+]

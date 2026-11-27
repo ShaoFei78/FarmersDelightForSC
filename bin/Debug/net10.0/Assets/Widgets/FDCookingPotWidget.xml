@@ -1,0 +1,14 @@
+<FDCookingPotWidget xmlns="runtime-namespace:Game">
+  <BevelledRectangleWidget Size="680, 420" BevelSize="3" />
+  <LabelWidget CanvasWidget.Position="20, 14" Text="[FDCookingPotWidget:1]" Color="255, 255, 255, 192" />
+  <LabelWidget CanvasWidget.Position="380, 14" Text="[FDCookingPotWidget:2]" Color="255, 255, 255, 192" />
+
+  <GridPanelWidget CanvasWidget.Position="24, 56" Name="PotGrid" ColumnsCount="3" RowsCount="2" />
+  <InventorySlotWidget CanvasWidget.Position="244, 56" Name="ResultSlot" />
+  <InventorySlotWidget CanvasWidget.Position="244, 140" Name="ContainerSlot">
+    <LabelWidget Text="[FDCookingPotWidget:3]" Color="0, 0, 0, 64" HorizontalAlignment="Center" VerticalAlignment="Center" />
+  </InventorySlotWidget>
+  <ValueBarWidget Name="Progress" CanvasWidget.Position="24, 196" LayoutDirection="Horizontal" BarsCount="10" FlipDirection="false" LitBarColor="96, 156, 48" UnlitBarColor="48, 48, 48, 80" BarSize="12, 12" BarSubtexture="{Textures/Atlas/ProgressBar}" />
+
+  <GridPanelWidget CanvasWidget.Position="380, 56" Name="InventoryGrid" ColumnsCount="4" RowsCount="4" />
+</FDCookingPotWidget>

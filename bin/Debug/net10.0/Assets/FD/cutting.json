@@ -1,0 +1,336 @@
+[
+  {
+    "input": "apple_pie",
+    "tool": 0,
+    "results": [
+      {
+        "name": "apple_pie_slice",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "input": "bamboo_basket",
+    "tool": 0,
+    "results": [
+      {
+        "name": "canvas",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "beef",
+    "tool": 0,
+    "results": [
+      {
+        "name": "minced_beef",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "brown_mushroom_colony",
+    "tool": 0,
+    "results": [
+      {
+        "name": "brown_mushroom",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "input": "cabbage",
+    "tool": 0,
+    "results": [
+      {
+        "name": "cabbage_leaf",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "chicken",
+    "tool": 0,
+    "results": [
+      {
+        "name": "chicken_cuts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "chocolate_pie",
+    "tool": 0,
+    "results": [
+      {
+        "name": "chocolate_pie_slice",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "input": "clay",
+    "tool": 0,
+    "results": [
+      {
+        "name": "clay",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "input": "cod",
+    "tool": 0,
+    "results": [
+      {
+        "name": "cod_slice",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "cooked_chicken",
+    "tool": 0,
+    "results": [
+      {
+        "name": "cooked_chicken_cuts",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "cooked_cod",
+    "tool": 0,
+    "results": [
+      {
+        "name": "cooked_cod_slice",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "cooked_beef",
+    "tool": 0,
+    "results": [
+      {
+        "name": "cooked_mutton_chops",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "cooked_cod",
+    "tool": 0,
+    "results": [
+      {
+        "name": "cooked_salmon_slice",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "ham",
+    "tool": 0,
+    "results": [
+      {
+        "name": "beef",
+        "count": 2
+      },
+      {
+        "name": "bone",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "kelp_roll",
+    "tool": 0,
+    "results": [
+      {
+        "name": "kelp_roll_slice",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "input": "beef",
+    "tool": 0,
+    "results": [
+      {
+        "name": "mutton_chops",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "beef",
+    "tool": 0,
+    "results": [
+      {
+        "name": "bacon",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "pumpkin_pie",
+    "tool": 0,
+    "results": [
+      {
+        "name": "pumpkin_pie_slice",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "input": "red_mushroom_colony",
+    "tool": 0,
+    "results": [
+      {
+        "name": "red_mushroom",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "input": "rice_panicle",
+    "tool": 0,
+    "results": [
+      {
+        "name": "rice",
+        "count": 1
+      },
+      {
+        "name": "straw",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "cod",
+    "tool": 0,
+    "results": [
+      {
+        "name": "salmon_slice",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "input": "smoked_ham",
+    "tool": 0,
+    "results": [
+      {
+        "name": "cooked_beef",
+        "count": 2
+      },
+      {
+        "name": "bone",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "sweet_berry_cheesecake",
+    "tool": 0,
+    "results": [
+      {
+        "name": "sweet_berry_cheesecake_slice",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "input": "wheat_dough",
+    "tool": 0,
+    "results": [
+      {
+        "name": "raw_pasta",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "wild_cabbages",
+    "tool": 0,
+    "results": [
+      {
+        "name": "cabbage_seeds",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "wild_carrots",
+    "tool": 0,
+    "results": [
+      {
+        "name": "carrot",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "wild_onions",
+    "tool": 0,
+    "results": [
+      {
+        "name": "onion",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "wild_potatoes",
+    "tool": 0,
+    "results": [
+      {
+        "name": "potato",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "wild_rice",
+    "tool": 0,
+    "results": [
+      {
+        "name": "rice",
+        "count": 1
+      },
+      {
+        "name": "straw",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "wild_tomatoes",
+    "tool": 0,
+    "results": [
+      {
+        "name": "tomato_seeds",
+        "count": 1
+      },
+      {
+        "name": "tomato",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "input": "wooden_basket",
+    "tool": 0,
+    "results": [
+      {
+        "name": "canvas",
+        "count": 1
+      },
+      {
+        "name": "stick",
+        "count": 1
+      }
+    ]
+  }
+]

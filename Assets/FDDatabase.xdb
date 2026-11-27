@@ -1,0 +1,41 @@
+<Mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://gitee.com/SC-SPM/SurvivalcraftApi/raw/SCAPI1.9/Survivalcraft/Content/Assets/Database.xsd">
+  <ProjectTemplate Name="Project" Guid="85023bf8-1c90-4dd1-9442-e6c13691d078">
+    <MemberSubsystemTemplate Name="FDBlockBehavior" Guid="8ad84439-aaad-4ca5-9cf2-84d04268a143" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+      <Parameter Name="Class" Guid="7ff92573-2e0e-4d05-9c4e-a518e3be15fa" Value="Game.SubsystemFDBlockBehavior" Type="string"/>
+    </MemberSubsystemTemplate>
+    <MemberSubsystemTemplate Name="FDCropGrowth" Guid="f8d747a0-2d99-475e-a444-252467c5306e" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+      <Parameter Name="Class" Guid="c9868129-b882-407e-bb3f-22590c3841e7" Value="Game.SubsystemFDCropBehavior" Type="string"/>
+    </MemberSubsystemTemplate>
+  </ProjectTemplate>
+
+  <Folder Name="FarmersDelight" Guid="3a0485c3-f531-4ac8-9f0c-c0f52b4ae24f">
+    <ComponentTemplate Name="FDCookingPot" Guid="d4c3b86d-316b-4846-a26c-9c5aadea5556" InheritanceParent="81a44c6a-c30a-4f53-8d64-0c30aabab8f9">
+      <Parameter Name="Class" Guid="ee2d4f29-744b-4ed7-b060-445316501bdc" Value="Game.ComponentFDCookingPot" Type="string"/>
+      <Parameter Name="LoadOrder" Guid="3491a810-aa7c-4aad-942a-1686b8df84db" Value="1" Type="int"/>
+      <Parameter Name="SlotsCount" Guid="7ecf25e7-4859-493c-ab6e-df695343103e" Value="8" Type="int"/>
+      <Parameter Name="CookProgress" Guid="53092653-ee08-4bff-bbcd-01484d89b217" Value="0" Type="float"/>
+    </ComponentTemplate>
+    <ComponentTemplate Name="FDCuttingBoard" Guid="c7f90035-7801-4434-87c9-6364d34df5f7" InheritanceParent="b05700ed-7e4e-4679-98f5-b597f421496b">
+      <Parameter Name="Class" Guid="e84bd23a-b47a-4c78-b496-bca0aec5d6ab" Value="Game.ComponentFDCuttingBoard" Type="string"/>
+      <Parameter Name="LoadOrder" Guid="15e03b1c-2473-4342-8bb9-93b122afb5c0" Value="1" Type="int"/>
+      <Parameter Name="ItemValue" Guid="451ebe66-9c3d-4c51-ae2b-adf2326b66eb" Value="0" Type="int"/>
+    </ComponentTemplate>
+  </Folder>
+
+  <EntityTemplate Name="FDCookingPotEntity" Guid="1dac6a9a-2c9f-4556-a170-cdbd0eadc485">
+    <MemberComponentTemplate Name="BlockEntity" Guid="592ca47f-4e04-4e88-9ccc-f82458ca0d4a" InheritanceParent="09a85cba-d94e-41b8-9497-f20ed942c17e"/>
+    <MemberComponentTemplate Name="FDCookingPot" Guid="0de3fa21-6453-4207-a868-3a0cc8e955ff" InheritanceParent="d4c3b86d-316b-4846-a26c-9c5aadea5556"/>
+  </EntityTemplate>
+
+  <EntityTemplate Name="FDContainerEntity" Guid="c60dc932-514e-4f68-9563-93ade09e7d20">
+    <MemberComponentTemplate Name="BlockEntity" Guid="c0469105-dab2-4fd2-9316-8491423966a9" InheritanceParent="09a85cba-d94e-41b8-9497-f20ed942c17e"/>
+    <MemberComponentTemplate Name="Chest" Guid="260711fa-6a1f-48a3-92ad-a8475053eb19" InheritanceParent="7312ec8c-10c7-4133-85b4-4a35bd44c956">
+      <Parameter Name="SlotsCount" Guid="552aeb7d-d5a7-4a9e-99e4-23cea0cd1aea" Value="27" Type="int"/>
+    </MemberComponentTemplate>
+  </EntityTemplate>
+
+  <EntityTemplate Name="FDCuttingBoardEntity" Guid="9f2b21d6-ef69-4a7e-8cde-0f1d5f5f0a11">
+    <MemberComponentTemplate Name="BlockEntity" Guid="b5d46f39-3f0e-46d8-9b6d-1f3f0e2a7c21" InheritanceParent="09a85cba-d94e-41b8-9497-f20ed942c17e"/>
+    <MemberComponentTemplate Name="FDCuttingBoard" Guid="e7e31b2f-2a1f-4a8e-9c6d-3b4a5c6d7e8f" InheritanceParent="c7f90035-7801-4434-87c9-6364d34df5f7"/>
+  </EntityTemplate>
+</Mod>

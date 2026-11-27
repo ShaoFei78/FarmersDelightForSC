@@ -1,0 +1,884 @@
+[
+  {
+    "ingredients": [
+      [
+        "apple_pie_slice"
+      ]
+    ],
+    "result": "apple_pie",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "cooked_bacon"
+      ],
+      [
+        "cooked_bacon"
+      ],
+      [
+        "bowl"
+      ],
+      [
+        "fried_egg"
+      ],
+      [
+        "fried_egg"
+      ]
+    ],
+    "result": "bacon_and_eggs",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "bread"
+      ],
+      [
+        "cooked_bacon"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "tomato"
+      ]
+    ],
+    "result": "bacon_sandwich",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "tomato"
+      ],
+      [
+        "onion"
+      ],
+      [
+        "cooked_chicken",
+        "cooked_chicken_cuts",
+        "cooked_beef",
+        "cooked_bacon",
+        "beef_patty",
+        "cooked_mutton_chops"
+      ],
+      [
+        "stick"
+      ]
+    ],
+    "result": "barbecue_stick",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "beetroot"
+      ]
+    ],
+    "result": "beetroot_crate",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "beetroot_crate"
+      ]
+    ],
+    "result": "beetroot",
+    "count": 9
+  },
+  {
+    "ingredients": [
+      [
+        "cabbage_crate"
+      ]
+    ],
+    "result": "cabbage",
+    "count": 9
+  },
+  {
+    "ingredients": [
+      [
+        "cabbage"
+      ]
+    ],
+    "result": "cabbage_crate",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "cabbage_leaf"
+      ],
+      [
+        "cabbage_leaf"
+      ]
+    ],
+    "result": "cabbage",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "straw"
+      ]
+    ],
+    "result": "canvas",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "canvas_rug"
+      ],
+      [
+        "canvas_rug"
+      ]
+    ],
+    "result": "canvas",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "canvas"
+      ]
+    ],
+    "result": "canvas_rug",
+    "count": 2
+  },
+  {
+    "ingredients": [
+      [
+        "canvas"
+      ],
+      [
+        "stick"
+      ],
+      [
+        "planks"
+      ]
+    ],
+    "result": "canvas_sign",
+    "count": 3
+  },
+  {
+    "ingredients": [
+      [
+        "carrot"
+      ]
+    ],
+    "result": "carrot_crate",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "carrot_crate"
+      ]
+    ],
+    "result": "carrot",
+    "count": 9
+  },
+  {
+    "ingredients": [
+      [
+        "bread"
+      ],
+      [
+        "cooked_chicken",
+        "cooked_chicken_cuts"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "carrot"
+      ]
+    ],
+    "result": "chicken_sandwich",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "pie_crust"
+      ],
+      [
+        "cocoa_beans"
+      ],
+      [
+        "milk_bottle"
+      ],
+      [
+        "sugar"
+      ]
+    ],
+    "result": "chocolate_pie",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "chocolate_pie_slice"
+      ]
+    ],
+    "result": "chocolate_pie",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "cod_slice"
+      ],
+      [
+        "cod_slice"
+      ],
+      [
+        "cooked_rice"
+      ]
+    ],
+    "result": "cod_roll",
+    "count": 2
+  },
+  {
+    "ingredients": [
+      [
+        "woodenshovel"
+      ],
+      [
+        "water_bucket"
+      ],
+      [
+        "brick"
+      ],
+      [
+        "ironingot"
+      ]
+    ],
+    "result": "cooking_pot",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "planks"
+      ],
+      [
+        "stick"
+      ]
+    ],
+    "result": "cutting_board",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "diamond"
+      ],
+      [
+        "stick"
+      ]
+    ],
+    "result": "diamond_knife",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "bread"
+      ],
+      [
+        "fried_egg"
+      ],
+      [
+        "fried_egg"
+      ]
+    ],
+    "result": "egg_sandwich",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "stonechunk"
+      ],
+      [
+        "stick"
+      ]
+    ],
+    "result": "flint_knife",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "tatami"
+      ]
+    ],
+    "result": "full_tatami_mat",
+    "count": 2
+  },
+  {
+    "ingredients": [
+      [
+        "half_tatami_mat"
+      ],
+      [
+        "half_tatami_mat"
+      ]
+    ],
+    "result": "full_tatami_mat",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "gold_ingot"
+      ],
+      [
+        "stick"
+      ]
+    ],
+    "result": "golden_knife",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "cooked_cod",
+        "cooked_salmon_slice"
+      ],
+      [
+        "sweet_berries"
+      ],
+      [
+        "bowl"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "onion"
+      ]
+    ],
+    "result": "grilled_salmon",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "full_tatami_mat"
+      ]
+    ],
+    "result": "half_tatami_mat",
+    "count": 2
+  },
+  {
+    "ingredients": [
+      [
+        "bread"
+      ],
+      [
+        "beef_patty"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "tomato"
+      ],
+      [
+        "onion"
+      ]
+    ],
+    "result": "hamburger",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "sweet_berries"
+      ],
+      [
+        "honey_bottle"
+      ],
+      [
+        "sweet_berries"
+      ],
+      [
+        "sweet_berries"
+      ],
+      [
+        "smoked_ham"
+      ],
+      [
+        "sweet_berries"
+      ],
+      [
+        "cooked_rice"
+      ],
+      [
+        "bowl"
+      ],
+      [
+        "cooked_rice"
+      ]
+    ],
+    "result": "honey_glazed_ham_block",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "ironingot"
+      ],
+      [
+        "stick"
+      ]
+    ],
+    "result": "iron_knife",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "dried_kelp"
+      ],
+      [
+        "cooked_rice"
+      ],
+      [
+        "onion",
+        "tomato"
+      ]
+    ],
+    "result": "kelp_roll",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "milk_bucket"
+      ],
+      [
+        "glass_bottle"
+      ],
+      [
+        "glass_bottle"
+      ],
+      [
+        "glass_bottle"
+      ],
+      [
+        "glass_bottle"
+      ]
+    ],
+    "result": "milk_bottle",
+    "count": 4
+  },
+  {
+    "ingredients": [
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "tomato"
+      ],
+      [
+        "beetroot"
+      ],
+      [
+        "bowl"
+      ]
+    ],
+    "result": "mixed_salad",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "bread"
+      ],
+      [
+        "cooked_beef",
+        "cooked_mutton_chops"
+      ],
+      [
+        "cabbage",
+        "cabbage_leaf"
+      ],
+      [
+        "onion"
+      ]
+    ],
+    "result": "mutton_wrap",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "onion_crate"
+      ]
+    ],
+    "result": "onion",
+    "count": 9
+  },
+  {
+    "ingredients": [
+      [
+        "onion"
+      ]
+    ],
+    "result": "onion_crate",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "tree_bark"
+      ],
+      [
+        "tree_bark"
+      ],
+      [
+        "tree_bark"
+      ]
+    ],
+    "result": "canvas",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "potato"
+      ]
+    ],
+    "result": "potato_crate",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "potato_crate"
+      ]
+    ],
+    "result": "potato",
+    "count": 9
+  },
+  {
+    "ingredients": [
+      [
+        "pumpkin_slice"
+      ]
+    ],
+    "result": "pumpkin",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "pie_crust"
+      ],
+      [
+        "pumpkin_slice"
+      ],
+      [
+        "egg"
+      ],
+      [
+        "sugar"
+      ]
+    ],
+    "result": "pumpkin_pie",
+    "count": 2
+  },
+  {
+    "ingredients": [
+      [
+        "pumpkin_pie_slice"
+      ]
+    ],
+    "result": "pumpkin_pie",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "rice_panicle"
+      ]
+    ],
+    "result": "rice",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "rice"
+      ]
+    ],
+    "result": "rice_bag",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "rice_panicle"
+      ]
+    ],
+    "result": "rice_bale",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "rice_bag"
+      ]
+    ],
+    "result": "rice",
+    "count": 9
+  },
+  {
+    "ingredients": [
+      [
+        "rice_bale"
+      ]
+    ],
+    "result": "rice_panicle",
+    "count": 9
+  },
+  {
+    "ingredients": [
+      [
+        "kelp_roll_slice"
+      ],
+      [
+        "kelp_roll_slice"
+      ],
+      [
+        "kelp_roll_slice"
+      ],
+      [
+        "salmon_roll"
+      ],
+      [
+        "salmon_roll"
+      ],
+      [
+        "salmon_roll"
+      ],
+      [
+        "cod_roll"
+      ],
+      [
+        "bowl"
+      ],
+      [
+        "cod_roll"
+      ]
+    ],
+    "result": "rice_roll_medley_block",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "cooked_mutton_chops"
+      ],
+      [
+        "beetroot"
+      ],
+      [
+        "bowl"
+      ],
+      [
+        "cooked_rice"
+      ],
+      [
+        "tomato"
+      ]
+    ],
+    "result": "roasted_mutton_chops",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "straw"
+      ]
+    ],
+    "result": "rope",
+    "count": 4
+  },
+  {
+    "ingredients": [
+      [
+        "stick"
+      ],
+      [
+        "rope"
+      ]
+    ],
+    "result": "rope_fence",
+    "count": 3
+  },
+  {
+    "ingredients": [
+      [
+        "stick"
+      ],
+      [
+        "rope"
+      ]
+    ],
+    "result": "rope_fence_gate",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "safety_net"
+      ]
+    ],
+    "result": "rope",
+    "count": 4
+  },
+  {
+    "ingredients": [
+      [
+        "rope"
+      ]
+    ],
+    "result": "safety_net",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "salmon_slice"
+      ],
+      [
+        "salmon_slice"
+      ],
+      [
+        "cooked_rice"
+      ]
+    ],
+    "result": "salmon_roll",
+    "count": 2
+  },
+  {
+    "ingredients": [
+      [
+        "ironingot"
+      ],
+      [
+        "brick"
+      ]
+    ],
+    "result": "skillet",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "straw_bale"
+      ]
+    ],
+    "result": "straw",
+    "count": 9
+  },
+  {
+    "ingredients": [
+      [
+        "straw"
+      ]
+    ],
+    "result": "straw_bale",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "pie_crust"
+      ],
+      [
+        "milk_bottle"
+      ],
+      [
+        "sweet_berries"
+      ]
+    ],
+    "result": "sweet_berry_cheesecake",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "sweet_berry_cheesecake_slice"
+      ]
+    ],
+    "result": "sweet_berry_cheesecake",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "canvas"
+      ],
+      [
+        "straw"
+      ]
+    ],
+    "result": "tatami",
+    "count": 2
+  },
+  {
+    "ingredients": [
+      [
+        "full_tatami_mat"
+      ],
+      [
+        "full_tatami_mat"
+      ]
+    ],
+    "result": "tatami",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "tomato_crate"
+      ]
+    ],
+    "result": "tomato",
+    "count": 9
+  },
+  {
+    "ingredients": [
+      [
+        "tomato"
+      ]
+    ],
+    "result": "tomato_crate",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "canvas"
+      ],
+      [
+        "stick"
+      ]
+    ],
+    "result": "wooden_basket",
+    "count": 1
+  }
+]

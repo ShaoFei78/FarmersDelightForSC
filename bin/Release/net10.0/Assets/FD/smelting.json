@@ -1,0 +1,262 @@
+[
+  {
+    "ingredients": [
+      [
+        "minced_beef"
+      ]
+    ],
+    "result": "beef_patty",
+    "count": 1,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "minced_beef"
+      ]
+    ],
+    "result": "beef_patty",
+    "count": 1,
+    "time": 600
+  },
+  {
+    "ingredients": [
+      [
+        "minced_beef"
+      ]
+    ],
+    "result": "beef_patty",
+    "count": 1,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "wheat_dough"
+      ]
+    ],
+    "result": "bread",
+    "count": 1,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "wheat_dough"
+      ]
+    ],
+    "result": "bread",
+    "count": 1,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "bacon"
+      ]
+    ],
+    "result": "cooked_bacon",
+    "count": 1,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "bacon"
+      ]
+    ],
+    "result": "cooked_bacon",
+    "count": 1,
+    "time": 600
+  },
+  {
+    "ingredients": [
+      [
+        "bacon"
+      ]
+    ],
+    "result": "cooked_bacon",
+    "count": 1,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "chicken_cuts"
+      ]
+    ],
+    "result": "cooked_chicken_cuts",
+    "count": 1,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "chicken_cuts"
+      ]
+    ],
+    "result": "cooked_chicken_cuts",
+    "count": 1,
+    "time": 600
+  },
+  {
+    "ingredients": [
+      [
+        "chicken_cuts"
+      ]
+    ],
+    "result": "cooked_chicken_cuts",
+    "count": 1,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "cod_slice"
+      ]
+    ],
+    "result": "cooked_cod_slice",
+    "count": 1,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "cod_slice"
+      ]
+    ],
+    "result": "cooked_cod_slice",
+    "count": 1,
+    "time": 600
+  },
+  {
+    "ingredients": [
+      [
+        "cod_slice"
+      ]
+    ],
+    "result": "cooked_cod_slice",
+    "count": 1,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "mutton_chops"
+      ]
+    ],
+    "result": "cooked_mutton_chops",
+    "count": 1,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "mutton_chops"
+      ]
+    ],
+    "result": "cooked_mutton_chops",
+    "count": 1,
+    "time": 600
+  },
+  {
+    "ingredients": [
+      [
+        "mutton_chops"
+      ]
+    ],
+    "result": "cooked_mutton_chops",
+    "count": 1,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "salmon_slice"
+      ]
+    ],
+    "result": "cooked_salmon_slice",
+    "count": 1,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "salmon_slice"
+      ]
+    ],
+    "result": "cooked_salmon_slice",
+    "count": 1,
+    "time": 600
+  },
+  {
+    "ingredients": [
+      [
+        "salmon_slice"
+      ]
+    ],
+    "result": "cooked_salmon_slice",
+    "count": 1,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "egg"
+      ]
+    ],
+    "result": "fried_egg",
+    "count": 1,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "egg"
+      ]
+    ],
+    "result": "fried_egg",
+    "count": 1,
+    "time": 600
+  },
+  {
+    "ingredients": [
+      [
+        "egg"
+      ]
+    ],
+    "result": "fried_egg",
+    "count": 1,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "golden_knife"
+      ]
+    ],
+    "result": "gold_nugget",
+    "count": 1,
+    "time": 100
+  },
+  {
+    "ingredients": [
+      [
+        "golden_knife"
+      ]
+    ],
+    "result": "gold_nugget",
+    "count": 1,
+    "time": 200
+  },
+  {
+    "ingredients": [
+      [
+        "ham"
+      ]
+    ],
+    "result": "smoked_ham",
+    "count": 1,
+    "time": 200
+  }
+]
