@@ -363,6 +363,16 @@ namespace Game {
             AddExtraRecipe(recipes, "tomato_seeds", 1, 0f, "wild_tomatoes");
             AddExtraRecipe(recipes, "onion", 1, 0f, "wild_onions");
             AddExtraRecipe(recipes, "rice", 1, 0f, "wild_rice");
+            foreach (string cabinet in new[] { "oak_cabinet", "spruce_cabinet", "birch_cabinet", "jungle_cabinet", "acacia_cabinet", "dark_oak_cabinet", "mangrove_cabinet", "cherry_cabinet", "bamboo_cabinet", "crimson_cabinet", "warped_cabinet" }) {
+                AddExtraRecipe(recipes, cabinet, 1, 0f, "planks", "planks", "planks", "planks", "planks", "planks", "chest");
+            }
+            AddExtraRecipe(recipes, "wooden_basket", 1, 0f, "planks", "planks", "planks", "planks", "stick", "stick");
+            AddExtraRecipe(recipes, "bamboo_basket", 1, 0f, "planks", "planks", "planks", "planks", "stick", "stick");
+            AddExtraRecipe(recipes, "organic_compost", 1, 0f, "dirt", "dirt", "dirt", "straw_bale");
+            AddExtraRecipe(recipes, "rich_soil", 1, 0f, "dirt", "organic_compost");
+            AddExtraRecipe(recipes, "rich_soil_farmland", 1, 0f, "rich_soil", "stick");
+            AddExtraRecipe(recipes, "brown_mushroom_colony", 1, 0f, "brown_mushroom", "dirt", "dirt");
+            AddExtraRecipe(recipes, "red_mushroom_colony", 1, 0f, "red_mushroom", "dirt", "dirt");
         }
 
         public static bool TryCraft(string[] actualIngredients, out CraftingRecipe result) {
