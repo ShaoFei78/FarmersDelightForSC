@@ -299,22 +299,58 @@ def main() -> None:
     smelting_results = {recipe.get("result") for recipe in read_recipe("smelting.json") if recipe.get("result")}
     crafting_results = {recipe.get("result") for recipe in read_recipe("crafting.json") if recipe.get("result")}
 
+    alias_en = {
+        "beef": "Beef", "cooked_beef": "Cooked Beef", "chicken": "Chicken", "cooked_chicken": "Cooked Chicken",
+        "cod": "Cod", "cooked_cod": "Cooked Cod", "egg": "Egg", "wheat": "Wheat", "potato": "Potato",
+        "carrot": "Carrot", "beetroot": "Beetroot", "water_bucket": "Water Bucket", "oak_leaves": "Oak Leaves",
+        "campfire": "Campfire", "straw_bale": "Straw Bale", "dirt": "Dirt", "chest": "Chest",
+        "planks": "Planks", "glass": "Glass", "brick": "Brick", "ironingot": "Iron Ingot", "diamond": "Diamond",
+        "kelp": "Kelp", "sweet_berries": "Sweet Berries", "glow_berries": "Glow Berries", "apple": "Apple",
+        "honey_bottle": "Honey Bottle", "sugar": "Sugar", "cocoa_beans": "Cocoa Beans", "bone": "Bone",
+        "brown_mushroom": "Brown Mushroom", "red_mushroom": "Red Mushroom",
+    }
+    alias_zh = {
+        "beef": "牛肉", "cooked_beef": "熟牛肉", "chicken": "鸡肉", "cooked_chicken": "熟鸡肉",
+        "cod": "鳕鱼", "cooked_cod": "熟鳕鱼", "egg": "鸡蛋", "wheat": "小麦", "potato": "马铃薯",
+        "carrot": "胡萝卜", "beetroot": "甜菜根", "water_bucket": "水桶", "oak_leaves": "橡树叶",
+        "campfire": "营火", "straw_bale": "草捆", "dirt": "泥土", "chest": "箱子",
+        "planks": "木板", "glass": "玻璃", "brick": "砖", "ironingot": "铁锭", "diamond": "钻石",
+        "kelp": "海带", "sweet_berries": "甜浆果", "glow_berries": "发光浆果", "apple": "苹果",
+        "honey_bottle": "蜂蜜瓶", "sugar": "糖", "cocoa_beans": "可可豆", "bone": "骨头",
+        "brown_mushroom": "棕色蘑菇", "red_mushroom": "红色蘑菇",
+    }
+
+    def localized_name(name: str, chinese: bool) -> str:
+        if chinese and name in alias_zh:
+            return alias_zh[name]
+        if not chinese and name in alias_en:
+            return alias_en[name]
+        if name:
+            for prefix in ("item", "block"):
+                value = (zh if chinese else en).get(f"{prefix}.farmersdelight.{name}")
+                if value:
+                    return value
+            if chinese:
+                return alias_zh.get(name, "食材")
+            return alias_en.get(name, name.replace("_", " ").title())
+        return "?"
+
     def operation_hint(name: str, chinese: bool) -> str:
         if name in cutting_inputs:
-            outputs = "、".join(cutting_inputs[name][:3]) if chinese else ", ".join(cutting_inputs[name][:3])
+            outputs = "、".join(localized_name(n, True) for n in cutting_inputs[name][:3]) if chinese else ", ".join(localized_name(n, False) for n in cutting_inputs[name][:3])
             if chinese:
                 return f" 切菜板操作：右击切菜板放上，再持刀右击切割，产出 {outputs}。"
             return f" Cutting board: right-click to place, then right-click with a knife to cut into {outputs}."
         if name in cooking_ingredients:
-            ingredients = "、".join(cooking_ingredients[name][:6]) if chinese else ", ".join(cooking_ingredients[name][:6])
+            ingredients = "、".join(localized_name(n, True) for n in cooking_ingredients[name][:6]) if chinese else ", ".join(localized_name(n, False) for n in cooking_ingredients[name][:6])
             if chinese:
                 return f" 烹饪锅配方：把 {ingredients} 放入点燃炉灶上方的锅中。"
             return f" Cooking pot recipe: put {ingredients} in a pot above a lit stove."
         if name in cutting_sources:
-            source = cutting_sources[name]
+            source = localized_name(cutting_sources[name], chinese)
             return f" 切菜板产物：用刀切割 {source} 获得。" if chinese else f" Cutting board result: cut {source} with a knife."
         if name in smelting_sources:
-            source = smelting_sources[name]
+            source = localized_name(smelting_sources[name], chinese)
             return f" 熔炉配方：熔炼 {source} 获得。" if chinese else f" Furnace recipe: smelt {source}."
         if name in cutting_results:
             return " 切菜板产物：在切菜板上用刀切割获得。" if chinese else " Cutting board result: obtained by cutting on a board with a knife."
@@ -378,6 +414,9 @@ def main() -> None:
         feast = {"roast_chicken", "stuffed_pumpkin", "honey_glazed_ham", "shepherds_pie", "gleaming_salad"}
         if name in feast:
             text = "盛宴的一份。右击盛宴方块取用。" if chinese else "A portion from a feast block. Right-click the feast to take one."
+            return text + operation_hint(name, chinese)
+        if name == "pumpkin_slice":
+            text = "南瓜片，可用于烹饪或合成。" if chinese else "A pumpkin slice for cooking or crafting."
             return text + operation_hint(name, chinese)
         if name.endswith("_slice"):
             text = "派或蛋糕的一片。可直接食用。" if chinese else "A slice of pie or cake. Can be eaten directly."

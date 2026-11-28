@@ -2,27 +2,27 @@
   "Blocks": {
     "FDItemBlock:0": {
       "DisplayName": "Straw",
-      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut rice_panicle with a knife."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut Rice Panicle with a knife."
     },
     "FDItemBlock:1": {
       "DisplayName": "Canvas",
-      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut bamboo_basket with a knife."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut Bamboo Basket with a knife."
     },
     "FDItemBlock:2": {
       "DisplayName": "Tree Bark",
-      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut oak_wood with a knife."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut Oak Wood with a knife."
     },
     "FDItemBlock:3": {
       "DisplayName": "Cabbage",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into cabbage_leaf."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into Cabbage Leaf."
     },
     "FDItemBlock:4": {
       "DisplayName": "Tomato",
-      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: cut wild_tomatoes with a knife."
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: cut Tomato Shrub with a knife."
     },
     "FDItemBlock:5": {
       "DisplayName": "Rice Panicle",
-      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board: right-click to place, then right-click with a knife to cut into rice, straw."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board: right-click to place, then right-click with a knife to cut into Rice, Straw."
     },
     "FDItemBlock:6": {
       "DisplayName": "Rotten Tomato",
@@ -30,7 +30,7 @@
     },
     "FDItemBlock:7": {
       "DisplayName": "Fried Egg",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Furnace recipe: smelt egg."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Furnace recipe: smelt Egg."
     },
     "FDItemBlock:8": {
       "DisplayName": "Milk Bottle",
@@ -38,11 +38,11 @@
     },
     "FDItemBlock:9": {
       "DisplayName": "Hot Cocoa",
-      "Description": "A drink. Can be consumed directly. Cooking pot recipe: put milk_bottle, sugar, cocoa_beans, cocoa_beans in a pot above a lit stove."
+      "Description": "A drink. Can be consumed directly. Cooking pot recipe: put Milk Bottle, Sugar, Cocoa Beans, Cocoa Beans in a pot above a lit stove."
     },
     "FDItemBlock:10": {
       "DisplayName": "Apple Cider",
-      "Description": "A drink. Can be consumed directly. Cooking pot recipe: put apple, apple, sugar in a pot above a lit stove."
+      "Description": "A drink. Can be consumed directly. Cooking pot recipe: put Apple, Apple, Sugar in a pot above a lit stove."
     },
     "FDItemBlock:11": {
       "DisplayName": "Melon Juice",
@@ -50,71 +50,71 @@
     },
     "FDItemBlock:12": {
       "DisplayName": "Tomato Sauce",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Cooking pot recipe: put tomato, tomato in a pot above a lit stove."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Cooking pot recipe: put Tomato, Tomato in a pot above a lit stove."
     },
     "FDItemBlock:13": {
       "DisplayName": "Wheat Dough",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into raw_pasta."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into Raw Pasta."
     },
     "FDItemBlock:14": {
       "DisplayName": "Raw Pasta",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board result: cut wheat_dough with a knife."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board result: cut Wheat Dough with a knife."
     },
     "FDItemBlock:15": {
       "DisplayName": "Pumpkin Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A pumpkin slice for cooking or crafting."
     },
     "FDItemBlock:16": {
       "DisplayName": "Cabbage Leaf",
-      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: cut cabbage with a knife."
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: cut Cabbage with a knife."
     },
     "FDItemBlock:17": {
       "DisplayName": "Minced Beef",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board result: cut beef with a knife."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board result: cut Beef with a knife."
     },
     "FDItemBlock:18": {
       "DisplayName": "Beef Patty",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Furnace recipe: smelt minced_beef."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Furnace recipe: smelt Minced Beef."
     },
     "FDItemBlock:19": {
       "DisplayName": "Raw Chicken Cuts",
-      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: cut chicken with a knife."
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: cut Chicken with a knife."
     },
     "FDItemBlock:20": {
       "DisplayName": "Cooked Chicken Cuts",
-      "Description": "Food: restores about 3 hunger points. Can be eaten directly. Cutting board result: cut cooked_chicken with a knife."
+      "Description": "Food: restores about 3 hunger points. Can be eaten directly. Cutting board result: cut Cooked Chicken with a knife."
     },
     "FDItemBlock:21": {
       "DisplayName": "Raw Bacon",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board result: cut beef with a knife."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board result: cut Beef with a knife."
     },
     "FDItemBlock:22": {
       "DisplayName": "Cooked Bacon",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Furnace recipe: smelt bacon."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Furnace recipe: smelt Raw Bacon."
     },
     "FDItemBlock:23": {
       "DisplayName": "Raw Cod Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut cod with a knife."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut Cod with a knife."
     },
     "FDItemBlock:24": {
       "DisplayName": "Cooked Cod Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut cooked_cod with a knife."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut Cooked Cod with a knife."
     },
     "FDItemBlock:25": {
       "DisplayName": "Raw Salmon Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut cod with a knife."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut Cod with a knife."
     },
     "FDItemBlock:26": {
       "DisplayName": "Cooked Salmon Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut cooked_cod with a knife."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut Cooked Cod with a knife."
     },
     "FDItemBlock:27": {
       "DisplayName": "Raw Mutton Chops",
-      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: cut beef with a knife."
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: cut Beef with a knife."
     },
     "FDItemBlock:28": {
       "DisplayName": "Cooked Mutton Chops",
-      "Description": "Food: restores about 3 hunger points. Can be eaten directly. Cutting board result: cut cooked_beef with a knife."
+      "Description": "Food: restores about 3 hunger points. Can be eaten directly. Cutting board result: cut Cooked Beef with a knife."
     },
     "FDItemBlock:29": {
       "DisplayName": "Ham",
@@ -122,7 +122,7 @@
     },
     "FDItemBlock:30": {
       "DisplayName": "Smoked Ham",
-      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into cooked_beef, bone."
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into Cooked Beef, Bone."
     },
     "FDItemBlock:31": {
       "DisplayName": "Pie Crust",
@@ -134,19 +134,19 @@
     },
     "FDItemBlock:33": {
       "DisplayName": "Slice of Apple Pie",
-      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut apple_pie with a knife."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut Apple Pie with a knife."
     },
     "FDItemBlock:34": {
       "DisplayName": "Slice of Sweet Berry Cheesecake",
-      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut sweet_berry_cheesecake with a knife."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut Sweet Berry Cheesecake with a knife."
     },
     "FDItemBlock:35": {
       "DisplayName": "Slice of Chocolate Pie",
-      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut chocolate_pie with a knife."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut Chocolate Pie with a knife."
     },
     "FDItemBlock:36": {
       "DisplayName": "Slice of Pumpkin Pie",
-      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut pumpkin_pie with a knife."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut Pumpkin Pie with a knife."
     },
     "FDItemBlock:37": {
       "DisplayName": "Sweet Berry Cookie",
@@ -162,7 +162,7 @@
     },
     "FDItemBlock:40": {
       "DisplayName": "Glow Berry Custard",
-      "Description": "Food: restores about 7 hunger points. Can be eaten directly. Cooking pot recipe: put glow_berries, milk_bottle, egg, sugar in a pot above a lit stove."
+      "Description": "Food: restores about 7 hunger points. Can be eaten directly. Cooking pot recipe: put Glow Berries, Milk Bottle, Egg, Sugar in a pot above a lit stove."
     },
     "FDItemBlock:41": {
       "DisplayName": "Fruit Salad",
@@ -202,7 +202,7 @@
     },
     "FDItemBlock:50": {
       "DisplayName": "Dumplings",
-      "Description": "Food: restores about 8 hunger points. Can be eaten directly. Cooking pot recipe: put wheat_dough, cabbage, onion, chicken in a pot above a lit stove."
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly. Cooking pot recipe: put Wheat Dough, Cabbage, Onion, Chicken in a pot above a lit stove."
     },
     "FDItemBlock:51": {
       "DisplayName": "Stuffed Potato",
@@ -210,7 +210,7 @@
     },
     "FDItemBlock:52": {
       "DisplayName": "Cabbage Rolls",
-      "Description": "Food: restores about 5 hunger points. Can be eaten directly. Cooking pot recipe: put cabbage, chicken in a pot above a lit stove."
+      "Description": "Food: restores about 5 hunger points. Can be eaten directly. Cooking pot recipe: put Cabbage, Chicken in a pot above a lit stove."
     },
     "FDItemBlock:53": {
       "DisplayName": "Salmon Roll",
@@ -222,55 +222,55 @@
     },
     "FDItemBlock:55": {
       "DisplayName": "Kelp Roll",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into kelp_roll_slice."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into Kelp Roll Slice."
     },
     "FDItemBlock:56": {
       "DisplayName": "Kelp Roll Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut kelp_roll with a knife."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: cut Kelp Roll with a knife."
     },
     "FDItemBlock:57": {
       "DisplayName": "Cooked Rice",
-      "Description": "Food: restores about 6 hunger points. Can be eaten directly. Cooking pot recipe: put rice in a pot above a lit stove."
+      "Description": "Food: restores about 6 hunger points. Can be eaten directly. Cooking pot recipe: put Rice in a pot above a lit stove."
     },
     "FDItemBlock:58": {
       "DisplayName": "Bone Broth",
-      "Description": "Food: restores about 8 hunger points. Can be eaten directly. Cooking pot recipe: put bone, glow_berries in a pot above a lit stove."
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly. Cooking pot recipe: put Bone, Glow Berries in a pot above a lit stove."
     },
     "FDItemBlock:59": {
       "DisplayName": "Beef Stew",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put beef, carrot, potato in a pot above a lit stove."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put Beef, Carrot, Potato in a pot above a lit stove."
     },
     "FDItemBlock:60": {
       "DisplayName": "Chicken Soup",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put chicken, carrot, cabbage, onion in a pot above a lit stove."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put Chicken, Carrot, Cabbage, Onion in a pot above a lit stove."
     },
     "FDItemBlock:61": {
       "DisplayName": "Vegetable Soup",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put carrot, potato, beetroot, cabbage in a pot above a lit stove."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put Carrot, Potato, Beetroot, Cabbage in a pot above a lit stove."
     },
     "FDItemBlock:62": {
       "DisplayName": "Fish Stew",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put cod, tomato_sauce, onion in a pot above a lit stove."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put Cod, Tomato Sauce, Onion in a pot above a lit stove."
     },
     "FDItemBlock:63": {
       "DisplayName": "Fried Rice",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put rice, egg, carrot, onion in a pot above a lit stove."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put Rice, Egg, Carrot, Onion in a pot above a lit stove."
     },
     "FDItemBlock:64": {
       "DisplayName": "Pumpkin Soup",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put pumpkin, cabbage, beef, milk_bottle in a pot above a lit stove."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put Pumpkin, Cabbage, Beef, Milk Bottle in a pot above a lit stove."
     },
     "FDItemBlock:65": {
       "DisplayName": "Baked Cod Stew",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put cod, potato, egg, tomato in a pot above a lit stove."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put Cod, Potato, Egg, Tomato in a pot above a lit stove."
     },
     "FDItemBlock:66": {
       "DisplayName": "Noodle Soup",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put raw_pasta, egg, dried_kelp, beef in a pot above a lit stove."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put Raw Pasta, Egg, Dried Kelp, Beef in a pot above a lit stove."
     },
     "FDItemBlock:67": {
       "DisplayName": "Onion Soup",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put onion, onion, bread, milk_bottle in a pot above a lit stove."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put Onion, Onion, Bread, Milk Bottle in a pot above a lit stove."
     },
     "FDItemBlock:68": {
       "DisplayName": "Bacon and Eggs",
@@ -278,15 +278,15 @@
     },
     "FDItemBlock:69": {
       "DisplayName": "Pasta with Meatballs",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put minced_beef, raw_pasta, tomato_sauce in a pot above a lit stove."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put Minced Beef, Raw Pasta, Tomato Sauce in a pot above a lit stove."
     },
     "FDItemBlock:70": {
       "DisplayName": "Pasta with Mutton Chop",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put beef, raw_pasta, tomato_sauce in a pot above a lit stove."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put Beef, Raw Pasta, Tomato Sauce in a pot above a lit stove."
     },
     "FDItemBlock:71": {
       "DisplayName": "Mushroom Rice",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put brown_mushroom, red_mushroom, rice, carrot in a pot above a lit stove."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot recipe: put Brown Mushroom, Red Mushroom, Rice, Carrot in a pot above a lit stove."
     },
     "FDItemBlock:72": {
       "DisplayName": "Roasted Mutton Chops",
@@ -294,7 +294,7 @@
     },
     "FDItemBlock:73": {
       "DisplayName": "Vegetable Noodles",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put carrot, brown_mushroom, raw_pasta, cabbage, onion in a pot above a lit stove."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put Carrot, Brown Mushroom, Raw Pasta, Cabbage, Onion in a pot above a lit stove."
     },
     "FDItemBlock:74": {
       "DisplayName": "Steak and Potatoes",
@@ -302,11 +302,11 @@
     },
     "FDItemBlock:75": {
       "DisplayName": "Ratatouille",
-      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Cooking pot recipe: put tomato, onion, beetroot, onion in a pot above a lit stove."
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Cooking pot recipe: put Tomato, Onion, Beetroot, Onion in a pot above a lit stove."
     },
     "FDItemBlock:76": {
       "DisplayName": "Squid Ink Pasta",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put cod, raw_pasta, tomato, squid_ink in a pot above a lit stove."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot recipe: put Cod, Raw Pasta, Tomato, Squid Ink in a pot above a lit stove."
     },
     "FDItemBlock:77": {
       "DisplayName": "Grilled Salmon",
@@ -334,7 +334,7 @@
     },
     "FDItemBlock:83": {
       "DisplayName": "Dog Food",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Cooking pot recipe: put rotten_meat, bone, chicken, rice in a pot above a lit stove."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Cooking pot recipe: put Rotten Meat, Bone, Chicken, Rice in a pot above a lit stove."
     },
     "FDItemBlock:84": {
       "DisplayName": "Horse Feed",
@@ -358,11 +358,11 @@
     },
     "FDItemBlock:89": {
       "DisplayName": "Carrot",
-      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut wild_carrots with a knife."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut Wild Carrot with a knife."
     },
     "FDItemBlock:90": {
       "DisplayName": "Potato",
-      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut wild_potatoes with a knife."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: cut Wild Potato with a knife."
     },
     "FDItemBlock:91": {
       "DisplayName": "Beetroot",
@@ -390,7 +390,7 @@
     },
     "FDItemBlock:97": {
       "DisplayName": "Gold Nugget",
-      "Description": "A small gold nugget used in recipes. Furnace recipe: smelt golden_knife."
+      "Description": "A small gold nugget used in recipes. Furnace recipe: smelt Golden Knife."
     },
     "FDItemBlock:98": {
       "DisplayName": "Netherite Ingot",
@@ -406,15 +406,15 @@
     },
     "FDItemBlock:101": {
       "DisplayName": "Bone",
-      "Description": "A bone used in broth and other recipes. Cutting board result: cut chicken with a knife."
+      "Description": "A bone used in broth and other recipes. Cutting board result: cut Chicken with a knife."
     },
     "FDItemBlock:102": {
       "DisplayName": "Brown Mushroom",
-      "Description": "A brown mushroom. Eat it or use it in cooking. Cutting board result: cut brown_mushroom_colony with a knife."
+      "Description": "A brown mushroom. Eat it or use it in cooking. Cutting board result: cut Brown Mushroom Colony with a knife."
     },
     "FDItemBlock:103": {
       "DisplayName": "Red Mushroom",
-      "Description": "A red mushroom. Eat it or use it in cooking. Cutting board result: cut red_mushroom_colony with a knife."
+      "Description": "A red mushroom. Eat it or use it in cooking. Cutting board result: cut Red Mushroom Colony with a knife."
     },
     "FDItemBlock:104": {
       "DisplayName": "Apple",
