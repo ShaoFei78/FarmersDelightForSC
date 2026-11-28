@@ -267,6 +267,22 @@ def main() -> None:
             return []
         return json.load(open(path, encoding="utf-8"))
 
+    cooking_ingredients = {}
+    for recipe in read_recipe("cooking.json"):
+        result = recipe.get("result")
+        if not result:
+            continue
+        names = []
+        for ingredient in recipe.get("ingredients", []):
+            if ingredient:
+                names.append(ingredient[0])
+        cooking_ingredients.setdefault(result, names)
+    smelting_sources = {}
+    for recipe in read_recipe("smelting.json"):
+        result = recipe.get("result")
+        if result and recipe.get("ingredients"):
+            smelting_sources.setdefault(result, recipe["ingredients"][0][0] if recipe["ingredients"][0] else "")
+    cutting_sources = {}
     cutting_inputs = {}
     cutting_results = set()
     for recipe in read_recipe("cutting.json"):
@@ -277,6 +293,7 @@ def main() -> None:
             for output in outputs:
                 if output not in cutting_inputs[input_name]:
                     cutting_inputs[input_name].append(output)
+                cutting_sources.setdefault(output, input_name)
         cutting_results.update(outputs)
     cooking_results = {recipe.get("result") for recipe in read_recipe("cooking.json") if recipe.get("result")}
     smelting_results = {recipe.get("result") for recipe in read_recipe("smelting.json") if recipe.get("result")}
@@ -288,8 +305,17 @@ def main() -> None:
             if chinese:
                 return f" 切菜板操作：右击切菜板放上，再持刀右击切割，产出 {outputs}。"
             return f" Cutting board: right-click to place, then right-click with a knife to cut into {outputs}."
-        if name in cooking_results:
-            return " 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。" if chinese else " Cooking pot result: put the ingredients in a pot above a lit stove."
+        if name in cooking_ingredients:
+            ingredients = "、".join(cooking_ingredients[name][:6]) if chinese else ", ".join(cooking_ingredients[name][:6])
+            if chinese:
+                return f" 烹饪锅配方：把 {ingredients} 放入点燃炉灶上方的锅中。"
+            return f" Cooking pot recipe: put {ingredients} in a pot above a lit stove."
+        if name in cutting_sources:
+            source = cutting_sources[name]
+            return f" 切菜板产物：用刀切割 {source} 获得。" if chinese else f" Cutting board result: cut {source} with a knife."
+        if name in smelting_sources:
+            source = smelting_sources[name]
+            return f" 熔炉配方：熔炼 {source} 获得。" if chinese else f" Furnace recipe: smelt {source}."
         if name in cutting_results:
             return " 切菜板产物：在切菜板上用刀切割获得。" if chinese else " Cutting board result: obtained by cutting on a board with a knife."
         if name in smelting_results:
