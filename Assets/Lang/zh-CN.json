@@ -2,27 +2,27 @@
   "Blocks": {
     "FDItemBlock:0": {
       "DisplayName": "草秆",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:1": {
       "DisplayName": "粗布",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:2": {
       "DisplayName": "树皮",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:3": {
       "DisplayName": "卷心菜",
-      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。 切菜板操作：右击切菜板放上，再持刀右击切割，产出 cabbage_leaf。"
     },
     "FDItemBlock:4": {
       "DisplayName": "番茄",
-      "Description": "食物：恢复约 1 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 1 点饥饿值，可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:5": {
       "DisplayName": "稻米穗",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 切菜板操作：右击切菜板放上，再持刀右击切割，产出 rice、straw。"
     },
     "FDItemBlock:6": {
       "DisplayName": "烂番茄",
@@ -30,35 +30,35 @@
     },
     "FDItemBlock:7": {
       "DisplayName": "煎蛋",
-      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。 熔炉/烟熏产物。"
     },
     "FDItemBlock:8": {
       "DisplayName": "奶瓶",
-      "Description": "饮料，可直接饮用。"
+      "Description": "饮料，可直接饮用。 工作台合成。"
     },
     "FDItemBlock:9": {
       "DisplayName": "热可可",
-      "Description": "饮料，可直接饮用。"
+      "Description": "饮料，可直接饮用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:10": {
       "DisplayName": "苹果酒",
-      "Description": "饮料，可直接饮用。"
+      "Description": "饮料，可直接饮用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:11": {
       "DisplayName": "西瓜汁",
-      "Description": "饮料，可直接饮用。"
+      "Description": "饮料，可直接饮用。 工作台合成。"
     },
     "FDItemBlock:12": {
       "DisplayName": "番茄酱",
-      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:13": {
       "DisplayName": "面团",
-      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。 切菜板操作：右击切菜板放上，再持刀右击切割，产出 raw_pasta。"
     },
     "FDItemBlock:14": {
       "DisplayName": "生意面",
-      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:15": {
       "DisplayName": "南瓜片",
@@ -66,55 +66,55 @@
     },
     "FDItemBlock:16": {
       "DisplayName": "卷心菜叶",
-      "Description": "食物：恢复约 1 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 1 点饥饿值，可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:17": {
       "DisplayName": "牛肉馅",
-      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:18": {
       "DisplayName": "牛肉饼",
-      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。 熔炉/烟熏产物。"
     },
     "FDItemBlock:19": {
       "DisplayName": "生鸡肉丁",
-      "Description": "食物：恢复约 1 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 1 点饥饿值，可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:20": {
       "DisplayName": "熟鸡肉丁",
-      "Description": "食物：恢复约 3 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 3 点饥饿值，可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:21": {
       "DisplayName": "生培根",
-      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:22": {
       "DisplayName": "熟培根",
-      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。 熔炉/烟熏产物。"
     },
     "FDItemBlock:23": {
       "DisplayName": "生鳕鱼片",
-      "Description": "派或蛋糕的一片。可直接食用。"
+      "Description": "派或蛋糕的一片。可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:24": {
       "DisplayName": "熟鳕鱼片",
-      "Description": "派或蛋糕的一片。可直接食用。"
+      "Description": "派或蛋糕的一片。可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:25": {
       "DisplayName": "生鲑鱼片",
-      "Description": "派或蛋糕的一片。可直接食用。"
+      "Description": "派或蛋糕的一片。可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:26": {
       "DisplayName": "熟鲑鱼片",
-      "Description": "派或蛋糕的一片。可直接食用。"
+      "Description": "派或蛋糕的一片。可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:27": {
       "DisplayName": "生羊排",
-      "Description": "食物：恢复约 1 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 1 点饥饿值，可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:28": {
       "DisplayName": "熟羊排",
-      "Description": "食物：恢复约 3 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 3 点饥饿值，可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:29": {
       "DisplayName": "火腿",
@@ -122,11 +122,11 @@
     },
     "FDItemBlock:30": {
       "DisplayName": "烟熏火腿",
-      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。 切菜板操作：右击切菜板放上，再持刀右击切割，产出 cooked_beef、bone。"
     },
     "FDItemBlock:31": {
       "DisplayName": "馅饼酥皮",
-      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:32": {
       "DisplayName": "蛋糕切片",
@@ -134,43 +134,43 @@
     },
     "FDItemBlock:33": {
       "DisplayName": "苹果派切片",
-      "Description": "派或蛋糕的一片。可直接食用。"
+      "Description": "派或蛋糕的一片。可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:34": {
       "DisplayName": "甜浆果芝士派切片",
-      "Description": "派或蛋糕的一片。可直接食用。"
+      "Description": "派或蛋糕的一片。可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:35": {
       "DisplayName": "巧克力派切片",
-      "Description": "派或蛋糕的一片。可直接食用。"
+      "Description": "派或蛋糕的一片。可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:36": {
       "DisplayName": "南瓜派切片",
-      "Description": "派或蛋糕的一片。可直接食用。"
+      "Description": "派或蛋糕的一片。可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:37": {
       "DisplayName": "甜浆果曲奇",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 工作台合成。"
     },
     "FDItemBlock:38": {
       "DisplayName": "蜂蜜曲奇",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 工作台合成。"
     },
     "FDItemBlock:39": {
       "DisplayName": "西瓜冰棍",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。"
     },
     "FDItemBlock:40": {
       "DisplayName": "发光浆果蛋奶沙司",
-      "Description": "食物：恢复约 7 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 7 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:41": {
       "DisplayName": "水果沙拉",
-      "Description": "食物：恢复约 6 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 6 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:42": {
       "DisplayName": "混合沙拉",
-      "Description": "食物：恢复约 6 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 6 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:43": {
       "DisplayName": "下界沙拉",
@@ -178,139 +178,139 @@
     },
     "FDItemBlock:44": {
       "DisplayName": "烧烤串",
-      "Description": "食物：恢复约 8 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 8 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:45": {
       "DisplayName": "夹蛋三明治",
-      "Description": "食物：恢复约 8 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 8 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:46": {
       "DisplayName": "鸡肉三明治",
-      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:47": {
       "DisplayName": "汉堡包",
-      "Description": "食物：恢复约 11 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 11 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:48": {
       "DisplayName": "培根三明治",
-      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:49": {
       "DisplayName": "羊肉卷饼",
-      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:50": {
       "DisplayName": "饺子",
-      "Description": "食物：恢复约 8 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 8 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:51": {
       "DisplayName": "填馅马铃薯",
-      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:52": {
       "DisplayName": "卷心菜卷",
-      "Description": "食物：恢复约 5 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 5 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:53": {
       "DisplayName": "鲑鱼寿司",
-      "Description": "食物：恢复约 7 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 7 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:54": {
       "DisplayName": "鳕鱼寿司",
-      "Description": "食物：恢复约 7 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 7 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:55": {
       "DisplayName": "海带寿司卷",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 切菜板操作：右击切菜板放上，再持刀右击切割，产出 kelp_roll_slice。"
     },
     "FDItemBlock:56": {
       "DisplayName": "海带寿司",
-      "Description": "派或蛋糕的一片。可直接食用。"
+      "Description": "派或蛋糕的一片。可直接食用。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:57": {
       "DisplayName": "米饭",
-      "Description": "食物：恢复约 6 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 6 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:58": {
       "DisplayName": "大骨汤",
-      "Description": "食物：恢复约 8 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 8 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:59": {
       "DisplayName": "牛肉炖",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:60": {
       "DisplayName": "鸡肉汤",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:61": {
       "DisplayName": "蔬菜汤",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:62": {
       "DisplayName": "鱼肉炖",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:63": {
       "DisplayName": "炒饭",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:64": {
       "DisplayName": "南瓜汤",
-      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:65": {
       "DisplayName": "烘焙鳕鱼炖",
-      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:66": {
       "DisplayName": "面条汤",
-      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:67": {
       "DisplayName": "洋葱汤",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:68": {
       "DisplayName": "培根蛋",
-      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:69": {
       "DisplayName": "肉丸意面",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:70": {
       "DisplayName": "羊排意面",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:71": {
       "DisplayName": "蘑菇饭",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:72": {
       "DisplayName": "烤羊排",
-      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:73": {
       "DisplayName": "蔬菜面",
-      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:74": {
       "DisplayName": "牛排配马铃薯",
-      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:75": {
       "DisplayName": "蔬菜杂烩",
-      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:76": {
       "DisplayName": "鱿鱼墨面",
-      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:77": {
       "DisplayName": "香烤鲑鱼",
-      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。 工作台合成。"
     },
     "FDItemBlock:78": {
       "DisplayName": "盘装烤鸡",
@@ -334,11 +334,11 @@
     },
     "FDItemBlock:83": {
       "DisplayName": "狗粮",
-      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。"
     },
     "FDItemBlock:84": {
       "DisplayName": "马食",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 工作台合成。"
     },
     "FDItemBlock:85": {
       "DisplayName": "木碗",
@@ -358,15 +358,15 @@
     },
     "FDItemBlock:89": {
       "DisplayName": "胡萝卜",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:90": {
       "DisplayName": "马铃薯",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:91": {
       "DisplayName": "甜菜根",
-      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
+      "Description": "农夫乐事食材，可用于烹饪或合成。 工作台合成。"
     },
     "FDItemBlock:92": {
       "DisplayName": "小麦",
@@ -390,7 +390,7 @@
     },
     "FDItemBlock:97": {
       "DisplayName": "金粒",
-      "Description": "小金粒，用于合成。"
+      "Description": "小金粒，用于合成。 熔炉/烟熏产物。"
     },
     "FDItemBlock:98": {
       "DisplayName": "下界合金锭",
@@ -406,15 +406,15 @@
     },
     "FDItemBlock:101": {
       "DisplayName": "骨头",
-      "Description": "骨头，用于高汤等配方。"
+      "Description": "骨头，用于高汤等配方。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:102": {
       "DisplayName": "棕色蘑菇",
-      "Description": "棕色蘑菇，可食用或烹饪。"
+      "Description": "棕色蘑菇，可食用或烹饪。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:103": {
       "DisplayName": "红色蘑菇",
-      "Description": "红色蘑菇，可食用或烹饪。"
+      "Description": "红色蘑菇，可食用或烹饪。 切菜板产物：在切菜板上用刀切割获得。"
     },
     "FDItemBlock:104": {
       "DisplayName": "苹果",

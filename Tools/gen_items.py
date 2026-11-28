@@ -261,6 +261,43 @@ def main() -> None:
     en_blocks = {}
     zh_blocks = {}
 
+    def read_recipe(name: str):
+        path = os.path.join(OUT, "FD", name)
+        if not os.path.exists(path):
+            return []
+        return json.load(open(path, encoding="utf-8"))
+
+    cutting_inputs = {}
+    cutting_results = set()
+    for recipe in read_recipe("cutting.json"):
+        input_name = recipe.get("input")
+        outputs = [entry.get("name") for entry in recipe.get("results", []) if entry.get("name")]
+        if input_name:
+            cutting_inputs.setdefault(input_name, [])
+            for output in outputs:
+                if output not in cutting_inputs[input_name]:
+                    cutting_inputs[input_name].append(output)
+        cutting_results.update(outputs)
+    cooking_results = {recipe.get("result") for recipe in read_recipe("cooking.json") if recipe.get("result")}
+    smelting_results = {recipe.get("result") for recipe in read_recipe("smelting.json") if recipe.get("result")}
+    crafting_results = {recipe.get("result") for recipe in read_recipe("crafting.json") if recipe.get("result")}
+
+    def operation_hint(name: str, chinese: bool) -> str:
+        if name in cutting_inputs:
+            outputs = "、".join(cutting_inputs[name][:3]) if chinese else ", ".join(cutting_inputs[name][:3])
+            if chinese:
+                return f" 切菜板操作：右击切菜板放上，再持刀右击切割，产出 {outputs}。"
+            return f" Cutting board: right-click to place, then right-click with a knife to cut into {outputs}."
+        if name in cooking_results:
+            return " 烹饪锅产物：把食材放入点燃的炉灶上方的烹饪锅。" if chinese else " Cooking pot result: put the ingredients in a pot above a lit stove."
+        if name in cutting_results:
+            return " 切菜板产物：在切菜板上用刀切割获得。" if chinese else " Cutting board result: obtained by cutting on a board with a knife."
+        if name in smelting_results:
+            return " 熔炉/烟熏产物。" if chinese else " Furnace or smoker result."
+        if name in crafting_results:
+            return " 工作台合成。" if chinese else " Crafted at a workbench."
+        return ""
+
     def item_description(d, chinese: bool) -> str:
         name = d["name"]
         nut = d["nutrition"]
@@ -306,23 +343,30 @@ def main() -> None:
             "rotten_tomato": "腐烂的番茄，不太好吃。",
         }
         if name in special_en:
-            return special_zh[name] if chinese else special_en[name]
+            text = special_zh[name] if chinese else special_en[name]
+            return text + operation_hint(name, chinese)
         if kind == "knife":
             return "刀，用于切菜板切割食材，也可作为武器。" if chinese else "A knife for the cutting board; also a light weapon."
         if kind == "seed":
             return "种子。右击土壤或肥沃土壤种植，成熟后收获。" if chinese else "A seed. Right-click soil or rich soil to plant; harvest when mature."
         feast = {"roast_chicken", "stuffed_pumpkin", "honey_glazed_ham", "shepherds_pie", "gleaming_salad"}
         if name in feast:
-            return "盛宴的一份。右击盛宴方块取用。" if chinese else "A portion from a feast block. Right-click the feast to take one."
+            text = "盛宴的一份。右击盛宴方块取用。" if chinese else "A portion from a feast block. Right-click the feast to take one."
+            return text + operation_hint(name, chinese)
         if name.endswith("_slice"):
-            return "派或蛋糕的一片。可直接食用。" if chinese else "A slice of pie or cake. Can be eaten directly."
+            text = "派或蛋糕的一片。可直接食用。" if chinese else "A slice of pie or cake. Can be eaten directly."
+            return text + operation_hint(name, chinese)
         if any(k in name for k in ("juice", "cider", "cocoa", "milk_bottle")):
-            return "饮料，可直接饮用。" if chinese else "A drink. Can be consumed directly."
+            text = "饮料，可直接饮用。" if chinese else "A drink. Can be consumed directly."
+            return text + operation_hint(name, chinese)
         if nut > 0:
-            return f"食物：恢复约 {nut} 点饥饿值，可直接食用。" if chinese else f"Food: restores about {nut} hunger points. Can be eaten directly."
+            text = f"食物：恢复约 {nut} 点饥饿值，可直接食用。" if chinese else f"Food: restores about {nut} hunger points. Can be eaten directly."
+            return text + operation_hint(name, chinese)
         if any(k in name for k in ("raw_", "minced", "bacon", "chops", "slice", "fillet")):
-            return "生食材，可用于烹饪锅、煎锅或熔炉。" if chinese else "A raw ingredient for the cooking pot, skillet or furnace."
-        return "农夫乐事食材，可用于烹饪、切割或合成。" if chinese else "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+            text = "生食材，可用于烹饪锅、煎锅或熔炉。" if chinese else "A raw ingredient for the cooking pot, skillet or furnace."
+            return text + operation_hint(name, chinese)
+        text = "农夫乐事食材，可用于烹饪或合成。" if chinese else "A Farmer's Delight ingredient used in cooking or crafting."
+        return text + operation_hint(name, chinese)
 
     def block_description(cls: str, data: int, chinese: bool) -> str:
         if cls == "FDStoveBlock":

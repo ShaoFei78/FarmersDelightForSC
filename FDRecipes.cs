@@ -263,41 +263,9 @@ namespace Game {
                 AddHelpRecipe(recipes, Shape(entry.IngredientOptions), entry.ResultValue, entry.ResultCount, 1f, "FD smelting");
             }
 
-            int pot = BlocksManager.GetBlockIndex<FDCookingPotBlock>();
-            int board = BlocksManager.GetBlockIndex<FDCuttingBoardBlock>();
-            int knife = BlocksManager.GetBlockIndex<FDKnifeBlock>();
-            int potValue = pot >= 0 ? Terrain.MakeBlockValue(pot) : 0;
-            int boardValue = board >= 0 ? Terrain.MakeBlockValue(board) : 0;
-            int knifeValue = knife >= 0 ? Terrain.MakeBlockValue(knife, 0, 0) : 0;
-
-            foreach (FDCookingRecipe recipe in FDCookingRecipes.Recipes) {
-                if (potValue == 0 || recipe.IngredientOptions.Length == 0) {
-                    continue;
-                }
-                AddHelpRecipe(
-                    recipes,
-                    Shape([[potValue], recipe.IngredientOptions[0]]),
-                    recipe.ResultValue,
-                    recipe.ResultCount,
-                    1f,
-                    "FD cooking pot"
-                );
-            }
-            foreach (FDCuttingRecipe recipe in FDCuttingRecipes.Recipes) {
-                if (boardValue == 0 || knifeValue == 0) {
-                    continue;
-                }
-                for (int i = 0; i < recipe.Results.Length; i++) {
-                    AddHelpRecipe(
-                        recipes,
-                        Shape([[boardValue], [recipe.InputValue], [knifeValue]]),
-                        recipe.Results[i],
-                        recipe.Counts[i],
-                        1f,
-                        "FD cutting board"
-                    );
-                }
-            }
+            // Cooking pot and cutting board recipes are intentionally not added to
+            // the recipe book. They are workstation operations, not crafting-grid
+            // recipes; their instructions live in the item/block descriptions.
             AddExtraRecipes(recipes);
         }
 

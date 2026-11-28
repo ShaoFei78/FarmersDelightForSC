@@ -2,27 +2,27 @@
   "Blocks": {
     "FDItemBlock:0": {
       "DisplayName": "Straw",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:1": {
       "DisplayName": "Canvas",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:2": {
       "DisplayName": "Tree Bark",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:3": {
       "DisplayName": "Cabbage",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into cabbage_leaf."
     },
     "FDItemBlock:4": {
       "DisplayName": "Tomato",
-      "Description": "Food: restores about 1 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:5": {
       "DisplayName": "Rice Panicle",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board: right-click to place, then right-click with a knife to cut into rice, straw."
     },
     "FDItemBlock:6": {
       "DisplayName": "Rotten Tomato",
@@ -30,35 +30,35 @@
     },
     "FDItemBlock:7": {
       "DisplayName": "Fried Egg",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Furnace or smoker result."
     },
     "FDItemBlock:8": {
       "DisplayName": "Milk Bottle",
-      "Description": "A drink. Can be consumed directly."
+      "Description": "A drink. Can be consumed directly. Crafted at a workbench."
     },
     "FDItemBlock:9": {
       "DisplayName": "Hot Cocoa",
-      "Description": "A drink. Can be consumed directly."
+      "Description": "A drink. Can be consumed directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:10": {
       "DisplayName": "Apple Cider",
-      "Description": "A drink. Can be consumed directly."
+      "Description": "A drink. Can be consumed directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:11": {
       "DisplayName": "Melon Juice",
-      "Description": "A drink. Can be consumed directly."
+      "Description": "A drink. Can be consumed directly. Crafted at a workbench."
     },
     "FDItemBlock:12": {
       "DisplayName": "Tomato Sauce",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:13": {
       "DisplayName": "Wheat Dough",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into raw_pasta."
     },
     "FDItemBlock:14": {
       "DisplayName": "Raw Pasta",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:15": {
       "DisplayName": "Pumpkin Slice",
@@ -66,55 +66,55 @@
     },
     "FDItemBlock:16": {
       "DisplayName": "Cabbage Leaf",
-      "Description": "Food: restores about 1 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:17": {
       "DisplayName": "Minced Beef",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:18": {
       "DisplayName": "Beef Patty",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Furnace or smoker result."
     },
     "FDItemBlock:19": {
       "DisplayName": "Raw Chicken Cuts",
-      "Description": "Food: restores about 1 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:20": {
       "DisplayName": "Cooked Chicken Cuts",
-      "Description": "Food: restores about 3 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 3 hunger points. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:21": {
       "DisplayName": "Raw Bacon",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:22": {
       "DisplayName": "Cooked Bacon",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Furnace or smoker result."
     },
     "FDItemBlock:23": {
       "DisplayName": "Raw Cod Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:24": {
       "DisplayName": "Cooked Cod Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:25": {
       "DisplayName": "Raw Salmon Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:26": {
       "DisplayName": "Cooked Salmon Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:27": {
       "DisplayName": "Raw Mutton Chops",
-      "Description": "Food: restores about 1 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:28": {
       "DisplayName": "Cooked Mutton Chops",
-      "Description": "Food: restores about 3 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 3 hunger points. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:29": {
       "DisplayName": "Ham",
@@ -122,11 +122,11 @@
     },
     "FDItemBlock:30": {
       "DisplayName": "Smoked Ham",
-      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into cooked_beef, bone."
     },
     "FDItemBlock:31": {
       "DisplayName": "Pie Crust",
-      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:32": {
       "DisplayName": "Slice of Cake",
@@ -134,43 +134,43 @@
     },
     "FDItemBlock:33": {
       "DisplayName": "Slice of Apple Pie",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:34": {
       "DisplayName": "Slice of Sweet Berry Cheesecake",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:35": {
       "DisplayName": "Slice of Chocolate Pie",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:36": {
       "DisplayName": "Slice of Pumpkin Pie",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:37": {
       "DisplayName": "Sweet Berry Cookie",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Crafted at a workbench."
     },
     "FDItemBlock:38": {
       "DisplayName": "Honey Cookie",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Crafted at a workbench."
     },
     "FDItemBlock:39": {
       "DisplayName": "Melon Popsicle",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting."
     },
     "FDItemBlock:40": {
       "DisplayName": "Glow Berry Custard",
-      "Description": "Food: restores about 7 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 7 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:41": {
       "DisplayName": "Fruit Salad",
-      "Description": "Food: restores about 6 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 6 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:42": {
       "DisplayName": "Mixed Salad",
-      "Description": "Food: restores about 6 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 6 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:43": {
       "DisplayName": "Nether Salad",
@@ -178,139 +178,139 @@
     },
     "FDItemBlock:44": {
       "DisplayName": "Barbecue on a Stick",
-      "Description": "Food: restores about 8 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:45": {
       "DisplayName": "Egg Sandwich",
-      "Description": "Food: restores about 8 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:46": {
       "DisplayName": "Chicken Sandwich",
-      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:47": {
       "DisplayName": "Hamburger",
-      "Description": "Food: restores about 11 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 11 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:48": {
       "DisplayName": "Bacon Sandwich",
-      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:49": {
       "DisplayName": "Mutton Wrap",
-      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:50": {
       "DisplayName": "Dumplings",
-      "Description": "Food: restores about 8 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:51": {
       "DisplayName": "Stuffed Potato",
-      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:52": {
       "DisplayName": "Cabbage Rolls",
-      "Description": "Food: restores about 5 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 5 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:53": {
       "DisplayName": "Salmon Roll",
-      "Description": "Food: restores about 7 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 7 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:54": {
       "DisplayName": "Cod Roll",
-      "Description": "Food: restores about 7 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 7 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:55": {
       "DisplayName": "Kelp Roll",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cutting board: right-click to place, then right-click with a knife to cut into kelp_roll_slice."
     },
     "FDItemBlock:56": {
       "DisplayName": "Kelp Roll Slice",
-      "Description": "A slice of pie or cake. Can be eaten directly."
+      "Description": "A slice of pie or cake. Can be eaten directly. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:57": {
       "DisplayName": "Cooked Rice",
-      "Description": "Food: restores about 6 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 6 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:58": {
       "DisplayName": "Bone Broth",
-      "Description": "Food: restores about 8 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:59": {
       "DisplayName": "Beef Stew",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:60": {
       "DisplayName": "Chicken Soup",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:61": {
       "DisplayName": "Vegetable Soup",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:62": {
       "DisplayName": "Fish Stew",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:63": {
       "DisplayName": "Fried Rice",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:64": {
       "DisplayName": "Pumpkin Soup",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:65": {
       "DisplayName": "Baked Cod Stew",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:66": {
       "DisplayName": "Noodle Soup",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:67": {
       "DisplayName": "Onion Soup",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:68": {
       "DisplayName": "Bacon and Eggs",
-      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:69": {
       "DisplayName": "Pasta with Meatballs",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:70": {
       "DisplayName": "Pasta with Mutton Chop",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:71": {
       "DisplayName": "Mushroom Rice",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:72": {
       "DisplayName": "Roasted Mutton Chops",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:73": {
       "DisplayName": "Vegetable Noodles",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:74": {
       "DisplayName": "Steak and Potatoes",
-      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:75": {
       "DisplayName": "Ratatouille",
-      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:76": {
       "DisplayName": "Squid Ink Pasta",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:77": {
       "DisplayName": "Grilled Salmon",
-      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly. Crafted at a workbench."
     },
     "FDItemBlock:78": {
       "DisplayName": "Plate of Roast Chicken",
@@ -334,11 +334,11 @@
     },
     "FDItemBlock:83": {
       "DisplayName": "Dog Food",
-      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly. Cooking pot result: put the ingredients in a pot above a lit stove."
     },
     "FDItemBlock:84": {
       "DisplayName": "Horse Feed",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Crafted at a workbench."
     },
     "FDItemBlock:85": {
       "DisplayName": "Wooden Bowl",
@@ -358,15 +358,15 @@
     },
     "FDItemBlock:89": {
       "DisplayName": "Carrot",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:90": {
       "DisplayName": "Potato",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:91": {
       "DisplayName": "Beetroot",
-      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+      "Description": "A Farmer's Delight ingredient used in cooking or crafting. Crafted at a workbench."
     },
     "FDItemBlock:92": {
       "DisplayName": "Wheat",
@@ -390,7 +390,7 @@
     },
     "FDItemBlock:97": {
       "DisplayName": "Gold Nugget",
-      "Description": "A small gold nugget used in recipes."
+      "Description": "A small gold nugget used in recipes. Furnace or smoker result."
     },
     "FDItemBlock:98": {
       "DisplayName": "Netherite Ingot",
@@ -406,15 +406,15 @@
     },
     "FDItemBlock:101": {
       "DisplayName": "Bone",
-      "Description": "A bone used in broth and other recipes."
+      "Description": "A bone used in broth and other recipes. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:102": {
       "DisplayName": "Brown Mushroom",
-      "Description": "A brown mushroom. Eat it or use it in cooking."
+      "Description": "A brown mushroom. Eat it or use it in cooking. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:103": {
       "DisplayName": "Red Mushroom",
-      "Description": "A red mushroom. Eat it or use it in cooking."
+      "Description": "A red mushroom. Eat it or use it in cooking. Cutting board result: obtained by cutting on a board with a knife."
     },
     "FDItemBlock:104": {
       "DisplayName": "Apple",
