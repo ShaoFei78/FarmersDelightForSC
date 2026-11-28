@@ -494,11 +494,11 @@
     },
     "FDStoveBlock:0": {
       "DisplayName": "Stove",
-      "Description": "Stove. Light it with fuel to heat a cooking pot above."
+      "Description": "Stove only provides heat. Light it with fuel, place a cooking pot or skillet above it, then put food in the pot/skillet."
     },
     "FDStoveBlock:1": {
       "DisplayName": "Stove",
-      "Description": "Stove. Light it with fuel to heat a cooking pot above."
+      "Description": "Stove only provides heat. Light it with fuel, place a cooking pot or skillet above it, then put food in the pot/skillet."
     },
     "FDCookingPotBlock:0": {
       "DisplayName": "Cooking Pot",

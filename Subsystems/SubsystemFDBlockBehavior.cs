@@ -163,17 +163,32 @@ namespace Game {
                 Message(miner, "Stove lit. 炉灶已点燃。");
                 return true;
             }
-            if (lit && !fuel) {
-                SubsystemTerrain.ChangeCell(
-                    raycast.CellFace.X,
-                    raycast.CellFace.Y,
-                    raycast.CellFace.Z,
-                    Terrain.ReplaceData(value, data & ~1)
-                );
-                Message(miner, "Stove extinguished. 炉灶已熄灭。");
+            if (active == 0) {
+                if (lit) {
+                    SubsystemTerrain.ChangeCell(
+                        raycast.CellFace.X,
+                        raycast.CellFace.Y,
+                        raycast.CellFace.Z,
+                        Terrain.ReplaceData(value, data & ~1)
+                    );
+                    Message(miner, "Stove extinguished. 炉灶已熄灭。");
+                }
+                else {
+                    Message(miner, "Use fuel to light the stove. 手持燃料右击点燃炉灶。");
+                }
                 return true;
             }
-            Message(miner, "Use fuel to light the stove. 手持燃料右击点燃炉灶。");
+            // A placeable block (cooking pot, skillet, etc.) must fall through to
+            // normal placement instead of being swallowed by this interaction.
+            if (activeBlock.IsPlaceable_(active)) {
+                return false;
+            }
+            if (lit) {
+                Message(miner, "Stove only provides heat. Place a cooking pot or skillet above it first. 炉灶只提供热量，请先把烹饪锅或煎锅放在上方，再对锅放入食物。");
+            }
+            else {
+                Message(miner, "Light the stove with fuel first. 先手持燃料右击点燃炉灶。");
+            }
             return true;
         }
 

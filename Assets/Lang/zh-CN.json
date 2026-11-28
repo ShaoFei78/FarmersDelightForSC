@@ -494,11 +494,11 @@
     },
     "FDStoveBlock:0": {
       "DisplayName": "炉灶",
-      "Description": "炉灶。手持燃料右击点燃，可为上方的烹饪锅供热。"
+      "Description": "炉灶只提供热量。手持燃料右击点燃；把烹饪锅或煎锅放在上方，再对锅或煎锅放入食物。"
     },
     "FDStoveBlock:1": {
       "DisplayName": "炉灶",
-      "Description": "炉灶。手持燃料右击点燃，可为上方的烹饪锅供热。"
+      "Description": "炉灶只提供热量。手持燃料右击点燃；把烹饪锅或煎锅放在上方，再对锅或煎锅放入食物。"
     },
     "FDCookingPotBlock:0": {
       "DisplayName": "厨锅",

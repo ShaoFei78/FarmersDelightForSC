@@ -435,7 +435,7 @@ def main() -> None:
 
     def block_description(cls: str, data: int, chinese: bool) -> str:
         if cls == "FDStoveBlock":
-            return "炉灶。手持燃料右击点燃，可为上方的烹饪锅供热。" if chinese else "Stove. Light it with fuel to heat a cooking pot above."
+            return "炉灶只提供热量。手持燃料右击点燃；把烹饪锅或煎锅放在上方，再对锅或煎锅放入食物。" if chinese else "Stove only provides heat. Light it with fuel, place a cooking pot or skillet above it, then put food in the pot/skillet."
         if cls == "FDCookingPotBlock":
             return "烹饪锅。放在点燃的炉灶上，右击打开烹饪界面。" if chinese else "Cooking pot. Place on a lit stove, then right-click to open the cooking GUI."
         if cls == "FDSkilletBlock":
