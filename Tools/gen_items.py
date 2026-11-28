@@ -260,27 +260,149 @@ def main() -> None:
     zh = load_json(os.path.join(ASSETS, "lang", "zh_cn.json"))
     en_blocks = {}
     zh_blocks = {}
+
+    def item_description(d, chinese: bool) -> str:
+        name = d["name"]
+        nut = d["nutrition"]
+        kind = d["kind"]
+        special_en = {
+            "bowl": "A wooden bowl for soups, stews and salads.",
+            "glass_bottle": "A glass bottle for juices and drinks.",
+            "sugar": "Sugar used in desserts and drinks.",
+            "cocoa_beans": "Cocoa beans used in chocolate desserts.",
+            "wheat": "Wheat used for dough, pies and cookies.",
+            "sweet_berries": "Sweet berries. Eat them or use them in desserts.",
+            "glow_berries": "Glow berries. Eat them or use them in desserts.",
+            "honey_bottle": "A bottle of honey for sweet recipes.",
+            "gold_ingot": "A gold ingot used for advanced recipes.",
+            "gold_nugget": "A small gold nugget used in recipes.",
+            "netherite_ingot": "A netherite ingot used for advanced recipes.",
+            "kelp": "Kelp. Dry it or use it in cooking.",
+            "dried_kelp": "Dried kelp. A cooking ingredient.",
+            "bone": "A bone used in broth and other recipes.",
+            "apple": "An apple. Eat it or use it in desserts.",
+            "brown_mushroom": "A brown mushroom. Eat it or use it in cooking.",
+            "red_mushroom": "A red mushroom. Eat it or use it in cooking.",
+            "rotten_tomato": "A rotten tomato. Not very appetizing.",
+        }
+        special_zh = {
+            "bowl": "木碗，用于盛放汤、炖菜和沙拉。",
+            "glass_bottle": "玻璃瓶，用于装果汁和饮料。",
+            "sugar": "糖，用于甜点和饮料。",
+            "cocoa_beans": "可可豆，用于巧克力甜点。",
+            "wheat": "小麦，用于制作面团、派和饼干。",
+            "sweet_berries": "甜浆果，可直接食用或制作甜点。",
+            "glow_berries": "发光浆果，可直接食用或制作甜点。",
+            "honey_bottle": "蜂蜜瓶，用于甜味配方。",
+            "gold_ingot": "金锭，用于高级配方。",
+            "gold_nugget": "小金粒，用于合成。",
+            "netherite_ingot": "下界合金锭，用于高级配方。",
+            "kelp": "海带，可烘干或用于烹饪。",
+            "dried_kelp": "干海带，烹饪食材。",
+            "bone": "骨头，用于高汤等配方。",
+            "apple": "苹果，可直接食用或制作甜点。",
+            "brown_mushroom": "棕色蘑菇，可食用或烹饪。",
+            "red_mushroom": "红色蘑菇，可食用或烹饪。",
+            "rotten_tomato": "腐烂的番茄，不太好吃。",
+        }
+        if name in special_en:
+            return special_zh[name] if chinese else special_en[name]
+        if kind == "knife":
+            return "刀，用于切菜板切割食材，也可作为武器。" if chinese else "A knife for the cutting board; also a light weapon."
+        if kind == "seed":
+            return "种子。右击土壤或肥沃土壤种植，成熟后收获。" if chinese else "A seed. Right-click soil or rich soil to plant; harvest when mature."
+        feast = {"roast_chicken", "stuffed_pumpkin", "honey_glazed_ham", "shepherds_pie", "gleaming_salad"}
+        if name in feast:
+            return "盛宴的一份。右击盛宴方块取用。" if chinese else "A portion from a feast block. Right-click the feast to take one."
+        if name.endswith("_slice"):
+            return "派或蛋糕的一片。可直接食用。" if chinese else "A slice of pie or cake. Can be eaten directly."
+        if any(k in name for k in ("juice", "cider", "cocoa", "milk_bottle")):
+            return "饮料，可直接饮用。" if chinese else "A drink. Can be consumed directly."
+        if nut > 0:
+            return f"食物：恢复约 {nut} 点饥饿值，可直接食用。" if chinese else f"Food: restores about {nut} hunger points. Can be eaten directly."
+        if any(k in name for k in ("raw_", "minced", "bacon", "chops", "slice", "fillet")):
+            return "生食材，可用于烹饪锅、煎锅或熔炉。" if chinese else "A raw ingredient for the cooking pot, skillet or furnace."
+        return "农夫乐事食材，可用于烹饪、切割或合成。" if chinese else "A Farmer's Delight ingredient used in cooking, cutting or crafting."
+
+    def block_description(cls: str, data: int, chinese: bool) -> str:
+        if cls == "FDStoveBlock":
+            return "炉灶。手持燃料右击点燃，可为上方的烹饪锅供热。" if chinese else "Stove. Light it with fuel to heat a cooking pot above."
+        if cls == "FDCookingPotBlock":
+            return "烹饪锅。放在点燃的炉灶上，右击打开烹饪界面。" if chinese else "Cooking pot. Place on a lit stove, then right-click to open the cooking GUI."
+        if cls == "FDSkilletBlock":
+            return "煎锅。放在热源上方，手持可煎食材右击。" if chinese else "Skillet. Place above heat, then right-click with cookable food."
+        if cls == "FDCuttingBoardBlock":
+            return "切菜板。先右击放食材，再手持刀右击切割。" if chinese else "Cutting board. Place food, then right-click with a knife."
+        if cls == "FDBasketBlock":
+            return "篮子。右击打开 27 格储物空间。" if chinese else "Basket. Right-click to open 27 storage slots."
+        if cls == "FDCabinetBlock":
+            return "橱柜。右击打开 27 格储物空间。" if chinese else "Cabinet. Right-click to open 27 storage slots."
+        if cls == "FDCrateBlock":
+            return "作物箱，装饰性储物方块。" if chinese else "A decorative crop crate."
+        if cls == "FDBaleBlock":
+            return "草捆/米袋，装饰性方块。" if chinese else "A decorative bale or rice bag."
+        if cls == "FDRopeBlock":
+            return "绳索装饰方块。" if chinese else "A decorative rope block."
+        if cls == "FDSafetyNetBlock":
+            return "安全网装饰方块。" if chinese else "A decorative safety net."
+        if cls == "FDRopeFenceBlock":
+            return "绳栅栏装饰方块。" if chinese else "A decorative rope fence."
+        if cls == "FDRopeFenceGateBlock":
+            return "绳栅栏门装饰方块。" if chinese else "A decorative rope fence gate."
+        if cls == "FDTatamiBlock":
+            return "榻榻米垫，装饰方块。" if chinese else "A tatami mat decoration."
+        if cls == "FDCanvasRugBlock":
+            return "帆布地毯，装饰方块。" if chinese else "A canvas rug decoration."
+        if cls == "FDOrganicCompostBlock":
+            return "有机堆肥，土壤装饰方块。" if chinese else "Organic compost, a soil decoration."
+        if cls == "FDRichSoilBlock":
+            return "肥沃土壤，作物生长更快。" if chinese else "Rich soil; crops grow faster."
+        if cls == "FDRichSoilFarmlandBlock":
+            return "肥沃耕地，作物生长更快。" if chinese else "Rich farmland; crops grow faster."
+        if cls == "FDMushroomColonyBlock":
+            return "蘑菇菌落，会逐渐生长。" if chinese else "A mushroom colony that grows over time."
+        if cls == "FDCropBlock":
+            names = ["卷心菜", "洋葱", "番茄", "水稻"]
+            en_names = ["cabbage", "onion", "tomato", "rice"]
+            t = (data >> 4) & 3
+            return f"{names[t]}作物。成熟后收获产物和种子。" if chinese else f"{en_names[t].title()} crop. Harvest when mature for produce and seeds."
+        if cls == "FDWildCropBlock":
+            return "野生作物。破坏后获得产物和种子。" if chinese else "A wild crop. Break it for produce and seeds."
+        if cls == "FDSandyShrubBlock":
+            return "沙生灌木，装饰植物。" if chinese else "A sandy shrub decoration."
+        if cls == "FDPieBlock":
+            return "派。右击取用一片。" if chinese else "Pie. Right-click to take a slice."
+        if cls == "FDFeastBlock":
+            return "盛宴。右击取用一份。" if chinese else "Feast. Right-click to take a portion."
+        if cls == "FDCanvasSignBlock":
+            return "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。" if chinese else "A canvas sign in 17 colors with standing, wall and hanging mounts."
+        if cls == "FDSeedItemBlock":
+            return "种子。右击土壤或肥沃土壤种植。" if chinese else "A seed. Right-click soil or rich soil to plant."
+        if cls == "FDKnifeBlock":
+            return "刀。用于切菜板切割食材，也可作为武器。" if chinese else "A knife for the cutting board; also a light weapon."
+        return "农夫乐事方块。" if chinese else "A Farmer's Delight block."
+
     for d in defs:
         name = d["name"]
         en_name = en.get(f"item.farmersdelight.{name}") or en.get(f"block.farmersdelight.{name}") or name.replace("_", " ").title()
         zh_name = zh.get(f"item.farmersdelight.{name}") or zh.get(f"block.farmersdelight.{name}") or en_name
-        en_blocks[f"FDItemBlock:{d['index']}"] = {"DisplayName": en_name}
-        zh_blocks[f"FDItemBlock:{d['index']}"] = {"DisplayName": zh_name}
+        en_blocks[f"FDItemBlock:{d['index']}"] = {"DisplayName": en_name, "Description": item_description(d, False)}
+        zh_blocks[f"FDItemBlock:{d['index']}"] = {"DisplayName": zh_name, "Description": item_description(d, True)}
     # A few overrides for generated staples.
     for name, (en_name, zh_name, _) in STAPLES.items():
         for d in defs:
             if d["name"] == name:
-                en_blocks[f"FDItemBlock:{d['index']}"] = {"DisplayName": en_name}
-                zh_blocks[f"FDItemBlock:{d['index']}"] = {"DisplayName": zh_name}
+                en_blocks[f"FDItemBlock:{d['index']}"] = {"DisplayName": en_name, "Description": item_description(d, False)}
+                zh_blocks[f"FDItemBlock:{d['index']}"] = {"DisplayName": zh_name, "Description": item_description(d, True)}
 
     seed_order = ["cabbage_seeds", "tomato_seeds", "onion", "rice"]
     knife_order = ["flint_knife", "iron_knife", "golden_knife", "diamond_knife", "netherite_knife"]
     for i, name in enumerate(seed_order):
-        en_blocks[f"FDSeedItemBlock:{i}"] = {"DisplayName": en.get(f"item.farmersdelight.{name}", name.replace("_", " ").title())}
-        zh_blocks[f"FDSeedItemBlock:{i}"] = {"DisplayName": zh.get(f"item.farmersdelight.{name}", en_blocks[f"FDSeedItemBlock:{i}"]["DisplayName"])}
+        en_blocks[f"FDSeedItemBlock:{i}"] = {"DisplayName": en.get(f"item.farmersdelight.{name}", name.replace("_", " ").title()), "Description": "Seed. Right-click soil or rich soil to plant."}
+        zh_blocks[f"FDSeedItemBlock:{i}"] = {"DisplayName": zh.get(f"item.farmersdelight.{name}", en_blocks[f"FDSeedItemBlock:{i}"]["DisplayName"]), "Description": "种子。右击土壤或肥沃土壤种植。"}
     for i, name in enumerate(knife_order):
-        en_blocks[f"FDKnifeBlock:{i}"] = {"DisplayName": en.get(f"item.farmersdelight.{name}", name.replace("_", " ").title())}
-        zh_blocks[f"FDKnifeBlock:{i}"] = {"DisplayName": zh.get(f"item.farmersdelight.{name}", en_blocks[f"FDKnifeBlock:{i}"]["DisplayName"])}
+        en_blocks[f"FDKnifeBlock:{i}"] = {"DisplayName": en.get(f"item.farmersdelight.{name}", name.replace("_", " ").title()), "Description": "A knife for the cutting board; also a light weapon."}
+        zh_blocks[f"FDKnifeBlock:{i}"] = {"DisplayName": zh.get(f"item.farmersdelight.{name}", en_blocks[f"FDKnifeBlock:{i}"]["DisplayName"]), "Description": "刀。用于切菜板切割食材，也可作为武器。"}
 
     def block_name(cls: str, data: int) -> str | None:
         if cls == "FDStoveBlock": return "stove"
@@ -338,8 +460,8 @@ def main() -> None:
                 continue
             en_name = en.get(f"block.farmersdelight.{name}") or name.replace("_", " ").title()
             zh_name = zh.get(f"block.farmersdelight.{name}") or en_name
-            en_blocks[f"{cls}:{data}"] = {"DisplayName": en_name}
-            zh_blocks[f"{cls}:{data}"] = {"DisplayName": zh_name}
+            en_blocks[f"{cls}:{data}"] = {"DisplayName": en_name, "Description": block_description(cls, data, False)}
+            zh_blocks[f"{cls}:{data}"] = {"DisplayName": zh_name, "Description": block_description(cls, data, True)}
 
     en_data = {"Blocks": en_blocks, "ContentWidgets": {
         "FDCookingPotWidget": {"1": "Cooking Pot", "2": "Inventory", "3": "Container"},

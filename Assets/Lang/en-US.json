@@ -1,697 +1,928 @@
 {
   "Blocks": {
     "FDItemBlock:0": {
-      "DisplayName": "Straw"
+      "DisplayName": "Straw",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:1": {
-      "DisplayName": "Canvas"
+      "DisplayName": "Canvas",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:2": {
-      "DisplayName": "Tree Bark"
+      "DisplayName": "Tree Bark",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:3": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
     },
     "FDItemBlock:4": {
-      "DisplayName": "Tomato"
+      "DisplayName": "Tomato",
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly."
     },
     "FDItemBlock:5": {
-      "DisplayName": "Rice Panicle"
+      "DisplayName": "Rice Panicle",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:6": {
-      "DisplayName": "Rotten Tomato"
+      "DisplayName": "Rotten Tomato",
+      "Description": "A rotten tomato. Not very appetizing."
     },
     "FDItemBlock:7": {
-      "DisplayName": "Fried Egg"
+      "DisplayName": "Fried Egg",
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
     },
     "FDItemBlock:8": {
-      "DisplayName": "Milk Bottle"
+      "DisplayName": "Milk Bottle",
+      "Description": "A drink. Can be consumed directly."
     },
     "FDItemBlock:9": {
-      "DisplayName": "Hot Cocoa"
+      "DisplayName": "Hot Cocoa",
+      "Description": "A drink. Can be consumed directly."
     },
     "FDItemBlock:10": {
-      "DisplayName": "Apple Cider"
+      "DisplayName": "Apple Cider",
+      "Description": "A drink. Can be consumed directly."
     },
     "FDItemBlock:11": {
-      "DisplayName": "Melon Juice"
+      "DisplayName": "Melon Juice",
+      "Description": "A drink. Can be consumed directly."
     },
     "FDItemBlock:12": {
-      "DisplayName": "Tomato Sauce"
+      "DisplayName": "Tomato Sauce",
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
     },
     "FDItemBlock:13": {
-      "DisplayName": "Wheat Dough"
+      "DisplayName": "Wheat Dough",
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
     },
     "FDItemBlock:14": {
-      "DisplayName": "Raw Pasta"
+      "DisplayName": "Raw Pasta",
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
     },
     "FDItemBlock:15": {
-      "DisplayName": "Pumpkin Slice"
+      "DisplayName": "Pumpkin Slice",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:16": {
-      "DisplayName": "Cabbage Leaf"
+      "DisplayName": "Cabbage Leaf",
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly."
     },
     "FDItemBlock:17": {
-      "DisplayName": "Minced Beef"
+      "DisplayName": "Minced Beef",
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
     },
     "FDItemBlock:18": {
-      "DisplayName": "Beef Patty"
+      "DisplayName": "Beef Patty",
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
     },
     "FDItemBlock:19": {
-      "DisplayName": "Raw Chicken Cuts"
+      "DisplayName": "Raw Chicken Cuts",
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly."
     },
     "FDItemBlock:20": {
-      "DisplayName": "Cooked Chicken Cuts"
+      "DisplayName": "Cooked Chicken Cuts",
+      "Description": "Food: restores about 3 hunger points. Can be eaten directly."
     },
     "FDItemBlock:21": {
-      "DisplayName": "Raw Bacon"
+      "DisplayName": "Raw Bacon",
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
     },
     "FDItemBlock:22": {
-      "DisplayName": "Cooked Bacon"
+      "DisplayName": "Cooked Bacon",
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
     },
     "FDItemBlock:23": {
-      "DisplayName": "Raw Cod Slice"
+      "DisplayName": "Raw Cod Slice",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:24": {
-      "DisplayName": "Cooked Cod Slice"
+      "DisplayName": "Cooked Cod Slice",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:25": {
-      "DisplayName": "Raw Salmon Slice"
+      "DisplayName": "Raw Salmon Slice",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:26": {
-      "DisplayName": "Cooked Salmon Slice"
+      "DisplayName": "Cooked Salmon Slice",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:27": {
-      "DisplayName": "Raw Mutton Chops"
+      "DisplayName": "Raw Mutton Chops",
+      "Description": "Food: restores about 1 hunger points. Can be eaten directly."
     },
     "FDItemBlock:28": {
-      "DisplayName": "Cooked Mutton Chops"
+      "DisplayName": "Cooked Mutton Chops",
+      "Description": "Food: restores about 3 hunger points. Can be eaten directly."
     },
     "FDItemBlock:29": {
-      "DisplayName": "Ham"
+      "DisplayName": "Ham",
+      "Description": "Food: restores about 5 hunger points. Can be eaten directly."
     },
     "FDItemBlock:30": {
-      "DisplayName": "Smoked Ham"
+      "DisplayName": "Smoked Ham",
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
     },
     "FDItemBlock:31": {
-      "DisplayName": "Pie Crust"
+      "DisplayName": "Pie Crust",
+      "Description": "Food: restores about 2 hunger points. Can be eaten directly."
     },
     "FDItemBlock:32": {
-      "DisplayName": "Slice of Cake"
+      "DisplayName": "Slice of Cake",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:33": {
-      "DisplayName": "Slice of Apple Pie"
+      "DisplayName": "Slice of Apple Pie",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:34": {
-      "DisplayName": "Slice of Sweet Berry Cheesecake"
+      "DisplayName": "Slice of Sweet Berry Cheesecake",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:35": {
-      "DisplayName": "Slice of Chocolate Pie"
+      "DisplayName": "Slice of Chocolate Pie",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:36": {
-      "DisplayName": "Slice of Pumpkin Pie"
+      "DisplayName": "Slice of Pumpkin Pie",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:37": {
-      "DisplayName": "Sweet Berry Cookie"
+      "DisplayName": "Sweet Berry Cookie",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:38": {
-      "DisplayName": "Honey Cookie"
+      "DisplayName": "Honey Cookie",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:39": {
-      "DisplayName": "Melon Popsicle"
+      "DisplayName": "Melon Popsicle",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:40": {
-      "DisplayName": "Glow Berry Custard"
+      "DisplayName": "Glow Berry Custard",
+      "Description": "Food: restores about 7 hunger points. Can be eaten directly."
     },
     "FDItemBlock:41": {
-      "DisplayName": "Fruit Salad"
+      "DisplayName": "Fruit Salad",
+      "Description": "Food: restores about 6 hunger points. Can be eaten directly."
     },
     "FDItemBlock:42": {
-      "DisplayName": "Mixed Salad"
+      "DisplayName": "Mixed Salad",
+      "Description": "Food: restores about 6 hunger points. Can be eaten directly."
     },
     "FDItemBlock:43": {
-      "DisplayName": "Nether Salad"
+      "DisplayName": "Nether Salad",
+      "Description": "Food: restores about 5 hunger points. Can be eaten directly."
     },
     "FDItemBlock:44": {
-      "DisplayName": "Barbecue on a Stick"
+      "DisplayName": "Barbecue on a Stick",
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly."
     },
     "FDItemBlock:45": {
-      "DisplayName": "Egg Sandwich"
+      "DisplayName": "Egg Sandwich",
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly."
     },
     "FDItemBlock:46": {
-      "DisplayName": "Chicken Sandwich"
+      "DisplayName": "Chicken Sandwich",
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
     },
     "FDItemBlock:47": {
-      "DisplayName": "Hamburger"
+      "DisplayName": "Hamburger",
+      "Description": "Food: restores about 11 hunger points. Can be eaten directly."
     },
     "FDItemBlock:48": {
-      "DisplayName": "Bacon Sandwich"
+      "DisplayName": "Bacon Sandwich",
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
     },
     "FDItemBlock:49": {
-      "DisplayName": "Mutton Wrap"
+      "DisplayName": "Mutton Wrap",
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
     },
     "FDItemBlock:50": {
-      "DisplayName": "Dumplings"
+      "DisplayName": "Dumplings",
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly."
     },
     "FDItemBlock:51": {
-      "DisplayName": "Stuffed Potato"
+      "DisplayName": "Stuffed Potato",
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
     },
     "FDItemBlock:52": {
-      "DisplayName": "Cabbage Rolls"
+      "DisplayName": "Cabbage Rolls",
+      "Description": "Food: restores about 5 hunger points. Can be eaten directly."
     },
     "FDItemBlock:53": {
-      "DisplayName": "Salmon Roll"
+      "DisplayName": "Salmon Roll",
+      "Description": "Food: restores about 7 hunger points. Can be eaten directly."
     },
     "FDItemBlock:54": {
-      "DisplayName": "Cod Roll"
+      "DisplayName": "Cod Roll",
+      "Description": "Food: restores about 7 hunger points. Can be eaten directly."
     },
     "FDItemBlock:55": {
-      "DisplayName": "Kelp Roll"
+      "DisplayName": "Kelp Roll",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:56": {
-      "DisplayName": "Kelp Roll Slice"
+      "DisplayName": "Kelp Roll Slice",
+      "Description": "A slice of pie or cake. Can be eaten directly."
     },
     "FDItemBlock:57": {
-      "DisplayName": "Cooked Rice"
+      "DisplayName": "Cooked Rice",
+      "Description": "Food: restores about 6 hunger points. Can be eaten directly."
     },
     "FDItemBlock:58": {
-      "DisplayName": "Bone Broth"
+      "DisplayName": "Bone Broth",
+      "Description": "Food: restores about 8 hunger points. Can be eaten directly."
     },
     "FDItemBlock:59": {
-      "DisplayName": "Beef Stew"
+      "DisplayName": "Beef Stew",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:60": {
-      "DisplayName": "Chicken Soup"
+      "DisplayName": "Chicken Soup",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:61": {
-      "DisplayName": "Vegetable Soup"
+      "DisplayName": "Vegetable Soup",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:62": {
-      "DisplayName": "Fish Stew"
+      "DisplayName": "Fish Stew",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:63": {
-      "DisplayName": "Fried Rice"
+      "DisplayName": "Fried Rice",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:64": {
-      "DisplayName": "Pumpkin Soup"
+      "DisplayName": "Pumpkin Soup",
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
     },
     "FDItemBlock:65": {
-      "DisplayName": "Baked Cod Stew"
+      "DisplayName": "Baked Cod Stew",
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
     },
     "FDItemBlock:66": {
-      "DisplayName": "Noodle Soup"
+      "DisplayName": "Noodle Soup",
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
     },
     "FDItemBlock:67": {
-      "DisplayName": "Onion Soup"
+      "DisplayName": "Onion Soup",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:68": {
-      "DisplayName": "Bacon and Eggs"
+      "DisplayName": "Bacon and Eggs",
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
     },
     "FDItemBlock:69": {
-      "DisplayName": "Pasta with Meatballs"
+      "DisplayName": "Pasta with Meatballs",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:70": {
-      "DisplayName": "Pasta with Mutton Chop"
+      "DisplayName": "Pasta with Mutton Chop",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:71": {
-      "DisplayName": "Mushroom Rice"
+      "DisplayName": "Mushroom Rice",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:72": {
-      "DisplayName": "Roasted Mutton Chops"
+      "DisplayName": "Roasted Mutton Chops",
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
     },
     "FDItemBlock:73": {
-      "DisplayName": "Vegetable Noodles"
+      "DisplayName": "Vegetable Noodles",
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
     },
     "FDItemBlock:74": {
-      "DisplayName": "Steak and Potatoes"
+      "DisplayName": "Steak and Potatoes",
+      "Description": "Food: restores about 12 hunger points. Can be eaten directly."
     },
     "FDItemBlock:75": {
-      "DisplayName": "Ratatouille"
+      "DisplayName": "Ratatouille",
+      "Description": "Food: restores about 10 hunger points. Can be eaten directly."
     },
     "FDItemBlock:76": {
-      "DisplayName": "Squid Ink Pasta"
+      "DisplayName": "Squid Ink Pasta",
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
     },
     "FDItemBlock:77": {
-      "DisplayName": "Grilled Salmon"
+      "DisplayName": "Grilled Salmon",
+      "Description": "Food: restores about 14 hunger points. Can be eaten directly."
     },
     "FDItemBlock:78": {
-      "DisplayName": "Plate of Roast Chicken"
+      "DisplayName": "Plate of Roast Chicken",
+      "Description": "A portion from a feast block. Right-click the feast to take one."
     },
     "FDItemBlock:79": {
-      "DisplayName": "Bowl of Stuffed Pumpkin"
+      "DisplayName": "Bowl of Stuffed Pumpkin",
+      "Description": "A portion from a feast block. Right-click the feast to take one."
     },
     "FDItemBlock:80": {
-      "DisplayName": "Plate of Honey Glazed Ham"
+      "DisplayName": "Plate of Honey Glazed Ham",
+      "Description": "A portion from a feast block. Right-click the feast to take one."
     },
     "FDItemBlock:81": {
-      "DisplayName": "Plate of Shepherd's Pie"
+      "DisplayName": "Plate of Shepherd's Pie",
+      "Description": "A portion from a feast block. Right-click the feast to take one."
     },
     "FDItemBlock:82": {
-      "DisplayName": "Bowl of Gleaming Salad"
+      "DisplayName": "Bowl of Gleaming Salad",
+      "Description": "A portion from a feast block. Right-click the feast to take one."
     },
     "FDItemBlock:83": {
-      "DisplayName": "Dog Food"
+      "DisplayName": "Dog Food",
+      "Description": "Food: restores about 4 hunger points. Can be eaten directly."
     },
     "FDItemBlock:84": {
-      "DisplayName": "Horse Feed"
+      "DisplayName": "Horse Feed",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:85": {
-      "DisplayName": "Wooden Bowl"
+      "DisplayName": "Wooden Bowl",
+      "Description": "A wooden bowl for soups, stews and salads."
     },
     "FDItemBlock:86": {
-      "DisplayName": "Glass Bottle"
+      "DisplayName": "Glass Bottle",
+      "Description": "A glass bottle for juices and drinks."
     },
     "FDItemBlock:87": {
-      "DisplayName": "Sugar"
+      "DisplayName": "Sugar",
+      "Description": "Sugar used in desserts and drinks."
     },
     "FDItemBlock:88": {
-      "DisplayName": "Cocoa Beans"
+      "DisplayName": "Cocoa Beans",
+      "Description": "Cocoa beans used in chocolate desserts."
     },
     "FDItemBlock:89": {
-      "DisplayName": "Carrot"
+      "DisplayName": "Carrot",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:90": {
-      "DisplayName": "Potato"
+      "DisplayName": "Potato",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:91": {
-      "DisplayName": "Beetroot"
+      "DisplayName": "Beetroot",
+      "Description": "A Farmer's Delight ingredient used in cooking, cutting or crafting."
     },
     "FDItemBlock:92": {
-      "DisplayName": "Wheat"
+      "DisplayName": "Wheat",
+      "Description": "Wheat used for dough, pies and cookies."
     },
     "FDItemBlock:93": {
-      "DisplayName": "Sweet Berries"
+      "DisplayName": "Sweet Berries",
+      "Description": "Sweet berries. Eat them or use them in desserts."
     },
     "FDItemBlock:94": {
-      "DisplayName": "Glow Berries"
+      "DisplayName": "Glow Berries",
+      "Description": "Glow berries. Eat them or use them in desserts."
     },
     "FDItemBlock:95": {
-      "DisplayName": "Honey Bottle"
+      "DisplayName": "Honey Bottle",
+      "Description": "A bottle of honey for sweet recipes."
     },
     "FDItemBlock:96": {
-      "DisplayName": "Gold Ingot"
+      "DisplayName": "Gold Ingot",
+      "Description": "A gold ingot used for advanced recipes."
     },
     "FDItemBlock:97": {
-      "DisplayName": "Gold Nugget"
+      "DisplayName": "Gold Nugget",
+      "Description": "A small gold nugget used in recipes."
     },
     "FDItemBlock:98": {
-      "DisplayName": "Netherite Ingot"
+      "DisplayName": "Netherite Ingot",
+      "Description": "A netherite ingot used for advanced recipes."
     },
     "FDItemBlock:99": {
-      "DisplayName": "Kelp"
+      "DisplayName": "Kelp",
+      "Description": "Kelp. Dry it or use it in cooking."
     },
     "FDItemBlock:100": {
-      "DisplayName": "Dried Kelp"
+      "DisplayName": "Dried Kelp",
+      "Description": "Dried kelp. A cooking ingredient."
     },
     "FDItemBlock:101": {
-      "DisplayName": "Bone"
+      "DisplayName": "Bone",
+      "Description": "A bone used in broth and other recipes."
     },
     "FDItemBlock:102": {
-      "DisplayName": "Brown Mushroom"
+      "DisplayName": "Brown Mushroom",
+      "Description": "A brown mushroom. Eat it or use it in cooking."
     },
     "FDItemBlock:103": {
-      "DisplayName": "Red Mushroom"
+      "DisplayName": "Red Mushroom",
+      "Description": "A red mushroom. Eat it or use it in cooking."
     },
     "FDItemBlock:104": {
-      "DisplayName": "Apple"
+      "DisplayName": "Apple",
+      "Description": "An apple. Eat it or use it in desserts."
     },
     "FDItemBlock:105": {
-      "DisplayName": "Cabbage Seeds"
+      "DisplayName": "Cabbage Seeds",
+      "Description": "A seed. Right-click soil or rich soil to plant; harvest when mature."
     },
     "FDItemBlock:106": {
-      "DisplayName": "Tomato Seeds"
+      "DisplayName": "Tomato Seeds",
+      "Description": "A seed. Right-click soil or rich soil to plant; harvest when mature."
     },
     "FDItemBlock:107": {
-      "DisplayName": "Onion"
+      "DisplayName": "Onion",
+      "Description": "A seed. Right-click soil or rich soil to plant; harvest when mature."
     },
     "FDItemBlock:108": {
-      "DisplayName": "Rice"
+      "DisplayName": "Rice",
+      "Description": "A seed. Right-click soil or rich soil to plant; harvest when mature."
     },
     "FDItemBlock:109": {
-      "DisplayName": "Flint Knife"
+      "DisplayName": "Flint Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDItemBlock:110": {
-      "DisplayName": "Iron Knife"
+      "DisplayName": "Iron Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDItemBlock:111": {
-      "DisplayName": "Golden Knife"
+      "DisplayName": "Golden Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDItemBlock:112": {
-      "DisplayName": "Diamond Knife"
+      "DisplayName": "Diamond Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDItemBlock:113": {
-      "DisplayName": "Netherite Knife"
+      "DisplayName": "Netherite Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDSeedItemBlock:0": {
-      "DisplayName": "Cabbage Seeds"
+      "DisplayName": "Cabbage Seeds",
+      "Description": "Seed. Right-click soil or rich soil to plant."
     },
     "FDSeedItemBlock:1": {
-      "DisplayName": "Tomato Seeds"
+      "DisplayName": "Tomato Seeds",
+      "Description": "Seed. Right-click soil or rich soil to plant."
     },
     "FDSeedItemBlock:2": {
-      "DisplayName": "Onion"
+      "DisplayName": "Onion",
+      "Description": "Seed. Right-click soil or rich soil to plant."
     },
     "FDSeedItemBlock:3": {
-      "DisplayName": "Rice"
+      "DisplayName": "Rice",
+      "Description": "Seed. Right-click soil or rich soil to plant."
     },
     "FDKnifeBlock:0": {
-      "DisplayName": "Flint Knife"
+      "DisplayName": "Flint Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDKnifeBlock:1": {
-      "DisplayName": "Iron Knife"
+      "DisplayName": "Iron Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDKnifeBlock:2": {
-      "DisplayName": "Golden Knife"
+      "DisplayName": "Golden Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDKnifeBlock:3": {
-      "DisplayName": "Diamond Knife"
+      "DisplayName": "Diamond Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDKnifeBlock:4": {
-      "DisplayName": "Netherite Knife"
+      "DisplayName": "Netherite Knife",
+      "Description": "A knife for the cutting board; also a light weapon."
     },
     "FDStoveBlock:0": {
-      "DisplayName": "Stove"
+      "DisplayName": "Stove",
+      "Description": "Stove. Light it with fuel to heat a cooking pot above."
     },
     "FDStoveBlock:1": {
-      "DisplayName": "Stove"
+      "DisplayName": "Stove",
+      "Description": "Stove. Light it with fuel to heat a cooking pot above."
     },
     "FDCookingPotBlock:0": {
-      "DisplayName": "Cooking Pot"
+      "DisplayName": "Cooking Pot",
+      "Description": "Cooking pot. Place on a lit stove, then right-click to open the cooking GUI."
     },
     "FDSkilletBlock:0": {
-      "DisplayName": "Skillet"
+      "DisplayName": "Skillet",
+      "Description": "Skillet. Place above heat, then right-click with cookable food."
     },
     "FDCuttingBoardBlock:0": {
-      "DisplayName": "Cutting Board"
+      "DisplayName": "Cutting Board",
+      "Description": "Cutting board. Place food, then right-click with a knife."
     },
     "FDBasketBlock:0": {
-      "DisplayName": "Basket"
+      "DisplayName": "Basket",
+      "Description": "Basket. Right-click to open 27 storage slots."
     },
     "FDBasketBlock:1": {
-      "DisplayName": "Bamboo Basket"
+      "DisplayName": "Bamboo Basket",
+      "Description": "Basket. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:0": {
-      "DisplayName": "Oak Cabinet"
+      "DisplayName": "Oak Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:1": {
-      "DisplayName": "Spruce Cabinet"
+      "DisplayName": "Spruce Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:2": {
-      "DisplayName": "Birch Cabinet"
+      "DisplayName": "Birch Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:3": {
-      "DisplayName": "Jungle Cabinet"
+      "DisplayName": "Jungle Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:4": {
-      "DisplayName": "Acacia Cabinet"
+      "DisplayName": "Acacia Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:5": {
-      "DisplayName": "Dark Oak Cabinet"
+      "DisplayName": "Dark Oak Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:6": {
-      "DisplayName": "Mangrove Cabinet"
+      "DisplayName": "Mangrove Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:7": {
-      "DisplayName": "Cherry Cabinet"
+      "DisplayName": "Cherry Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:8": {
-      "DisplayName": "Bamboo Cabinet"
+      "DisplayName": "Bamboo Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:9": {
-      "DisplayName": "Crimson Cabinet"
+      "DisplayName": "Crimson Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCabinetBlock:10": {
-      "DisplayName": "Warped Cabinet"
+      "DisplayName": "Warped Cabinet",
+      "Description": "Cabinet. Right-click to open 27 storage slots."
     },
     "FDCrateBlock:0": {
-      "DisplayName": "Carrot Crate"
+      "DisplayName": "Carrot Crate",
+      "Description": "A decorative crop crate."
     },
     "FDCrateBlock:1": {
-      "DisplayName": "Potato Crate"
+      "DisplayName": "Potato Crate",
+      "Description": "A decorative crop crate."
     },
     "FDCrateBlock:2": {
-      "DisplayName": "Beetroot Crate"
+      "DisplayName": "Beetroot Crate",
+      "Description": "A decorative crop crate."
     },
     "FDCrateBlock:3": {
-      "DisplayName": "Cabbage Crate"
+      "DisplayName": "Cabbage Crate",
+      "Description": "A decorative crop crate."
     },
     "FDCrateBlock:4": {
-      "DisplayName": "Tomato Crate"
+      "DisplayName": "Tomato Crate",
+      "Description": "A decorative crop crate."
     },
     "FDCrateBlock:5": {
-      "DisplayName": "Onion Crate"
+      "DisplayName": "Onion Crate",
+      "Description": "A decorative crop crate."
     },
     "FDBaleBlock:0": {
-      "DisplayName": "Rice Bale"
+      "DisplayName": "Rice Bale",
+      "Description": "A decorative bale or rice bag."
     },
     "FDBaleBlock:1": {
-      "DisplayName": "Bag of Rice"
+      "DisplayName": "Bag of Rice",
+      "Description": "A decorative bale or rice bag."
     },
     "FDBaleBlock:2": {
-      "DisplayName": "Straw Bale"
+      "DisplayName": "Straw Bale",
+      "Description": "A decorative bale or rice bag."
     },
     "FDRopeBlock:0": {
-      "DisplayName": "Rope"
+      "DisplayName": "Rope",
+      "Description": "A decorative rope block."
     },
     "FDSafetyNetBlock:0": {
-      "DisplayName": "Safety Net"
+      "DisplayName": "Safety Net",
+      "Description": "A decorative safety net."
     },
     "FDRopeFenceBlock:0": {
-      "DisplayName": "Rope Fence"
+      "DisplayName": "Rope Fence",
+      "Description": "A decorative rope fence."
     },
     "FDRopeFenceGateBlock:0": {
-      "DisplayName": "Rope Fence Gate"
+      "DisplayName": "Rope Fence Gate",
+      "Description": "A decorative rope fence gate."
     },
     "FDTatamiBlock:0": {
-      "DisplayName": "Tatami Block"
+      "DisplayName": "Tatami Block",
+      "Description": "A tatami mat decoration."
     },
     "FDTatamiBlock:1": {
-      "DisplayName": "Full Tatami Mat"
+      "DisplayName": "Full Tatami Mat",
+      "Description": "A tatami mat decoration."
     },
     "FDTatamiBlock:2": {
-      "DisplayName": "Half Tatami Mat"
+      "DisplayName": "Half Tatami Mat",
+      "Description": "A tatami mat decoration."
     },
     "FDCanvasRugBlock:0": {
-      "DisplayName": "Canvas Rug"
+      "DisplayName": "Canvas Rug",
+      "Description": "A canvas rug decoration."
     },
     "FDOrganicCompostBlock:0": {
-      "DisplayName": "Organic Compost"
+      "DisplayName": "Organic Compost",
+      "Description": "Organic compost, a soil decoration."
     },
     "FDRichSoilBlock:0": {
-      "DisplayName": "Rich Soil"
+      "DisplayName": "Rich Soil",
+      "Description": "Rich soil; crops grow faster."
     },
     "FDRichSoilFarmlandBlock:0": {
-      "DisplayName": "Rich Soil Farmland"
+      "DisplayName": "Rich Soil Farmland",
+      "Description": "Rich farmland; crops grow faster."
     },
     "FDMushroomColonyBlock:0": {
-      "DisplayName": "Brown Mushroom Colony"
+      "DisplayName": "Brown Mushroom Colony",
+      "Description": "A mushroom colony that grows over time."
     },
     "FDMushroomColonyBlock:1": {
-      "DisplayName": "Red Mushroom Colony"
+      "DisplayName": "Red Mushroom Colony",
+      "Description": "A mushroom colony that grows over time."
     },
     "FDCropBlock:0": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:1": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:2": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:3": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:4": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:5": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:6": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:7": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:8": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:9": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:10": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:11": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:12": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:13": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:14": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:15": {
-      "DisplayName": "Cabbage"
+      "DisplayName": "Cabbage",
+      "Description": "Cabbage crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:16": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:17": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:18": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:19": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:20": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:21": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:22": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:23": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:24": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:25": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:26": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:27": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:28": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:29": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:30": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDCropBlock:31": {
-      "DisplayName": "Onions"
+      "DisplayName": "Onions",
+      "Description": "Onion crop. Harvest when mature for produce and seeds."
     },
     "FDWildCropBlock:0": {
-      "DisplayName": "Wild Cabbage"
+      "DisplayName": "Wild Cabbage",
+      "Description": "A wild crop. Break it for produce and seeds."
     },
     "FDWildCropBlock:1": {
-      "DisplayName": "Wild Onion"
+      "DisplayName": "Wild Onion",
+      "Description": "A wild crop. Break it for produce and seeds."
     },
     "FDWildCropBlock:2": {
-      "DisplayName": "Tomato Shrub"
+      "DisplayName": "Tomato Shrub",
+      "Description": "A wild crop. Break it for produce and seeds."
     },
     "FDWildCropBlock:3": {
-      "DisplayName": "Wild Carrot"
+      "DisplayName": "Wild Carrot",
+      "Description": "A wild crop. Break it for produce and seeds."
     },
     "FDWildCropBlock:4": {
-      "DisplayName": "Wild Potato"
+      "DisplayName": "Wild Potato",
+      "Description": "A wild crop. Break it for produce and seeds."
     },
     "FDWildCropBlock:5": {
-      "DisplayName": "Sea Beet"
+      "DisplayName": "Sea Beet",
+      "Description": "A wild crop. Break it for produce and seeds."
     },
     "FDWildCropBlock:6": {
-      "DisplayName": "Wild Rice"
+      "DisplayName": "Wild Rice",
+      "Description": "A wild crop. Break it for produce and seeds."
     },
     "FDWildCropBlock:7": {
-      "DisplayName": "Sandy Shrub"
+      "DisplayName": "Sandy Shrub",
+      "Description": "A wild crop. Break it for produce and seeds."
     },
     "FDSandyShrubBlock:0": {
-      "DisplayName": "Sandy Shrub"
+      "DisplayName": "Sandy Shrub",
+      "Description": "A sandy shrub decoration."
     },
     "FDPieBlock:0": {
-      "DisplayName": "Apple Pie"
+      "DisplayName": "Apple Pie",
+      "Description": "Pie. Right-click to take a slice."
     },
     "FDPieBlock:1": {
-      "DisplayName": "Sweet Berry Cheesecake"
+      "DisplayName": "Sweet Berry Cheesecake",
+      "Description": "Pie. Right-click to take a slice."
     },
     "FDPieBlock:2": {
-      "DisplayName": "Chocolate Pie"
+      "DisplayName": "Chocolate Pie",
+      "Description": "Pie. Right-click to take a slice."
     },
     "FDPieBlock:3": {
-      "DisplayName": "Pumpkin Pie"
+      "DisplayName": "Pumpkin Pie",
+      "Description": "Pie. Right-click to take a slice."
     },
     "FDFeastBlock:0": {
-      "DisplayName": "Roast Chicken"
+      "DisplayName": "Roast Chicken",
+      "Description": "Feast. Right-click to take a portion."
     },
     "FDFeastBlock:1": {
-      "DisplayName": "Stuffed Pumpkin"
+      "DisplayName": "Stuffed Pumpkin",
+      "Description": "Feast. Right-click to take a portion."
     },
     "FDFeastBlock:2": {
-      "DisplayName": "Honey Glazed Ham"
+      "DisplayName": "Honey Glazed Ham",
+      "Description": "Feast. Right-click to take a portion."
     },
     "FDFeastBlock:3": {
-      "DisplayName": "Shepherd's Pie"
+      "DisplayName": "Shepherd's Pie",
+      "Description": "Feast. Right-click to take a portion."
     },
     "FDFeastBlock:4": {
-      "DisplayName": "Gleaming Salad"
+      "DisplayName": "Gleaming Salad",
+      "Description": "Feast. Right-click to take a portion."
     },
     "FDFeastBlock:5": {
-      "DisplayName": "Rice Roll Medley"
+      "DisplayName": "Rice Roll Medley",
+      "Description": "Feast. Right-click to take a portion."
     },
     "FDCanvasSignBlock:0": {
-      "DisplayName": "Canvas Sign"
+      "DisplayName": "Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:1": {
-      "DisplayName": "White Canvas Sign"
+      "DisplayName": "White Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:2": {
-      "DisplayName": "Orange Canvas Sign"
+      "DisplayName": "Orange Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:3": {
-      "DisplayName": "Magenta Canvas Sign"
+      "DisplayName": "Magenta Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:4": {
-      "DisplayName": "Light Blue Canvas Sign"
+      "DisplayName": "Light Blue Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:5": {
-      "DisplayName": "Yellow Canvas Sign"
+      "DisplayName": "Yellow Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:6": {
-      "DisplayName": "Lime Canvas Sign"
+      "DisplayName": "Lime Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:7": {
-      "DisplayName": "Pink Canvas Sign"
+      "DisplayName": "Pink Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:8": {
-      "DisplayName": "Gray Canvas Sign"
+      "DisplayName": "Gray Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:9": {
-      "DisplayName": "Light Gray Canvas Sign"
+      "DisplayName": "Light Gray Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:10": {
-      "DisplayName": "Cyan Canvas Sign"
+      "DisplayName": "Cyan Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:11": {
-      "DisplayName": "Purple Canvas Sign"
+      "DisplayName": "Purple Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:12": {
-      "DisplayName": "Blue Canvas Sign"
+      "DisplayName": "Blue Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:13": {
-      "DisplayName": "Brown Canvas Sign"
+      "DisplayName": "Brown Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:14": {
-      "DisplayName": "Green Canvas Sign"
+      "DisplayName": "Green Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:15": {
-      "DisplayName": "Red Canvas Sign"
+      "DisplayName": "Red Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     },
     "FDCanvasSignBlock:16": {
-      "DisplayName": "Black Canvas Sign"
+      "DisplayName": "Black Canvas Sign",
+      "Description": "A canvas sign in 17 colors with standing, wall and hanging mounts."
     }
   },
   "ContentWidgets": {

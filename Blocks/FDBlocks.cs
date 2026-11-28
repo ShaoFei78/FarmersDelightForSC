@@ -35,6 +35,12 @@ namespace Game {
             return LanguageControl.TryGetBlock(key, "DisplayName", out string name) ? name : DefaultDisplayName;
         }
 
+        public override string GetDescription(int value) {
+            int data = GetDisplayData(Terrain.ExtractData(value));
+            string key = $"{GetType().Name}:{data}";
+            return LanguageControl.TryGetBlock(key, "Description", out string description) ? description : DefaultDescription;
+        }
+
         public override Texture2D GetDefaultTexture(int value) => FDBlockBase.Atlas;
 
         public override int GetTextureSlotCount(int value) => 16;
@@ -57,6 +63,12 @@ namespace Game {
             int data = GetDisplayData(Terrain.ExtractData(value));
             string key = $"{GetType().Name}:{data}";
             return LanguageControl.TryGetBlock(key, "DisplayName", out string name) ? name : DefaultDisplayName;
+        }
+
+        public override string GetDescription(int value) {
+            int data = GetDisplayData(Terrain.ExtractData(value));
+            string key = $"{GetType().Name}:{data}";
+            return LanguageControl.TryGetBlock(key, "Description", out string description) ? description : DefaultDescription;
         }
 
         public override Texture2D GetDefaultTexture(int value) => FDBlockBase.Atlas;

@@ -1,697 +1,928 @@
 {
   "Blocks": {
     "FDItemBlock:0": {
-      "DisplayName": "草秆"
+      "DisplayName": "草秆",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:1": {
-      "DisplayName": "粗布"
+      "DisplayName": "粗布",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:2": {
-      "DisplayName": "树皮"
+      "DisplayName": "树皮",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:3": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
     },
     "FDItemBlock:4": {
-      "DisplayName": "番茄"
+      "DisplayName": "番茄",
+      "Description": "食物：恢复约 1 点饥饿值，可直接食用。"
     },
     "FDItemBlock:5": {
-      "DisplayName": "稻米穗"
+      "DisplayName": "稻米穗",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:6": {
-      "DisplayName": "烂番茄"
+      "DisplayName": "烂番茄",
+      "Description": "腐烂的番茄，不太好吃。"
     },
     "FDItemBlock:7": {
-      "DisplayName": "煎蛋"
+      "DisplayName": "煎蛋",
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
     },
     "FDItemBlock:8": {
-      "DisplayName": "奶瓶"
+      "DisplayName": "奶瓶",
+      "Description": "饮料，可直接饮用。"
     },
     "FDItemBlock:9": {
-      "DisplayName": "热可可"
+      "DisplayName": "热可可",
+      "Description": "饮料，可直接饮用。"
     },
     "FDItemBlock:10": {
-      "DisplayName": "苹果酒"
+      "DisplayName": "苹果酒",
+      "Description": "饮料，可直接饮用。"
     },
     "FDItemBlock:11": {
-      "DisplayName": "西瓜汁"
+      "DisplayName": "西瓜汁",
+      "Description": "饮料，可直接饮用。"
     },
     "FDItemBlock:12": {
-      "DisplayName": "番茄酱"
+      "DisplayName": "番茄酱",
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
     },
     "FDItemBlock:13": {
-      "DisplayName": "面团"
+      "DisplayName": "面团",
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
     },
     "FDItemBlock:14": {
-      "DisplayName": "生意面"
+      "DisplayName": "生意面",
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
     },
     "FDItemBlock:15": {
-      "DisplayName": "南瓜片"
+      "DisplayName": "南瓜片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:16": {
-      "DisplayName": "卷心菜叶"
+      "DisplayName": "卷心菜叶",
+      "Description": "食物：恢复约 1 点饥饿值，可直接食用。"
     },
     "FDItemBlock:17": {
-      "DisplayName": "牛肉馅"
+      "DisplayName": "牛肉馅",
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
     },
     "FDItemBlock:18": {
-      "DisplayName": "牛肉饼"
+      "DisplayName": "牛肉饼",
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
     },
     "FDItemBlock:19": {
-      "DisplayName": "生鸡肉丁"
+      "DisplayName": "生鸡肉丁",
+      "Description": "食物：恢复约 1 点饥饿值，可直接食用。"
     },
     "FDItemBlock:20": {
-      "DisplayName": "熟鸡肉丁"
+      "DisplayName": "熟鸡肉丁",
+      "Description": "食物：恢复约 3 点饥饿值，可直接食用。"
     },
     "FDItemBlock:21": {
-      "DisplayName": "生培根"
+      "DisplayName": "生培根",
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
     },
     "FDItemBlock:22": {
-      "DisplayName": "熟培根"
+      "DisplayName": "熟培根",
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
     },
     "FDItemBlock:23": {
-      "DisplayName": "生鳕鱼片"
+      "DisplayName": "生鳕鱼片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:24": {
-      "DisplayName": "熟鳕鱼片"
+      "DisplayName": "熟鳕鱼片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:25": {
-      "DisplayName": "生鲑鱼片"
+      "DisplayName": "生鲑鱼片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:26": {
-      "DisplayName": "熟鲑鱼片"
+      "DisplayName": "熟鲑鱼片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:27": {
-      "DisplayName": "生羊排"
+      "DisplayName": "生羊排",
+      "Description": "食物：恢复约 1 点饥饿值，可直接食用。"
     },
     "FDItemBlock:28": {
-      "DisplayName": "熟羊排"
+      "DisplayName": "熟羊排",
+      "Description": "食物：恢复约 3 点饥饿值，可直接食用。"
     },
     "FDItemBlock:29": {
-      "DisplayName": "火腿"
+      "DisplayName": "火腿",
+      "Description": "食物：恢复约 5 点饥饿值，可直接食用。"
     },
     "FDItemBlock:30": {
-      "DisplayName": "烟熏火腿"
+      "DisplayName": "烟熏火腿",
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
     },
     "FDItemBlock:31": {
-      "DisplayName": "馅饼酥皮"
+      "DisplayName": "馅饼酥皮",
+      "Description": "食物：恢复约 2 点饥饿值，可直接食用。"
     },
     "FDItemBlock:32": {
-      "DisplayName": "蛋糕切片"
+      "DisplayName": "蛋糕切片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:33": {
-      "DisplayName": "苹果派切片"
+      "DisplayName": "苹果派切片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:34": {
-      "DisplayName": "甜浆果芝士派切片"
+      "DisplayName": "甜浆果芝士派切片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:35": {
-      "DisplayName": "巧克力派切片"
+      "DisplayName": "巧克力派切片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:36": {
-      "DisplayName": "南瓜派切片"
+      "DisplayName": "南瓜派切片",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:37": {
-      "DisplayName": "甜浆果曲奇"
+      "DisplayName": "甜浆果曲奇",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:38": {
-      "DisplayName": "蜂蜜曲奇"
+      "DisplayName": "蜂蜜曲奇",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:39": {
-      "DisplayName": "西瓜冰棍"
+      "DisplayName": "西瓜冰棍",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:40": {
-      "DisplayName": "发光浆果蛋奶沙司"
+      "DisplayName": "发光浆果蛋奶沙司",
+      "Description": "食物：恢复约 7 点饥饿值，可直接食用。"
     },
     "FDItemBlock:41": {
-      "DisplayName": "水果沙拉"
+      "DisplayName": "水果沙拉",
+      "Description": "食物：恢复约 6 点饥饿值，可直接食用。"
     },
     "FDItemBlock:42": {
-      "DisplayName": "混合沙拉"
+      "DisplayName": "混合沙拉",
+      "Description": "食物：恢复约 6 点饥饿值，可直接食用。"
     },
     "FDItemBlock:43": {
-      "DisplayName": "下界沙拉"
+      "DisplayName": "下界沙拉",
+      "Description": "食物：恢复约 5 点饥饿值，可直接食用。"
     },
     "FDItemBlock:44": {
-      "DisplayName": "烧烤串"
+      "DisplayName": "烧烤串",
+      "Description": "食物：恢复约 8 点饥饿值，可直接食用。"
     },
     "FDItemBlock:45": {
-      "DisplayName": "夹蛋三明治"
+      "DisplayName": "夹蛋三明治",
+      "Description": "食物：恢复约 8 点饥饿值，可直接食用。"
     },
     "FDItemBlock:46": {
-      "DisplayName": "鸡肉三明治"
+      "DisplayName": "鸡肉三明治",
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
     },
     "FDItemBlock:47": {
-      "DisplayName": "汉堡包"
+      "DisplayName": "汉堡包",
+      "Description": "食物：恢复约 11 点饥饿值，可直接食用。"
     },
     "FDItemBlock:48": {
-      "DisplayName": "培根三明治"
+      "DisplayName": "培根三明治",
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
     },
     "FDItemBlock:49": {
-      "DisplayName": "羊肉卷饼"
+      "DisplayName": "羊肉卷饼",
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
     },
     "FDItemBlock:50": {
-      "DisplayName": "饺子"
+      "DisplayName": "饺子",
+      "Description": "食物：恢复约 8 点饥饿值，可直接食用。"
     },
     "FDItemBlock:51": {
-      "DisplayName": "填馅马铃薯"
+      "DisplayName": "填馅马铃薯",
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
     },
     "FDItemBlock:52": {
-      "DisplayName": "卷心菜卷"
+      "DisplayName": "卷心菜卷",
+      "Description": "食物：恢复约 5 点饥饿值，可直接食用。"
     },
     "FDItemBlock:53": {
-      "DisplayName": "鲑鱼寿司"
+      "DisplayName": "鲑鱼寿司",
+      "Description": "食物：恢复约 7 点饥饿值，可直接食用。"
     },
     "FDItemBlock:54": {
-      "DisplayName": "鳕鱼寿司"
+      "DisplayName": "鳕鱼寿司",
+      "Description": "食物：恢复约 7 点饥饿值，可直接食用。"
     },
     "FDItemBlock:55": {
-      "DisplayName": "海带寿司卷"
+      "DisplayName": "海带寿司卷",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:56": {
-      "DisplayName": "海带寿司"
+      "DisplayName": "海带寿司",
+      "Description": "派或蛋糕的一片。可直接食用。"
     },
     "FDItemBlock:57": {
-      "DisplayName": "米饭"
+      "DisplayName": "米饭",
+      "Description": "食物：恢复约 6 点饥饿值，可直接食用。"
     },
     "FDItemBlock:58": {
-      "DisplayName": "大骨汤"
+      "DisplayName": "大骨汤",
+      "Description": "食物：恢复约 8 点饥饿值，可直接食用。"
     },
     "FDItemBlock:59": {
-      "DisplayName": "牛肉炖"
+      "DisplayName": "牛肉炖",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:60": {
-      "DisplayName": "鸡肉汤"
+      "DisplayName": "鸡肉汤",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:61": {
-      "DisplayName": "蔬菜汤"
+      "DisplayName": "蔬菜汤",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:62": {
-      "DisplayName": "鱼肉炖"
+      "DisplayName": "鱼肉炖",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:63": {
-      "DisplayName": "炒饭"
+      "DisplayName": "炒饭",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:64": {
-      "DisplayName": "南瓜汤"
+      "DisplayName": "南瓜汤",
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
     },
     "FDItemBlock:65": {
-      "DisplayName": "烘焙鳕鱼炖"
+      "DisplayName": "烘焙鳕鱼炖",
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
     },
     "FDItemBlock:66": {
-      "DisplayName": "面条汤"
+      "DisplayName": "面条汤",
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
     },
     "FDItemBlock:67": {
-      "DisplayName": "洋葱汤"
+      "DisplayName": "洋葱汤",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:68": {
-      "DisplayName": "培根蛋"
+      "DisplayName": "培根蛋",
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
     },
     "FDItemBlock:69": {
-      "DisplayName": "肉丸意面"
+      "DisplayName": "肉丸意面",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:70": {
-      "DisplayName": "羊排意面"
+      "DisplayName": "羊排意面",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:71": {
-      "DisplayName": "蘑菇饭"
+      "DisplayName": "蘑菇饭",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:72": {
-      "DisplayName": "烤羊排"
+      "DisplayName": "烤羊排",
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
     },
     "FDItemBlock:73": {
-      "DisplayName": "蔬菜面"
+      "DisplayName": "蔬菜面",
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
     },
     "FDItemBlock:74": {
-      "DisplayName": "牛排配马铃薯"
+      "DisplayName": "牛排配马铃薯",
+      "Description": "食物：恢复约 12 点饥饿值，可直接食用。"
     },
     "FDItemBlock:75": {
-      "DisplayName": "蔬菜杂烩"
+      "DisplayName": "蔬菜杂烩",
+      "Description": "食物：恢复约 10 点饥饿值，可直接食用。"
     },
     "FDItemBlock:76": {
-      "DisplayName": "鱿鱼墨面"
+      "DisplayName": "鱿鱼墨面",
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
     },
     "FDItemBlock:77": {
-      "DisplayName": "香烤鲑鱼"
+      "DisplayName": "香烤鲑鱼",
+      "Description": "食物：恢复约 14 点饥饿值，可直接食用。"
     },
     "FDItemBlock:78": {
-      "DisplayName": "盘装烤鸡"
+      "DisplayName": "盘装烤鸡",
+      "Description": "盛宴的一份。右击盛宴方块取用。"
     },
     "FDItemBlock:79": {
-      "DisplayName": "碗装填馅南瓜"
+      "DisplayName": "碗装填馅南瓜",
+      "Description": "盛宴的一份。右击盛宴方块取用。"
     },
     "FDItemBlock:80": {
-      "DisplayName": "盘装蜜汁火腿"
+      "DisplayName": "盘装蜜汁火腿",
+      "Description": "盛宴的一份。右击盛宴方块取用。"
     },
     "FDItemBlock:81": {
-      "DisplayName": "盘装牧羊人派"
+      "DisplayName": "盘装牧羊人派",
+      "Description": "盛宴的一份。右击盛宴方块取用。"
     },
     "FDItemBlock:82": {
-      "DisplayName": "碗装闪亮沙拉"
+      "DisplayName": "碗装闪亮沙拉",
+      "Description": "盛宴的一份。右击盛宴方块取用。"
     },
     "FDItemBlock:83": {
-      "DisplayName": "狗粮"
+      "DisplayName": "狗粮",
+      "Description": "食物：恢复约 4 点饥饿值，可直接食用。"
     },
     "FDItemBlock:84": {
-      "DisplayName": "马食"
+      "DisplayName": "马食",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:85": {
-      "DisplayName": "木碗"
+      "DisplayName": "木碗",
+      "Description": "木碗，用于盛放汤、炖菜和沙拉。"
     },
     "FDItemBlock:86": {
-      "DisplayName": "玻璃瓶"
+      "DisplayName": "玻璃瓶",
+      "Description": "玻璃瓶，用于装果汁和饮料。"
     },
     "FDItemBlock:87": {
-      "DisplayName": "糖"
+      "DisplayName": "糖",
+      "Description": "糖，用于甜点和饮料。"
     },
     "FDItemBlock:88": {
-      "DisplayName": "可可豆"
+      "DisplayName": "可可豆",
+      "Description": "可可豆，用于巧克力甜点。"
     },
     "FDItemBlock:89": {
-      "DisplayName": "胡萝卜"
+      "DisplayName": "胡萝卜",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:90": {
-      "DisplayName": "马铃薯"
+      "DisplayName": "马铃薯",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:91": {
-      "DisplayName": "甜菜根"
+      "DisplayName": "甜菜根",
+      "Description": "农夫乐事食材，可用于烹饪、切割或合成。"
     },
     "FDItemBlock:92": {
-      "DisplayName": "小麦"
+      "DisplayName": "小麦",
+      "Description": "小麦，用于制作面团、派和饼干。"
     },
     "FDItemBlock:93": {
-      "DisplayName": "甜浆果"
+      "DisplayName": "甜浆果",
+      "Description": "甜浆果，可直接食用或制作甜点。"
     },
     "FDItemBlock:94": {
-      "DisplayName": "发光浆果"
+      "DisplayName": "发光浆果",
+      "Description": "发光浆果，可直接食用或制作甜点。"
     },
     "FDItemBlock:95": {
-      "DisplayName": "蜂蜜瓶"
+      "DisplayName": "蜂蜜瓶",
+      "Description": "蜂蜜瓶，用于甜味配方。"
     },
     "FDItemBlock:96": {
-      "DisplayName": "金锭"
+      "DisplayName": "金锭",
+      "Description": "金锭，用于高级配方。"
     },
     "FDItemBlock:97": {
-      "DisplayName": "金粒"
+      "DisplayName": "金粒",
+      "Description": "小金粒，用于合成。"
     },
     "FDItemBlock:98": {
-      "DisplayName": "下界合金锭"
+      "DisplayName": "下界合金锭",
+      "Description": "下界合金锭，用于高级配方。"
     },
     "FDItemBlock:99": {
-      "DisplayName": "海带"
+      "DisplayName": "海带",
+      "Description": "海带，可烘干或用于烹饪。"
     },
     "FDItemBlock:100": {
-      "DisplayName": "干海带"
+      "DisplayName": "干海带",
+      "Description": "干海带，烹饪食材。"
     },
     "FDItemBlock:101": {
-      "DisplayName": "骨头"
+      "DisplayName": "骨头",
+      "Description": "骨头，用于高汤等配方。"
     },
     "FDItemBlock:102": {
-      "DisplayName": "棕色蘑菇"
+      "DisplayName": "棕色蘑菇",
+      "Description": "棕色蘑菇，可食用或烹饪。"
     },
     "FDItemBlock:103": {
-      "DisplayName": "红色蘑菇"
+      "DisplayName": "红色蘑菇",
+      "Description": "红色蘑菇，可食用或烹饪。"
     },
     "FDItemBlock:104": {
-      "DisplayName": "苹果"
+      "DisplayName": "苹果",
+      "Description": "苹果，可直接食用或制作甜点。"
     },
     "FDItemBlock:105": {
-      "DisplayName": "卷心菜种子"
+      "DisplayName": "卷心菜种子",
+      "Description": "种子。右击土壤或肥沃土壤种植，成熟后收获。"
     },
     "FDItemBlock:106": {
-      "DisplayName": "番茄种子"
+      "DisplayName": "番茄种子",
+      "Description": "种子。右击土壤或肥沃土壤种植，成熟后收获。"
     },
     "FDItemBlock:107": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "种子。右击土壤或肥沃土壤种植，成熟后收获。"
     },
     "FDItemBlock:108": {
-      "DisplayName": "稻米"
+      "DisplayName": "稻米",
+      "Description": "种子。右击土壤或肥沃土壤种植，成熟后收获。"
     },
     "FDItemBlock:109": {
-      "DisplayName": "燧石刀"
+      "DisplayName": "燧石刀",
+      "Description": "刀，用于切菜板切割食材，也可作为武器。"
     },
     "FDItemBlock:110": {
-      "DisplayName": "铁刀"
+      "DisplayName": "铁刀",
+      "Description": "刀，用于切菜板切割食材，也可作为武器。"
     },
     "FDItemBlock:111": {
-      "DisplayName": "金刀"
+      "DisplayName": "金刀",
+      "Description": "刀，用于切菜板切割食材，也可作为武器。"
     },
     "FDItemBlock:112": {
-      "DisplayName": "钻石刀"
+      "DisplayName": "钻石刀",
+      "Description": "刀，用于切菜板切割食材，也可作为武器。"
     },
     "FDItemBlock:113": {
-      "DisplayName": "下界合金刀"
+      "DisplayName": "下界合金刀",
+      "Description": "刀，用于切菜板切割食材，也可作为武器。"
     },
     "FDSeedItemBlock:0": {
-      "DisplayName": "卷心菜种子"
+      "DisplayName": "卷心菜种子",
+      "Description": "种子。右击土壤或肥沃土壤种植。"
     },
     "FDSeedItemBlock:1": {
-      "DisplayName": "番茄种子"
+      "DisplayName": "番茄种子",
+      "Description": "种子。右击土壤或肥沃土壤种植。"
     },
     "FDSeedItemBlock:2": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "种子。右击土壤或肥沃土壤种植。"
     },
     "FDSeedItemBlock:3": {
-      "DisplayName": "稻米"
+      "DisplayName": "稻米",
+      "Description": "种子。右击土壤或肥沃土壤种植。"
     },
     "FDKnifeBlock:0": {
-      "DisplayName": "燧石刀"
+      "DisplayName": "燧石刀",
+      "Description": "刀。用于切菜板切割食材，也可作为武器。"
     },
     "FDKnifeBlock:1": {
-      "DisplayName": "铁刀"
+      "DisplayName": "铁刀",
+      "Description": "刀。用于切菜板切割食材，也可作为武器。"
     },
     "FDKnifeBlock:2": {
-      "DisplayName": "金刀"
+      "DisplayName": "金刀",
+      "Description": "刀。用于切菜板切割食材，也可作为武器。"
     },
     "FDKnifeBlock:3": {
-      "DisplayName": "钻石刀"
+      "DisplayName": "钻石刀",
+      "Description": "刀。用于切菜板切割食材，也可作为武器。"
     },
     "FDKnifeBlock:4": {
-      "DisplayName": "下界合金刀"
+      "DisplayName": "下界合金刀",
+      "Description": "刀。用于切菜板切割食材，也可作为武器。"
     },
     "FDStoveBlock:0": {
-      "DisplayName": "炉灶"
+      "DisplayName": "炉灶",
+      "Description": "炉灶。手持燃料右击点燃，可为上方的烹饪锅供热。"
     },
     "FDStoveBlock:1": {
-      "DisplayName": "炉灶"
+      "DisplayName": "炉灶",
+      "Description": "炉灶。手持燃料右击点燃，可为上方的烹饪锅供热。"
     },
     "FDCookingPotBlock:0": {
-      "DisplayName": "厨锅"
+      "DisplayName": "厨锅",
+      "Description": "烹饪锅。放在点燃的炉灶上，右击打开烹饪界面。"
     },
     "FDSkilletBlock:0": {
-      "DisplayName": "煎锅"
+      "DisplayName": "煎锅",
+      "Description": "煎锅。放在热源上方，手持可煎食材右击。"
     },
     "FDCuttingBoardBlock:0": {
-      "DisplayName": "砧板"
+      "DisplayName": "砧板",
+      "Description": "切菜板。先右击放食材，再手持刀右击切割。"
     },
     "FDBasketBlock:0": {
-      "DisplayName": "木篮"
+      "DisplayName": "木篮",
+      "Description": "篮子。右击打开 27 格储物空间。"
     },
     "FDBasketBlock:1": {
-      "DisplayName": "竹篮"
+      "DisplayName": "竹篮",
+      "Description": "篮子。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:0": {
-      "DisplayName": "橡木橱柜"
+      "DisplayName": "橡木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:1": {
-      "DisplayName": "云杉木橱柜"
+      "DisplayName": "云杉木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:2": {
-      "DisplayName": "白桦木橱柜"
+      "DisplayName": "白桦木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:3": {
-      "DisplayName": "丛林木橱柜"
+      "DisplayName": "丛林木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:4": {
-      "DisplayName": "金合欢木橱柜"
+      "DisplayName": "金合欢木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:5": {
-      "DisplayName": "深色橡木橱柜"
+      "DisplayName": "深色橡木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:6": {
-      "DisplayName": "红树木橱柜"
+      "DisplayName": "红树木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:7": {
-      "DisplayName": "樱花木橱柜"
+      "DisplayName": "樱花木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:8": {
-      "DisplayName": "竹橱柜"
+      "DisplayName": "竹橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:9": {
-      "DisplayName": "绯红木橱柜"
+      "DisplayName": "绯红木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCabinetBlock:10": {
-      "DisplayName": "诡异木橱柜"
+      "DisplayName": "诡异木橱柜",
+      "Description": "橱柜。右击打开 27 格储物空间。"
     },
     "FDCrateBlock:0": {
-      "DisplayName": "箱装胡萝卜"
+      "DisplayName": "箱装胡萝卜",
+      "Description": "作物箱，装饰性储物方块。"
     },
     "FDCrateBlock:1": {
-      "DisplayName": "箱装马铃薯"
+      "DisplayName": "箱装马铃薯",
+      "Description": "作物箱，装饰性储物方块。"
     },
     "FDCrateBlock:2": {
-      "DisplayName": "箱装甜菜根"
+      "DisplayName": "箱装甜菜根",
+      "Description": "作物箱，装饰性储物方块。"
     },
     "FDCrateBlock:3": {
-      "DisplayName": "箱装卷心菜"
+      "DisplayName": "箱装卷心菜",
+      "Description": "作物箱，装饰性储物方块。"
     },
     "FDCrateBlock:4": {
-      "DisplayName": "箱装番茄"
+      "DisplayName": "箱装番茄",
+      "Description": "作物箱，装饰性储物方块。"
     },
     "FDCrateBlock:5": {
-      "DisplayName": "箱装洋葱"
+      "DisplayName": "箱装洋葱",
+      "Description": "作物箱，装饰性储物方块。"
     },
     "FDBaleBlock:0": {
-      "DisplayName": "稻穗捆"
+      "DisplayName": "稻穗捆",
+      "Description": "草捆/米袋，装饰性方块。"
     },
     "FDBaleBlock:1": {
-      "DisplayName": "袋装稻米"
+      "DisplayName": "袋装稻米",
+      "Description": "草捆/米袋，装饰性方块。"
     },
     "FDBaleBlock:2": {
-      "DisplayName": "草捆"
+      "DisplayName": "草捆",
+      "Description": "草捆/米袋，装饰性方块。"
     },
     "FDRopeBlock:0": {
-      "DisplayName": "绳子"
+      "DisplayName": "绳子",
+      "Description": "绳索装饰方块。"
     },
     "FDSafetyNetBlock:0": {
-      "DisplayName": "安全网"
+      "DisplayName": "安全网",
+      "Description": "安全网装饰方块。"
     },
     "FDRopeFenceBlock:0": {
-      "DisplayName": "绳栅栏"
+      "DisplayName": "绳栅栏",
+      "Description": "绳栅栏装饰方块。"
     },
     "FDRopeFenceGateBlock:0": {
-      "DisplayName": "绳栅栏门"
+      "DisplayName": "绳栅栏门",
+      "Description": "绳栅栏门装饰方块。"
     },
     "FDTatamiBlock:0": {
-      "DisplayName": "榻榻米方块"
+      "DisplayName": "榻榻米方块",
+      "Description": "榻榻米垫，装饰方块。"
     },
     "FDTatamiBlock:1": {
-      "DisplayName": "长榻榻米垫"
+      "DisplayName": "长榻榻米垫",
+      "Description": "榻榻米垫，装饰方块。"
     },
     "FDTatamiBlock:2": {
-      "DisplayName": "短榻榻米垫"
+      "DisplayName": "短榻榻米垫",
+      "Description": "榻榻米垫，装饰方块。"
     },
     "FDCanvasRugBlock:0": {
-      "DisplayName": "粗布毯"
+      "DisplayName": "粗布毯",
+      "Description": "帆布地毯，装饰方块。"
     },
     "FDOrganicCompostBlock:0": {
-      "DisplayName": "有机堆肥"
+      "DisplayName": "有机堆肥",
+      "Description": "有机堆肥，土壤装饰方块。"
     },
     "FDRichSoilBlock:0": {
-      "DisplayName": "沃土"
+      "DisplayName": "沃土",
+      "Description": "肥沃土壤，作物生长更快。"
     },
     "FDRichSoilFarmlandBlock:0": {
-      "DisplayName": "沃土耕地"
+      "DisplayName": "沃土耕地",
+      "Description": "肥沃耕地，作物生长更快。"
     },
     "FDMushroomColonyBlock:0": {
-      "DisplayName": "棕色蘑菇菌落"
+      "DisplayName": "棕色蘑菇菌落",
+      "Description": "蘑菇菌落，会逐渐生长。"
     },
     "FDMushroomColonyBlock:1": {
-      "DisplayName": "红色蘑菇菌落"
+      "DisplayName": "红色蘑菇菌落",
+      "Description": "蘑菇菌落，会逐渐生长。"
     },
     "FDCropBlock:0": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:1": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:2": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:3": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:4": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:5": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:6": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:7": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:8": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:9": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:10": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:11": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:12": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:13": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:14": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:15": {
-      "DisplayName": "卷心菜"
+      "DisplayName": "卷心菜",
+      "Description": "卷心菜作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:16": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:17": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:18": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:19": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:20": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:21": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:22": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:23": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:24": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:25": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:26": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:27": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:28": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:29": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:30": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDCropBlock:31": {
-      "DisplayName": "洋葱"
+      "DisplayName": "洋葱",
+      "Description": "洋葱作物。成熟后收获产物和种子。"
     },
     "FDWildCropBlock:0": {
-      "DisplayName": "野生卷心菜"
+      "DisplayName": "野生卷心菜",
+      "Description": "野生作物。破坏后获得产物和种子。"
     },
     "FDWildCropBlock:1": {
-      "DisplayName": "野生洋葱"
+      "DisplayName": "野生洋葱",
+      "Description": "野生作物。破坏后获得产物和种子。"
     },
     "FDWildCropBlock:2": {
-      "DisplayName": "番茄灌木"
+      "DisplayName": "番茄灌木",
+      "Description": "野生作物。破坏后获得产物和种子。"
     },
     "FDWildCropBlock:3": {
-      "DisplayName": "野生胡萝卜"
+      "DisplayName": "野生胡萝卜",
+      "Description": "野生作物。破坏后获得产物和种子。"
     },
     "FDWildCropBlock:4": {
-      "DisplayName": "野生马铃薯"
+      "DisplayName": "野生马铃薯",
+      "Description": "野生作物。破坏后获得产物和种子。"
     },
     "FDWildCropBlock:5": {
-      "DisplayName": "海甜菜"
+      "DisplayName": "海甜菜",
+      "Description": "野生作物。破坏后获得产物和种子。"
     },
     "FDWildCropBlock:6": {
-      "DisplayName": "野生稻米"
+      "DisplayName": "野生稻米",
+      "Description": "野生作物。破坏后获得产物和种子。"
     },
     "FDWildCropBlock:7": {
-      "DisplayName": "沙生灌木"
+      "DisplayName": "沙生灌木",
+      "Description": "野生作物。破坏后获得产物和种子。"
     },
     "FDSandyShrubBlock:0": {
-      "DisplayName": "沙生灌木"
+      "DisplayName": "沙生灌木",
+      "Description": "沙生灌木，装饰植物。"
     },
     "FDPieBlock:0": {
-      "DisplayName": "苹果派"
+      "DisplayName": "苹果派",
+      "Description": "派。右击取用一片。"
     },
     "FDPieBlock:1": {
-      "DisplayName": "甜浆果芝士派"
+      "DisplayName": "甜浆果芝士派",
+      "Description": "派。右击取用一片。"
     },
     "FDPieBlock:2": {
-      "DisplayName": "巧克力派"
+      "DisplayName": "巧克力派",
+      "Description": "派。右击取用一片。"
     },
     "FDPieBlock:3": {
-      "DisplayName": "南瓜派"
+      "DisplayName": "南瓜派",
+      "Description": "派。右击取用一片。"
     },
     "FDFeastBlock:0": {
-      "DisplayName": "烤鸡"
+      "DisplayName": "烤鸡",
+      "Description": "盛宴。右击取用一份。"
     },
     "FDFeastBlock:1": {
-      "DisplayName": "填馅南瓜"
+      "DisplayName": "填馅南瓜",
+      "Description": "盛宴。右击取用一份。"
     },
     "FDFeastBlock:2": {
-      "DisplayName": "蜜汁火腿"
+      "DisplayName": "蜜汁火腿",
+      "Description": "盛宴。右击取用一份。"
     },
     "FDFeastBlock:3": {
-      "DisplayName": "牧羊人派"
+      "DisplayName": "牧羊人派",
+      "Description": "盛宴。右击取用一份。"
     },
     "FDFeastBlock:4": {
-      "DisplayName": "闪亮沙拉"
+      "DisplayName": "闪亮沙拉",
+      "Description": "盛宴。右击取用一份。"
     },
     "FDFeastBlock:5": {
-      "DisplayName": "寿司拼盘"
+      "DisplayName": "寿司拼盘",
+      "Description": "盛宴。右击取用一份。"
     },
     "FDCanvasSignBlock:0": {
-      "DisplayName": "粗布告示牌"
+      "DisplayName": "粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:1": {
-      "DisplayName": "白色粗布告示牌"
+      "DisplayName": "白色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:2": {
-      "DisplayName": "橙色粗布告示牌"
+      "DisplayName": "橙色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:3": {
-      "DisplayName": "品红色粗布告示牌"
+      "DisplayName": "品红色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:4": {
-      "DisplayName": "淡蓝色粗布告示牌"
+      "DisplayName": "淡蓝色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:5": {
-      "DisplayName": "黄色粗布告示牌"
+      "DisplayName": "黄色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:6": {
-      "DisplayName": "黄绿色粗布告示牌"
+      "DisplayName": "黄绿色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:7": {
-      "DisplayName": "粉红色粗布告示牌"
+      "DisplayName": "粉红色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:8": {
-      "DisplayName": "灰色粗布告示牌"
+      "DisplayName": "灰色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:9": {
-      "DisplayName": "淡灰色粗布告示牌"
+      "DisplayName": "淡灰色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:10": {
-      "DisplayName": "青色粗布告示牌"
+      "DisplayName": "青色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:11": {
-      "DisplayName": "紫色粗布告示牌"
+      "DisplayName": "紫色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:12": {
-      "DisplayName": "蓝色粗布告示牌"
+      "DisplayName": "蓝色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:13": {
-      "DisplayName": "棕色粗布告示牌"
+      "DisplayName": "棕色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:14": {
-      "DisplayName": "绿色粗布告示牌"
+      "DisplayName": "绿色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:15": {
-      "DisplayName": "红色粗布告示牌"
+      "DisplayName": "红色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     },
     "FDCanvasSignBlock:16": {
-      "DisplayName": "黑色粗布告示牌"
+      "DisplayName": "黑色粗布告示牌",
+      "Description": "帆布招牌，17 种颜色，可切换站立/墙面/悬挂。"
     }
   },
   "ContentWidgets": {

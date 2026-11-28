@@ -149,6 +149,7 @@ namespace Game {
     }
 
     public class FDOrganicCompostBlock : FDCubeBlockBase {
+        protected override int GetDisplayData(int data) => 0;
         int[] m_textures = new int[4];
 
         public override void Initialize() {
@@ -182,6 +183,7 @@ namespace Game {
     }
 
     public class FDRichSoilFarmlandBlock : FDCubeBlockBase {
+        protected override int GetDisplayData(int data) => 0;
         int m_dry;
         int m_moist;
 
