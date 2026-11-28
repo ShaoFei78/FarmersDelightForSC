@@ -305,8 +305,6 @@ namespace Game {
             AddExtraRecipe(recipes, "steak_and_potatoes", 1, 0f, "potato", "cooked_beef", "bowl", "onion", "cooked_rice");
             AddExtraRecipe(recipes, "roast_chicken_block", 1, 0f, "cooked_chicken", "potato", "carrot", "egg", "bread", "onion", "bowl", "potato", "potato");
             AddExtraRecipe(recipes, "horse_feed", 1, 0f, "straw_bale", "apple", "apple", "carrot");
-            AddExtraRecipe(recipes, "ham", 1, 1f, "beef");
-            AddExtraRecipe(recipes, "smoked_ham", 1, 1f, "ham");
             AddExtraRecipe(recipes, "dried_kelp", 1, 1f, "kelp");
             AddExtraRecipe(recipes, "pumpkin_slice", 4, 0f, "pumpkin");
             AddExtraRecipe(recipes, "cake_slice", 4, 0f, "sweet_berry_cheesecake");
@@ -322,8 +320,6 @@ namespace Game {
             AddExtraRecipe(recipes, "honey_glazed_ham", 4, 0f, "honey_glazed_ham_block");
             AddExtraRecipe(recipes, "shepherds_pie", 4, 0f, "shepherds_pie_block");
             AddExtraRecipe(recipes, "gleaming_salad", 4, 0f, "gleaming_salad_block");
-            AddExtraRecipe(recipes, "apple", 1, 0f, "oak_leaves");
-            AddExtraRecipe(recipes, "sweet_berries", 1, 0f, "oak_leaves");
             AddExtraRecipe(recipes, "glow_berries", 1, 0f, "sweet_berries", "diamond");
             AddExtraRecipe(recipes, "rotten_tomato", 1, 0f, "tomato", "rotten_meat");
             AddExtraRecipe(recipes, "squid_ink_pasta", 1, 0f, "raw_pasta", "kelp");

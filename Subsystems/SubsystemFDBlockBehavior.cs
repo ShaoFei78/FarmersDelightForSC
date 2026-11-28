@@ -9,6 +9,7 @@ namespace Game {
     /// </summary>
     public class SubsystemFDBlockBehavior : SubsystemEntityBlockBehavior {
         public SubsystemPickables m_subsystemPickables;
+        readonly System.Random m_random = new System.Random();
 
         public override int[] HandledBlocks {
             get {
@@ -27,6 +28,7 @@ namespace Game {
                 Add<FDSkilletBlock>();
                 Add<FDPieBlock>();
                 Add<FDFeastBlock>();
+                Add<OakLeavesBlock>();
                 return result.ToArray();
             }
         }
@@ -62,6 +64,15 @@ namespace Game {
 
         public override void OnBlockRemoved(int value, int newValue, int x, int y, int z) {
             int contents = Terrain.ExtractContents(value);
+            if (contents == BlocksManager.GetBlockIndex<OakLeavesBlock>() && newValue == 0) {
+                Vector3 position = new(x + 0.5f, y + 0.5f, z + 0.5f);
+                if (m_random.Next(0, 5) == 0) {
+                    m_subsystemPickables.AddPickable(FDContent.ItemValue("sweet_berries"), 1, position, new Vector3(0f, 2f, 0f), null);
+                }
+                if (m_random.Next(0, 8) == 0) {
+                    m_subsystemPickables.AddPickable(FDContent.ItemValue("apple"), 1, position, new Vector3(0f, 2f, 0f), null);
+                }
+            }
             if (contents == BlocksManager.GetBlockIndex<FDCuttingBoardBlock>()) {
                 ComponentBlockEntity blockEntity = m_subsystemBlockEntities.GetBlockEntity(x, y, z);
                 ComponentFDCuttingBoard board = blockEntity?.Entity.FindComponent<ComponentFDCuttingBoard>();

@@ -374,7 +374,7 @@
     },
     "FDItemBlock:93": {
       "DisplayName": "Sweet Berries",
-      "Description": "Sweet berries. Eat them or use them in desserts."
+      "Description": "Sweet berries. Have a chance to drop from oak leaves; eat them or use them in desserts."
     },
     "FDItemBlock:94": {
       "DisplayName": "Glow Berries",
@@ -418,7 +418,7 @@
     },
     "FDItemBlock:104": {
       "DisplayName": "Apple",
-      "Description": "An apple. Eat it or use it in desserts."
+      "Description": "An apple. Have a chance to drop from oak leaves; eat it or use it in desserts."
     },
     "FDItemBlock:105": {
       "DisplayName": "Cabbage Seeds",

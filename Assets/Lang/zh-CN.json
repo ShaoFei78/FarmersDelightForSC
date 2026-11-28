@@ -374,7 +374,7 @@
     },
     "FDItemBlock:93": {
       "DisplayName": "甜浆果",
-      "Description": "甜浆果，可直接食用或制作甜点。"
+      "Description": "甜浆果，有概率从橡树叶掉落，可直接食用或制作甜点。"
     },
     "FDItemBlock:94": {
       "DisplayName": "发光浆果",
@@ -418,7 +418,7 @@
     },
     "FDItemBlock:104": {
       "DisplayName": "苹果",
-      "Description": "苹果，可直接食用或制作甜点。"
+      "Description": "苹果，有概率从橡树叶掉落，可直接食用或制作甜点。"
     },
     "FDItemBlock:105": {
       "DisplayName": "卷心菜种子",
