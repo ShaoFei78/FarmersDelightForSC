@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Engine;
 
@@ -118,6 +118,8 @@ namespace Game {
                 case "white_flower": return Terrain.MakeBlockValue(WhiteFlowerBlock.Index);
                 case "pumpkin": return Terrain.MakeBlockValue(PumpkinBlock.Index);
                 case "gravel": return Terrain.MakeBlockValue(GravelBlock.Index);
+                case "oak_leaves": return Terrain.MakeBlockValue(OakLeavesBlock.Index);
+                case "campfire": return Terrain.MakeBlockValue(CampfireBlock.Index);
                 case "rotten_meat": return Terrain.MakeBlockValue(RottenMeatBlock.Index);
                 case "squid_ink": return ItemValue("squid_ink");
                 case "water_bucket": return Terrain.MakeBlockValue(WaterBucketBlock.Index);
@@ -349,3 +351,4 @@ namespace Game {
         }
     }
 }
+

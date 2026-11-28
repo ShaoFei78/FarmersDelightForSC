@@ -26,6 +26,13 @@ namespace Game {
 
         public static int Count => s_recipes?.Count ?? 0;
 
+        public static IReadOnlyList<FDCookingRecipe> Recipes {
+            get {
+                EnsureLoaded();
+                return s_recipes;
+            }
+        }
+
         public static void EnsureLoaded() {
             if (s_recipes != null) {
                 return;
@@ -83,6 +90,13 @@ namespace Game {
         static List<FDCuttingRecipe> s_recipes;
 
         public static int Count => s_recipes?.Count ?? 0;
+
+        public static IReadOnlyList<FDCuttingRecipe> Recipes {
+            get {
+                EnsureLoaded();
+                return s_recipes;
+            }
+        }
 
         public static void EnsureLoaded() {
             if (s_recipes != null) {

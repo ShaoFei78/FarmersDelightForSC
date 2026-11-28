@@ -2,6 +2,24 @@
   {
     "ingredients": [
       [
+        "wheat"
+      ],
+      [
+        "pie_crust"
+      ],
+      [
+        "apple"
+      ],
+      [
+        "sugar"
+      ]
+    ],
+    "result": "apple_pie",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
         "apple_pie_slice"
       ]
     ],
@@ -316,6 +334,35 @@
   {
     "ingredients": [
       [
+        "apple"
+      ],
+      [
+        "pumpkin"
+      ],
+      [
+        "pumpkin"
+      ],
+      [
+        "sweet_berries",
+        "glow_berries"
+      ],
+      [
+        "sweet_berries",
+        "glow_berries"
+      ],
+      [
+        "pumpkin"
+      ],
+      [
+        "bowl"
+      ]
+    ],
+    "result": "fruit_salad",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
         "tatami"
       ]
     ],
@@ -332,6 +379,39 @@
       ]
     ],
     "result": "full_tatami_mat",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "glow_berries"
+      ],
+      [
+        "honey_bottle"
+      ],
+      [
+        "glow_berries"
+      ],
+      [
+        "tomato"
+      ],
+      [
+        "carrot"
+      ],
+      [
+        "beetroot"
+      ],
+      [
+        "cabbage"
+      ],
+      [
+        "bowl"
+      ],
+      [
+        "cabbage"
+      ]
+    ],
+    "result": "gleaming_salad_block",
     "count": 1
   },
   {
@@ -403,6 +483,21 @@
   {
     "ingredients": [
       [
+        "honey_bottle"
+      ],
+      [
+        "wheat"
+      ],
+      [
+        "wheat"
+      ]
+    ],
+    "result": "honey_cookie",
+    "count": 8
+  },
+  {
+    "ingredients": [
+      [
         "sweet_berries"
       ],
       [
@@ -436,6 +531,25 @@
   {
     "ingredients": [
       [
+        "straw_bale",
+        "rice_bale"
+      ],
+      [
+        "apple"
+      ],
+      [
+        "apple"
+      ],
+      [
+        "carrot"
+      ]
+    ],
+    "result": "horse_feed",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
         "ironingot"
       ],
       [
@@ -459,6 +573,30 @@
       ]
     ],
     "result": "kelp_roll",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "pumpkin"
+      ],
+      [
+        "pumpkin"
+      ],
+      [
+        "sugar"
+      ],
+      [
+        "pumpkin"
+      ],
+      [
+        "pumpkin"
+      ],
+      [
+        "glass_bottle"
+      ]
+    ],
+    "result": "melon_juice",
     "count": 1
   },
   {
@@ -557,6 +695,18 @@
   {
     "ingredients": [
       [
+        "milk_bottle"
+      ],
+      [
+        "wheat"
+      ]
+    ],
+    "result": "pie_crust",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
         "potato"
       ]
     ],
@@ -575,7 +725,7 @@
   {
     "ingredients": [
       [
-        "pumpkin_slice"
+        "pumpkin"
       ]
     ],
     "result": "pumpkin",
@@ -587,7 +737,7 @@
         "pie_crust"
       ],
       [
-        "pumpkin_slice"
+        "pumpkin"
       ],
       [
         "egg"
@@ -710,6 +860,39 @@
   {
     "ingredients": [
       [
+        "onion"
+      ],
+      [
+        "egg"
+      ],
+      [
+        "bread"
+      ],
+      [
+        "carrot"
+      ],
+      [
+        "cooked_chicken"
+      ],
+      [
+        "potato"
+      ],
+      [
+        "carrot"
+      ],
+      [
+        "bowl"
+      ],
+      [
+        "potato"
+      ]
+    ],
+    "result": "roast_chicken_block",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
         "straw"
       ]
     ],
@@ -776,6 +959,42 @@
   {
     "ingredients": [
       [
+        "potato"
+      ],
+      [
+        "milk_bottle"
+      ],
+      [
+        "potato"
+      ],
+      [
+        "cooked_beef",
+        "cooked_mutton_chops"
+      ],
+      [
+        "cooked_beef",
+        "cooked_mutton_chops"
+      ],
+      [
+        "cooked_beef",
+        "cooked_mutton_chops"
+      ],
+      [
+        "onion"
+      ],
+      [
+        "bowl"
+      ],
+      [
+        "onion"
+      ]
+    ],
+    "result": "shepherds_pie_block",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
         "ironingot"
       ],
       [
@@ -783,6 +1002,27 @@
       ]
     ],
     "result": "skillet",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "potato"
+      ],
+      [
+        "cooked_beef"
+      ],
+      [
+        "bowl"
+      ],
+      [
+        "onion"
+      ],
+      [
+        "cooked_rice"
+      ]
+    ],
+    "result": "steak_and_potatoes",
     "count": 1
   },
   {
@@ -801,6 +1041,22 @@
       ]
     ],
     "result": "straw_bale",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "potato"
+      ],
+      [
+        "cooked_beef",
+        "beef_patty"
+      ],
+      [
+        "milk_bottle"
+      ]
+    ],
+    "result": "stuffed_potato",
     "count": 1
   },
   {
@@ -826,6 +1082,21 @@
     ],
     "result": "sweet_berry_cheesecake",
     "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "sweet_berries"
+      ],
+      [
+        "wheat"
+      ],
+      [
+        "wheat"
+      ]
+    ],
+    "result": "sweet_berry_cookie",
+    "count": 8
   },
   {
     "ingredients": [
@@ -868,6 +1139,34 @@
     ],
     "result": "tomato_crate",
     "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "tomato",
+        "rotten_tomato"
+      ]
+    ],
+    "result": "tomato_seeds",
+    "count": 1
+  },
+  {
+    "ingredients": [
+      [
+        "wheat"
+      ],
+      [
+        "wheat"
+      ],
+      [
+        "wheat"
+      ],
+      [
+        "egg"
+      ]
+    ],
+    "result": "wheat_dough",
+    "count": 3
   },
   {
     "ingredients": [

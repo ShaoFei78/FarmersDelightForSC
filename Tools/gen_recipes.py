@@ -134,6 +134,16 @@ def canonical(name: str):
         return "bone"
     if name == "rabbit":
         return "beef"
+    if name in ("wheat", "hay_block"):
+        return "wheat" if name == "wheat" else "straw_bale"
+    if name == "melon_slice" or name == "pumpkin_slice":
+        return "pumpkin"
+    if name == "baked_potato":
+        return "potato"
+    if name == "golden_carrot":
+        return "carrot"
+    if name == "ham":
+        return "beef"
     if name in KNOWN:
         return name
     # Common tag path fallback is handled by resolve_ref.
@@ -141,6 +151,13 @@ def canonical(name: str):
 
 
 def resolve_ref(ref):
+    if isinstance(ref, list):
+        merged = []
+        for child in ref:
+            for name in resolve_ref(child):
+                if name not in merged:
+                    merged.append(name)
+        return merged
     if "item" in ref:
         value = canonical(ref["item"])
         return [value] if value else []
@@ -172,6 +189,16 @@ def resolve_ref(ref):
                 "safe_raw_fish": ["cod"],
                 "vegetable": ["carrot", "potato", "beetroot", "tomato", "onion", "cabbage"],
                 "bones": ["bone"],
+                "wheat": ["wheat"],
+                "milk": ["milk_bucket"],
+                "berry": ["sweet_berries", "glow_berries"],
+                "berries": ["sweet_berries", "glow_berries"],
+                "melon_slice": ["pumpkin"],
+                "pumpkin_slice": ["pumpkin"],
+                "baked_potato": ["potato"],
+                "hay_block": ["straw_bale"],
+                "golden_carrot": ["carrot"],
+                "ham": ["beef"],
                 "bread": ["bread"],
                 "berry": ["sweet_berries", "glow_berries"],
                 "cooked_beef": ["cooked_beef"], "cooked_pork": ["cooked_beef"],

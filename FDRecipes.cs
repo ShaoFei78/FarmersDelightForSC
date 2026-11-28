@@ -210,6 +210,157 @@ namespace Game {
             return actual;
         }
 
+        static string IngredientName(int value) {
+            int contents = Terrain.ExtractContents(value);
+            if (contents <= 0 || contents >= BlocksManager.Blocks.Length) {
+                return string.Empty;
+            }
+            Block block = BlocksManager.Blocks[contents];
+            string id = block.GetCraftingId(value);
+            if (string.IsNullOrEmpty(id)) {
+                id = block.GetType().Name;
+            }
+            int data = Terrain.ExtractData(value);
+            return data == 0 ? id : $"{id}:{data}";
+        }
+
+        static string[] Shape(int[][] options) {
+            string[] ingredients = new string[9];
+            for (int i = 0; i < options.Length && i < 9; i++) {
+                int[] values = options[i];
+                if (values != null && values.Length > 0 && values[0] != 0) {
+                    ingredients[i] = IngredientName(values[0]);
+                }
+            }
+            return ingredients;
+        }
+
+        static void AddHelpRecipe(List<CraftingRecipe> recipes, string[] ingredients, int result, int count, float heat, string description) {
+            if (result == 0) {
+                return;
+            }
+            recipes.Add(new CraftingRecipe {
+                ResultValue = result,
+                ResultCount = Math.Max(1, count),
+                Ingredients = ingredients,
+                RequiredHeatLevel = heat,
+                DisplayOrder = 100,
+                Description = description
+            });
+        }
+
+        /// <summary>
+        /// Put every FD recipe into the static recipe list so the in-game recipe
+        /// lookup (Recipaedia/help) can find it. Actual shapeless crafting still
+        /// uses the ad-hoc proxy; these entries are the browsable representation.
+        /// </summary>
+        public static void RegisterHelpRecipes(List<CraftingRecipe> recipes) {
+            EnsureLoaded();
+            foreach (FDCraftingEntry entry in s_crafting) {
+                AddHelpRecipe(recipes, Shape(entry.IngredientOptions), entry.ResultValue, entry.ResultCount, 0f, "FD crafting");
+            }
+            foreach (FDSmeltingEntry entry in s_smelting) {
+                AddHelpRecipe(recipes, Shape(entry.IngredientOptions), entry.ResultValue, entry.ResultCount, 1f, "FD smelting");
+            }
+
+            int pot = BlocksManager.GetBlockIndex<FDCookingPotBlock>();
+            int board = BlocksManager.GetBlockIndex<FDCuttingBoardBlock>();
+            int knife = BlocksManager.GetBlockIndex<FDKnifeBlock>();
+            int potValue = pot >= 0 ? Terrain.MakeBlockValue(pot) : 0;
+            int boardValue = board >= 0 ? Terrain.MakeBlockValue(board) : 0;
+            int knifeValue = knife >= 0 ? Terrain.MakeBlockValue(knife, 0, 0) : 0;
+
+            foreach (FDCookingRecipe recipe in FDCookingRecipes.Recipes) {
+                if (potValue == 0 || recipe.IngredientOptions.Length == 0) {
+                    continue;
+                }
+                AddHelpRecipe(
+                    recipes,
+                    Shape([[potValue], recipe.IngredientOptions[0]]),
+                    recipe.ResultValue,
+                    recipe.ResultCount,
+                    1f,
+                    "FD cooking pot"
+                );
+            }
+            foreach (FDCuttingRecipe recipe in FDCuttingRecipes.Recipes) {
+                if (boardValue == 0 || knifeValue == 0) {
+                    continue;
+                }
+                for (int i = 0; i < recipe.Results.Length; i++) {
+                    AddHelpRecipe(
+                        recipes,
+                        Shape([[boardValue], [recipe.InputValue], [knifeValue]]),
+                        recipe.Results[i],
+                        recipe.Counts[i],
+                        1f,
+                        "FD cutting board"
+                    );
+                }
+            }
+            AddExtraRecipes(recipes);
+        }
+
+        static void AddExtraRecipe(List<CraftingRecipe> recipes,
+            string resultName,
+            int resultCount,
+            float heat,
+            params string[] ingredientNames) {
+            int result = FDContent.GetValue(resultName);
+            if (result == 0) {
+                return;
+            }
+            int[][] options = new int[ingredientNames.Length][];
+            for (int i = 0; i < ingredientNames.Length; i++) {
+                int value = FDContent.GetValue(ingredientNames[i]);
+                if (value == 0) {
+                    return;
+                }
+                options[i] = [value];
+            }
+            AddHelpRecipe(recipes, Shape(options), result, resultCount, heat, "FD extra");
+        }
+
+        static void AddExtraRecipes(List<CraftingRecipe> recipes) {
+            // Recipes present in the Java data but not representable by the JSON
+            // shape converter (dough recipe, special tags, feast portions).
+            AddExtraRecipe(recipes, "cooking_pot", 1, 0f, "ironingot", "ironingot", "ironingot", "brick", "water_bucket", "stick");
+            AddExtraRecipe(recipes, "stove", 1, 0f, "ironingot", "ironingot", "ironingot", "brick", "brick", "brick", "campfire");
+            AddExtraRecipe(recipes, "skillet", 1, 0f, "ironingot", "ironingot", "ironingot", "ironingot", "brick");
+            AddExtraRecipe(recipes, "wheat_dough", 3, 0f, "wheat", "wheat", "wheat", "egg");
+            AddExtraRecipe(recipes, "pie_crust", 1, 0f, "wheat", "wheat", "wheat", "milk_bucket");
+            AddExtraRecipe(recipes, "sweet_berry_cookie", 8, 0f, "sweet_berries", "wheat", "wheat");
+            AddExtraRecipe(recipes, "honey_cookie", 8, 0f, "honey_bottle", "wheat", "wheat");
+            AddExtraRecipe(recipes, "fruit_salad", 1, 0f, "apple", "pumpkin", "pumpkin", "sweet_berries", "sweet_berries", "bowl");
+            AddExtraRecipe(recipes, "melon_juice", 1, 0f, "pumpkin", "pumpkin", "pumpkin", "pumpkin", "sugar", "glass_bottle");
+            AddExtraRecipe(recipes, "stuffed_potato", 1, 0f, "potato", "cooked_beef", "milk_bucket");
+            AddExtraRecipe(recipes, "steak_and_potatoes", 1, 0f, "potato", "cooked_beef", "bowl", "onion", "cooked_rice");
+            AddExtraRecipe(recipes, "roast_chicken_block", 1, 0f, "cooked_chicken", "potato", "carrot", "egg", "bread", "onion", "bowl", "potato", "potato");
+            AddExtraRecipe(recipes, "horse_feed", 1, 0f, "straw_bale", "apple", "apple", "carrot");
+            AddExtraRecipe(recipes, "ham", 1, 1f, "beef");
+            AddExtraRecipe(recipes, "smoked_ham", 1, 1f, "ham");
+            AddExtraRecipe(recipes, "dried_kelp", 1, 1f, "kelp");
+            AddExtraRecipe(recipes, "pumpkin_slice", 4, 0f, "pumpkin");
+            AddExtraRecipe(recipes, "cake_slice", 4, 0f, "sweet_berry_cheesecake");
+            AddExtraRecipe(recipes, "melon_popsicle", 1, 0f, "melon_juice", "sugar");
+            AddExtraRecipe(recipes, "nether_salad", 1, 0f, "brown_mushroom", "red_mushroom", "bowl");
+            AddExtraRecipe(recipes, "sugar", 1, 0f, "sweet_berries", "sweet_berries");
+            AddExtraRecipe(recipes, "cocoa_beans", 1, 0f, "sugar", "brown_mushroom");
+            AddExtraRecipe(recipes, "honey_bottle", 1, 0f, "sugar", "glass_bottle", "water_bucket");
+            AddExtraRecipe(recipes, "gold_ingot", 1, 0f, "ironingot", "diamond");
+            AddExtraRecipe(recipes, "netherite_ingot", 1, 0f, "gold_ingot", "diamond");
+            AddExtraRecipe(recipes, "roast_chicken", 4, 0f, "roast_chicken_block");
+            AddExtraRecipe(recipes, "stuffed_pumpkin", 4, 0f, "stuffed_pumpkin_block");
+            AddExtraRecipe(recipes, "honey_glazed_ham", 4, 0f, "honey_glazed_ham_block");
+            AddExtraRecipe(recipes, "shepherds_pie", 4, 0f, "shepherds_pie_block");
+            AddExtraRecipe(recipes, "gleaming_salad", 4, 0f, "gleaming_salad_block");
+            AddExtraRecipe(recipes, "apple", 1, 0f, "oak_leaves");
+            AddExtraRecipe(recipes, "sweet_berries", 1, 0f, "oak_leaves");
+            AddExtraRecipe(recipes, "glow_berries", 1, 0f, "sweet_berries", "diamond");
+            AddExtraRecipe(recipes, "rotten_tomato", 1, 0f, "tomato", "rotten_meat");
+            AddExtraRecipe(recipes, "squid_ink_pasta", 1, 0f, "raw_pasta", "kelp");
+        }
+
         public static bool TryCraft(string[] actualIngredients, out CraftingRecipe result) {
             EnsureLoaded();
             result = null;

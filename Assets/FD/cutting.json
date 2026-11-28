@@ -296,7 +296,7 @@
     ]
   },
   {
-    "input": "ham",
+    "input": "beef",
     "tool": 0,
     "results": [
       {
@@ -376,6 +376,16 @@
     ]
   },
   {
+    "input": "pumpkin",
+    "tool": 0,
+    "results": [
+      {
+        "name": "pumpkin",
+        "count": 9
+      }
+    ]
+  },
+  {
     "input": "beef",
     "tool": 0,
     "results": [
@@ -428,7 +438,7 @@
     "tool": 0,
     "results": [
       {
-        "name": "pumpkin_slice",
+        "name": "pumpkin",
         "count": 4
       }
     ]

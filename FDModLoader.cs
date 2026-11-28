@@ -8,6 +8,14 @@ namespace Game {
             ModsManager.RegisterHook("BlocksInitalized", this);
             ModsManager.RegisterHook("OnTerrainContentsGenerated", this);
             ModsManager.RegisterHook("OnLoadingFinished", this);
+            ModsManager.RegisterHook("CraftingRecipesManagerInitialize", this);
+        }
+
+        public override void CraftingRecipesManagerInitialize(List<CraftingRecipe> recipes, ref bool sort) {
+            FDContent.Initialize();
+            FDRecipes.EnsureLoaded();
+            FDRecipes.RegisterHelpRecipes(recipes);
+            Log.Information($"[FD] Registered browsable recipes: {recipes.Count}");
         }
 
         public override void BlocksInitalized() {
