@@ -359,6 +359,10 @@ namespace Game {
             AddExtraRecipe(recipes, "glow_berries", 1, 0f, "sweet_berries", "diamond");
             AddExtraRecipe(recipes, "rotten_tomato", 1, 0f, "tomato", "rotten_meat");
             AddExtraRecipe(recipes, "squid_ink_pasta", 1, 0f, "raw_pasta", "kelp");
+            AddExtraRecipe(recipes, "cabbage_seeds", 1, 0f, "wild_cabbages");
+            AddExtraRecipe(recipes, "tomato_seeds", 1, 0f, "wild_tomatoes");
+            AddExtraRecipe(recipes, "onion", 1, 0f, "wild_onions");
+            AddExtraRecipe(recipes, "rice", 1, 0f, "wild_rice");
         }
 
         public static bool TryCraft(string[] actualIngredients, out CraftingRecipe result) {
